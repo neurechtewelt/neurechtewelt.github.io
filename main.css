@@ -13,7 +13,8 @@ div#title {
 
 #controls {
   padding-top: 16px;
-  width: 250px;
+  padding-right: 20px;
+  width: 230px;
   float: left;
 }
 
@@ -63,6 +64,10 @@ a.outlink {
   line-height: 1.2;
   word-wrap: break-word;
   color: #545454;
+}
+
+postLink {
+  text-decoration: underline;
 }
 
 .warn a {
