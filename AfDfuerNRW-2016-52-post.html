@@ -10,17 +10,13 @@
           <div id="outer">
             <div id="inner">
               <div id="title">
-                <h1>#neurechtewelt</h1>
-                <p class="manifesto">
-                <b>Die Angst und der Hass schaffen sich eigene Realitäten.</b> Wir geben einen Einblick<br/>
-                in die Diskussionswelt der Neuen Rechten und listen jede Woche 50 Links aus den<br/>
-                populärsten Posts auf Facebook.
-                </p>
+                <h1><b>Worüber diskutiert die AfD Nordrhein Westfalen?</b></h1>
               </div>
               <div id="controls">
+                <p>Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebsten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
                 <form>
                   <label>Facebook-Seite:<br/>
-                    <select id="page">
+                    <select id="page" onChange="updatePage();">
                       <option value="alternativefuerde">AfD - Deutschland</option>
                       <option value="pegidaevofficial">Pegida</option>
                       <option value="AfDfuerNRW" selected="selected">AfD - Nordrhein Westfalen</option>
@@ -28,7 +24,8 @@
                     </select>
                   </label><br/>
                   <label>Woche:<br/>
-                    <select id="week">
+                    <select id="week" onChange="updatePage();">
+                      <option value="2017-2">Letzte Woche</option>
                       <option value="2017-1">2. - 8. Januar</option>
                       <option value="2016-52" selected="selected">26. Dezember - 1. Januar</option>
                       <option value="2016-51">19. - 25. Dezember</option>
@@ -37,14 +34,13 @@
                     </select>
                   </label>
                 </form>
-                <p>
-                  <a href="javascript:updatePage();">Anzeigen »</a>
-                </p>
+
                 <div id="externals">
                   <h3>Kontakt</h3>
                   email <a href="mailto:neurechtewelt[at]posteo.de">neurechtewelt[at]posteo.de</a><br/>
-                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/>
-                  <p>Wir freuen uns über Kritik und Feedback!<br/><br/> Außerdem wären wir dankbar für Vorschläge, welche weiteren Seiten<br/> wir aufnehmen sollen!</p>
+                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/><br/><br/>
+                  <h3>Selbstverständnis</h3>
+                  Wir wollen Journalisten bei der Recherche helfen und zu Aufklärungsarbeit über die Neue Rechte beitragen.
                 </div>
               </div>
               <div id="links">
@@ -54,8 +50,8 @@
                     <a href="https://twitter.com/polizei_nrw_k/status/815322334282268673" rel="nofollow" target="_blank" class="title">Polizei NRW K auf Twitter: &amp;quot;#PolizeiNRW #Silvester2016: يتم التحقُّق من عدة مئات الأشخاص اصلهم من شمال افريقيا. تابعوا للمزيد من المعلومات. https://t.co/VYMQuT6B7u https://t.co/rqtBuU8Wzw&amp;quot;</a><br/>
                     <a href="https://twitter.com/polizei_nrw_k/status/815322334282268673" rel="nofollow" target="_blank" class="outlink">https://twitter.com/polizei_nrw_k/status/815322334282268673</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>149 Likes auf <a class="postLink" href="https://facebook.com/459077044164282_1313272185411426" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/459077044164282_1313272185411426" target="blank">Facebook-Post mit 149 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -63,8 +59,8 @@
                     <a href="https://jungefreiheit.de/kultur/medien/2017/die-deutungshoheit-wackelt/" rel="nofollow" target="_blank" class="title">Die Deutungshoheit wackelt</a><br/>
                     <a href="https://jungefreiheit.de/kultur/medien/2017/die-deutungshoheit-wackelt/" rel="nofollow" target="_blank" class="outlink">https://jungefreiheit.de/kultur/medien/2017/die-deutungshoheit-wackelt/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> gauland spd trump petry donald</span><br/>
-                    <span>114 Likes auf <a class="postLink" href="https://facebook.com/459077044164282_1312869182118393" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/459077044164282_1312869182118393" target="blank">Facebook-Post mit 114 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2016/12/27/medien-junge-freiheit/" target="blank">Hintergrund zur Jungen Freiheit</a>
@@ -74,8 +70,8 @@
                     <a href="https://www.facebook.com/Dr.Frauke.Petry/videos/1332160453503265/" rel="nofollow" target="_blank" class="title">Neujahrsansprache AfD-Bundessprecherin Dr. Frauke Petry</a><br/>
                     <a href="https://www.facebook.com/Dr.Frauke.Petry/videos/1332160453503265/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/Dr.Frauke.Petry/videos/1332160453503265/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>68 Likes auf <a class="postLink" href="https://facebook.com/459077044164282_1311269878944990" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/459077044164282_1311269878944990" target="blank">Facebook-Post mit 68 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -83,8 +79,8 @@
                     <a href="https://www.facebook.com/Dr.Frauke.Petry/videos/1332148050171172/" rel="nofollow" target="_blank" class="title">Neujahrsansprache AfD-Bundessprecherin Dr. Frauke Petry</a><br/>
                     <a href="https://www.facebook.com/Dr.Frauke.Petry/videos/1332148050171172/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/Dr.Frauke.Petry/videos/1332148050171172/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>62 Likes auf <a class="postLink" href="https://facebook.com/459077044164282_1311251015613543" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/459077044164282_1311251015613543" target="blank">Facebook-Post mit 62 Likes</a></span>
                     </span>
                     
                   </li>

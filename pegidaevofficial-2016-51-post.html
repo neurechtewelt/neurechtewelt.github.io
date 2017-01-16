@@ -10,17 +10,13 @@
           <div id="outer">
             <div id="inner">
               <div id="title">
-                <h1>#neurechtewelt</h1>
-                <p class="manifesto">
-                <b>Die Angst und der Hass schaffen sich eigene Realitäten.</b> Wir geben einen Einblick<br/>
-                in die Diskussionswelt der Neuen Rechten und listen jede Woche 50 Links aus den<br/>
-                populärsten Posts auf Facebook.
-                </p>
+                <h1><b>Worüber diskutiert Pegida?</b></h1>
               </div>
               <div id="controls">
+                <p>Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebsten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
                 <form>
                   <label>Facebook-Seite:<br/>
-                    <select id="page">
+                    <select id="page" onChange="updatePage();">
                       <option value="alternativefuerde">AfD - Deutschland</option>
                       <option value="pegidaevofficial" selected="selected">Pegida</option>
                       <option value="AfDfuerNRW">AfD - Nordrhein Westfalen</option>
@@ -28,7 +24,8 @@
                     </select>
                   </label><br/>
                   <label>Woche:<br/>
-                    <select id="week">
+                    <select id="week" onChange="updatePage();">
+                      <option value="2017-2">Letzte Woche</option>
                       <option value="2017-1">2. - 8. Januar</option>
                       <option value="2016-52">26. Dezember - 1. Januar</option>
                       <option value="2016-51" selected="selected">19. - 25. Dezember</option>
@@ -37,14 +34,13 @@
                     </select>
                   </label>
                 </form>
-                <p>
-                  <a href="javascript:updatePage();">Anzeigen »</a>
-                </p>
+
                 <div id="externals">
                   <h3>Kontakt</h3>
                   email <a href="mailto:neurechtewelt[at]posteo.de">neurechtewelt[at]posteo.de</a><br/>
-                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/>
-                  <p>Wir freuen uns über Kritik und Feedback!<br/><br/> Außerdem wären wir dankbar für Vorschläge, welche weiteren Seiten<br/> wir aufnehmen sollen!</p>
+                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/><br/><br/>
+                  <h3>Selbstverständnis</h3>
+                  Wir wollen Journalisten bei der Recherche helfen und zu Aufklärungsarbeit über die Neue Rechte beitragen.
                 </div>
               </div>
               <div id="links">
@@ -54,8 +50,8 @@
                     <a href="https://www.facebook.com/pegidalutz/" rel="nofollow" target="_blank" class="title">Lutz Bachmann</a><br/>
                     <a href="https://www.facebook.com/pegidalutz/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/pegidalutz/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> bamf afrika mit</span><br/>
-                    <span>643 Likes auf 4 zugehörigen Posts <a class="postLink" href="https://facebook.com/796885057031701_1237196376333898" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/796885057031701_1235837756469760" target="blank"> [Post 2]</a><a class="postLink" href="https://facebook.com/796885057031701_1234941089892760" target="blank"> [Post 3]</a><a class="postLink" href="https://facebook.com/796885057031701_1233906333329569" target="blank"> [Post 4]</a></span>
+                    
+                    <span>Gefunden auf 4 Facebook-Posts mit ingesamt 643 Likes: <a class="postLink" href="https://facebook.com/796885057031701_1237196376333898" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/796885057031701_1235837756469760" target="blank"> [Post 2]</a><a class="postLink" href="https://facebook.com/796885057031701_1234941089892760" target="blank"> [Post 3]</a><a class="postLink" href="https://facebook.com/796885057031701_1233906333329569" target="blank"> [Post 4]</a></span>
                     </span>
                     
                   </li><li>
@@ -63,8 +59,8 @@
                     <a href="https://de.gatestoneinstitute.org/9622/europa-politische-revolution" rel="nofollow" target="_blank" class="title">Eine politische Revolution beginnt sich in Europa zusammenzubrauen</a><br/>
                     <a href="https://de.gatestoneinstitute.org/9622/europa-politische-revolution" rel="nofollow" target="_blank" class="outlink">https://de.gatestoneinstitute.org/9622/europa-politische-revolution</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> europa merkel deutschland europas niederlanden</span><br/>
-                    <span>528 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234983876555148" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234983876555148" target="blank">Facebook-Post mit 528 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -72,8 +68,8 @@
                     <a href="http://m.focus.de/politik/deutschland/medienbericht-mutmasslicher-lkw-fahrer-soll-2016-als-fluechtling-nach-deutschland-gekommen-sein_id_6380185.html?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=facebook-focus-online-finanzen&amp;fbc=facebook-focus-online-finanzen&amp;ts=201612200045" rel="nofollow" target="_blank" class="title">Mutmaßlicher Lkw-Fahrer soll 2016 als Flüchtling nach Deutschland gekommen sein</a><br/>
                     <a href="http://m.focus.de/politik/deutschland/medienbericht-mutmasslicher-lkw-fahrer-soll-2016-als-fluechtling-nach-deutschland-gekommen-sein_id_6380185.html?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=facebook-focus-online-finanzen&amp;fbc=facebook-focus-online-finanzen&amp;ts=201612200045" rel="nofollow" target="_blank" class="outlink">http://m.focus.de/politik/deutschland/medienbericht-mutmasslicher-lkw-fahrer-soll-2016-als...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> merkel hermann voigt</span><br/>
-                    <span>458 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232917970095072" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232917970095072" target="blank">Facebook-Post mit 458 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -81,8 +77,8 @@
                     <a href="http://m.focus.de/politik/deutschland/cdu-innenexperte-bosbach-ich-glaube-nicht-dass-alle-fluechtlinge-ihre-paesse-verlieren_id_6386492.html" rel="nofollow" target="_blank" class="title">CDU-Innenexperte : Bosbach: &quot;Glaube nicht, dass Flüchtlinge Pässe verlieren&quot;</a><br/>
                     <a href="http://m.focus.de/politik/deutschland/cdu-innenexperte-bosbach-ich-glaube-nicht-dass-alle-fluechtlinge-ihre-paesse-verlieren_id_6386492.html" rel="nofollow" target="_blank" class="outlink">http://m.focus.de/politik/deutschland/cdu-innenexperte-bosbach-ich-glaube-nicht-dass-alle-...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> ihr bosbach elly ddr dann</span><br/>
-                    <span>411 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234312929955576" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234312929955576" target="blank">Facebook-Post mit 411 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -90,8 +86,8 @@
                     <a href="http://www.pi-news.net/2016/12/pegida-warnt-seit-jahren-und-wird-bekaempft/" rel="nofollow" target="_blank" class="title">Pegida warnt seit Jahren und wird bekämpft</a><br/>
                     <a href="http://www.pi-news.net/2016/12/pegida-warnt-seit-jahren-und-wird-bekaempft/" rel="nofollow" target="_blank" class="outlink">http://www.pi-news.net/2016/12/pegida-warnt-seit-jahren-und-wird-bekaempft/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>392 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1233034130083456" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1233034130083456" target="blank">Facebook-Post mit 392 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/02/medien-pi-news-politically-incorrect/" target="blank">Hintergrund zu &quot;Politically Incorrect&quot;</a>
@@ -101,8 +97,8 @@
                     <a href="http://www.thueringer-allgemeine.de/startseite/detail/-/specific/Nach-Elternprotesten-Fluechtlings-Praktikantinnen-duerfen-nicht-im-Kindergarten-2028530128" rel="nofollow" target="_blank" class="title">Nach Elternprotesten: Flüchtlings-Praktikantinnen dürfen nicht im Kindergarten „Sputnik“ arbeiten</a><br/>
                     <a href="http://www.thueringer-allgemeine.de/startseite/detail/-/specific/Nach-Elternprotesten-Fluechtlings-Praktikantinnen-duerfen-nicht-im-Kindergarten-2028530128" rel="nofollow" target="_blank" class="outlink">http://www.thueringer-allgemeine.de/startseite/detail/-/specific/Nach-Elternprotesten-Flue...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>380 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235724189814450" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235724189814450" target="blank">Facebook-Post mit 380 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -110,8 +106,8 @@
                     <a href="http://www.sebastian-wippel.de/index.php/allein-in-sachsen-gefaehrden-584-hochkriminelle-auslaender-den-frieden-und-muessen-sofort-inhaftiert-werden/" rel="nofollow" target="_blank" class="title">Allein in Sachsen gefährden 584 hochkriminelle Ausländer den Frieden und müssen sofort inhaftiert werden!</a><br/>
                     <a href="http://www.sebastian-wippel.de/index.php/allein-in-sachsen-gefaehrden-584-hochkriminelle-auslaender-den-frieden-und-muessen-sofort-inhaftiert-werden/" rel="nofollow" target="_blank" class="outlink">http://www.sebastian-wippel.de/index.php/allein-in-sachsen-gefaehrden-584-hochkriminelle-a...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> sachsen ulbig berlin z.b. anis</span><br/>
-                    <span>378 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234917866561749" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234917866561749" target="blank">Facebook-Post mit 378 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -119,8 +115,8 @@
                     <a href="http://nyheder.tv2.dk/udland/2016-12-22-graadkvalte-foraeldre-paa-gerningsstedet-tak-fru-merkel-vores-soen-er-i-koma" rel="nofollow" target="_blank" class="title">Grådkvalte forældre på gerningsstedet: - Tak, fru Merkel, vores søn er i koma 2</a><br/>
                     <a href="http://nyheder.tv2.dk/udland/2016-12-22-graadkvalte-foraeldre-paa-gerningsstedet-tak-fru-merkel-vores-soen-er-i-koma" rel="nofollow" target="_blank" class="outlink">http://nyheder.tv2.dk/udland/2016-12-22-graadkvalte-foraeldre-paa-gerningsstedet-tak-fru-m...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> berlin hun dreesen uffe del</span><br/>
-                    <span>309 Likes auf 2 zugehörigen Posts <a class="postLink" href="https://facebook.com/796885057031701_1235803646473171" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/796885057031701_1235761719810697" target="blank"> [Post 2]</a></span>
+                    
+                    <span>Gefunden auf 2 Facebook-Posts mit ingesamt 309 Likes: <a class="postLink" href="https://facebook.com/796885057031701_1235803646473171" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/796885057031701_1235761719810697" target="blank"> [Post 2]</a></span>
                     </span>
                     
                   </li><li>
@@ -128,8 +124,8 @@
                     <a href="http://www.pi-news.net/2016/12/weihnachten-im-befreiten-aleppo/#more-547112" rel="nofollow" target="_blank" class="title">Weihnachten im befreiten Aleppo</a><br/>
                     <a href="http://www.pi-news.net/2016/12/weihnachten-im-befreiten-aleppo/#more-547112" rel="nofollow" target="_blank" class="outlink">http://www.pi-news.net/2016/12/weihnachten-im-befreiten-aleppo/#more-547112</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>279 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1236308039756065" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1236308039756065" target="blank">Facebook-Post mit 279 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/02/medien-pi-news-politically-incorrect/" target="blank">Hintergrund zu &quot;Politically Incorrect&quot;</a>
@@ -139,8 +135,8 @@
                     <a href="http://m.focus.de/politik/deutschland/aenderungen-der-sicherheitsvorkehrungen-nach-anschlag-in-berlin-dresden-sichert-weihnachtsmarkt-mit-beton-bloecken_id_6380772.html" rel="nofollow" target="_blank" class="title">Nach Anschlag in Berlin: Dresden sichert Weihnachtsmarkt mit Beton-Blöcken</a><br/>
                     <a href="http://m.focus.de/politik/deutschland/aenderungen-der-sicherheitsvorkehrungen-nach-anschlag-in-berlin-dresden-sichert-weihnachtsmarkt-mit-beton-bloecken_id_6380772.html" rel="nofollow" target="_blank" class="outlink">http://m.focus.de/politik/deutschland/aenderungen-der-sicherheitsvorkehrungen-nach-anschla...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> merkel deutschland angelika schmidt helmut</span><br/>
-                    <span>266 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232981393422063" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232981393422063" target="blank">Facebook-Post mit 266 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -148,8 +144,8 @@
                     <a href="http://m.focus.de/politik/deutschland/bei-untersuchung-des-lkw-gefunden-ermittler-stellen-handy-von-anis-amri-sicher_id_6399317.html" rel="nofollow" target="_blank" class="title">Ermittler stellen Handy von Anis Amri sicher</a><br/>
                     <a href="http://m.focus.de/politik/deutschland/bei-untersuchung-des-lkw-gefunden-ermittler-stellen-handy-von-anis-amri-sicher_id_6399317.html" rel="nofollow" target="_blank" class="outlink">http://m.focus.de/politik/deutschland/bei-untersuchung-des-lkw-gefunden-ermittler-stellen-...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> amri frantz rauch nizza sabine</span><br/>
-                    <span>243 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235878676465668" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235878676465668" target="blank">Facebook-Post mit 243 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -157,8 +153,8 @@
                     <a href="http://www.thueringer-allgemeine.de/startseite/detail/-/specific/Leitartikel-Die-Kontrolle-verloren-578336245" rel="nofollow" target="_blank" class="title">Leitartikel: Die Kontrolle verloren</a><br/>
                     <a href="http://www.thueringer-allgemeine.de/startseite/detail/-/specific/Leitartikel-Die-Kontrolle-verloren-578336245" rel="nofollow" target="_blank" class="outlink">http://www.thueringer-allgemeine.de/startseite/detail/-/specific/Leitartikel-Die-Kontrolle...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>233 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235829569803912" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235829569803912" target="blank">Facebook-Post mit 233 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -166,8 +162,8 @@
                     <a href="http://www.zeit.de/gesellschaft/zeitgeschehen/2016-12/sachsen-pegida-sozialarbeit-deutsche-obdachlose-fremdenfeindlichkeit-fluechtlinge?utm_content=zeitde_redpost_zon_link_sf&amp;utm_campaign=ref&amp;utm_source=facebook_zonaudev_int&amp;utm_term=facebook_zonaudev_int&amp;utm_medium=sm&amp;wt_zmc=sm.int.zonaudev.facebook.ref.zeitde.redpost_zon.link.sf" rel="nofollow" target="_blank" class="title">Sachsen: Pegida macht jetzt auf sozial</a><br/>
                     <a href="http://www.zeit.de/gesellschaft/zeitgeschehen/2016-12/sachsen-pegida-sozialarbeit-deutsche-obdachlose-fremdenfeindlichkeit-fluechtlinge?utm_content=zeitde_redpost_zon_link_sf&amp;utm_campaign=ref&amp;utm_source=facebook_zonaudev_int&amp;utm_term=facebook_zonaudev_int&amp;utm_medium=sm&amp;wt_zmc=sm.int.zonaudev.facebook.ref.zeitde.redpost_zon.link.sf" rel="nofollow" target="_blank" class="outlink">http://www.zeit.de/gesellschaft/zeitgeschehen/2016-12/sachsen-pegida-sozialarbeit-deutsche...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> dresden knajder zander riedel uwe</span><br/>
-                    <span>191 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235576406495895" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235576406495895" target="blank">Facebook-Post mit 191 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -175,8 +171,8 @@
                     <a href="http://www.focus.de/panorama/welt/dueren-syrer-und-libanesen-pruegeln-mit-stangen-und-knueppeln-aufeinander-ein_id_6401308.html?fbc=fb-shares" rel="nofollow" target="_blank" class="title">Düren: Syrer und Libanesen prügeln mit Knüppeln und Stange aufeinander ein </a><br/>
                     <a href="http://www.focus.de/panorama/welt/dueren-syrer-und-libanesen-pruegeln-mit-stangen-und-knueppeln-aufeinander-ein_id_6401308.html?fbc=fb-shares" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/panorama/welt/dueren-syrer-und-libanesen-pruegeln-mit-stangen-und-knue...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> carmen kaupenjohann tja rölke stefan</span><br/>
-                    <span>184 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1236323249754544" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1236323249754544" target="blank">Facebook-Post mit 184 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -184,8 +180,8 @@
                     <a href="https://www.revosax.sachsen.de/vorschrift/12206-Saechsisches-Versammlungsgesetz" rel="nofollow" target="_blank" class="title"> REVOSax Landesrecht Sachsen - Sächsisches Versammlungsgesetz </a><br/>
                     <a href="https://www.revosax.sachsen.de/vorschrift/12206-Saechsisches-Versammlungsgesetz" rel="nofollow" target="_blank" class="outlink">https://www.revosax.sachsen.de/vorschrift/12206-Saechsisches-Versammlungsgesetz</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> sachsen</span><br/>
-                    <span>182 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232930810093788" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232930810093788" target="blank">Facebook-Post mit 182 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -193,8 +189,8 @@
                     <a href="http://www.pi-news.net/2016/12/frank-wahlig-swr-der-typ-ist-ein-drecksack/#more-547703" rel="nofollow" target="_blank" class="title">Frank Wahlig (SWR): Der Typ ist ein Drecksack!</a><br/>
                     <a href="http://www.pi-news.net/2016/12/frank-wahlig-swr-der-typ-ist-ein-drecksack/#more-547703" rel="nofollow" target="_blank" class="outlink">http://www.pi-news.net/2016/12/frank-wahlig-swr-der-typ-ist-ein-drecksack/#more-547703</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>178 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1237048989681970" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1237048989681970" target="blank">Facebook-Post mit 178 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/02/medien-pi-news-politically-incorrect/" target="blank">Hintergrund zu &quot;Politically Incorrect&quot;</a>
@@ -204,8 +200,8 @@
                     <a href="http://www.epochtimes.de/politik/deutschland/so-hart-kommentieren-leser-berliner-lkw-anschlag-bundesregierung-politisch-erledigt-a2004397.html" rel="nofollow" target="_blank" class="title">So hart kommentieren Leser Berliner LKW-Anschlag: &quot;Bundesregierung politisch erledigt&quot;</a><br/>
                     <a href="http://www.epochtimes.de/politik/deutschland/so-hart-kommentieren-leser-berliner-lkw-anschlag-bundesregierung-politisch-erledigt-a2004397.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/deutschland/so-hart-kommentieren-leser-berliner-lkw-ansch...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> deutschland merkel berlin ute michael</span><br/>
-                    <span>166 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232984933421709" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232984933421709" target="blank">Facebook-Post mit 166 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
@@ -215,8 +211,8 @@
                     <a href="https://deutsch.rt.com/der-nahe-osten/44524-aegyptische-polizei-fotograf-fake-fotos-aleppo-propaganda-syrien-maedchen/" rel="nofollow" target="_blank" class="title">Ägypten: Polizei erwischt Fotografen bei Produktion von Fake-Bildern &quot;verletzter Kinder aus Aleppo&quot;</a><br/>
                     <a href="https://deutsch.rt.com/der-nahe-osten/44524-aegyptische-polizei-fotograf-fake-fotos-aleppo-propaganda-syrien-maedchen/" rel="nofollow" target="_blank" class="outlink">https://deutsch.rt.com/der-nahe-osten/44524-aegyptische-polizei-fotograf-fake-fotos-aleppo...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> aleppo said</span><br/>
-                    <span>160 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234305583289644" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234305583289644" target="blank">Facebook-Post mit 160 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/04/medien-RT-RTdeutsch-russia-today/" target="_blank">Hintergrund zu RT</a>
@@ -226,8 +222,8 @@
                     <a href="http://www.epochtimes.de/politik/deutschland/nach-anschlag-in-berlin-vorsitzender-der-innenministerkonferenz-spricht-von-kriegszustand-a2004701.html" rel="nofollow" target="_blank" class="title">Nach Anschlag in Berlin: Vorsitzender der Innenministerkonferenz spricht von &quot;Kriegszustand&quot;</a><br/>
                     <a href="http://www.epochtimes.de/politik/deutschland/nach-anschlag-in-berlin-vorsitzender-der-innenministerkonferenz-spricht-von-kriegszustand-a2004701.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/deutschland/nach-anschlag-in-berlin-vorsitzender-der-inne...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> bouillon berlin deutschland sean epoch</span><br/>
-                    <span>156 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1233042753415927" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1233042753415927" target="blank">Facebook-Post mit 156 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
@@ -237,8 +233,8 @@
                     <a href="https://www.thesun.co.uk/news/2437904/lorry-crashes-christmas-market-berlin/" rel="nofollow" target="_blank" class="title">Massive manhunt for armed truck terrorist amid fears of MORE attacks as ISIS claims responsibility and bungling cops release man wrongly arrested over massacre</a><br/>
                     <a href="https://www.thesun.co.uk/news/2437904/lorry-crashes-christmas-market-berlin/" rel="nofollow" target="_blank" class="outlink">https://www.thesun.co.uk/news/2437904/lorry-crashes-christmas-market-berlin/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> follow sun the</span><br/>
-                    <span>155 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232575756795960" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232575756795960" target="blank">Facebook-Post mit 155 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -246,8 +242,8 @@
                     <a href="http://www.epochtimes.de/politik/welt/medien-mutmasslicher-berlin-attentaeter-amri-in-mailand-erschossen-2-a2007354.html" rel="nofollow" target="_blank" class="title">Italiens Innenminister betätigt: Mutmaßlicher Berlin-Attentäter Anis Amri in Mailand erschossen</a><br/>
                     <a href="http://www.epochtimes.de/politik/welt/medien-mutmasslicher-berlin-attentaeter-amri-in-mailand-erschossen-2-a2007354.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/welt/medien-mutmasslicher-berlin-attentaeter-amri-in-mail...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> amri mailand anis minniti italien</span><br/>
-                    <span>149 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235508713169331" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235508713169331" target="blank">Facebook-Post mit 149 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
@@ -257,8 +253,8 @@
                     <a href="http://www.epochtimes.de/politik/welt/anschlag-auf-die-menschheit-trump-verurteilt-nochmals-berliner-terrorangriff-a2006520.html" rel="nofollow" target="_blank" class="title">&quot;Anschlag auf die Menschheit&quot;: Trump verurteilt nochmals Berliner Terrorangriff</a><br/>
                     <a href="http://www.epochtimes.de/politik/welt/anschlag-auf-die-menschheit-trump-verurteilt-nochmals-berliner-terrorangriff-a2006520.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/welt/anschlag-auf-die-menschheit-trump-verurteilt-nochmal...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> trump donald palm beach resort</span><br/>
-                    <span>148 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234816849905184" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234816849905184" target="blank">Facebook-Post mit 148 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
@@ -268,8 +264,8 @@
                     <a href="http://www.blauenarzisse.de/fuer-einen-zorn-der-entschlossenheit/" rel="nofollow" target="_blank" class="title">Für einen Zorn der Entschlossenheit!</a><br/>
                     <a href="http://www.blauenarzisse.de/fuer-einen-zorn-der-entschlossenheit/" rel="nofollow" target="_blank" class="outlink">http://www.blauenarzisse.de/fuer-einen-zorn-der-entschlossenheit/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> europa schweden menzel deutschland dland</span><br/>
-                    <span>139 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232997243420478" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232997243420478" target="blank">Facebook-Post mit 139 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -277,8 +273,8 @@
                     <a href="http://www.epochtimes.de/politik/deutschland/berliner-lkw-anschlag-polizei-sucht-taeter-mit-dna-zweite-festnahme-wieder-der-falsche-a2004170.html" rel="nofollow" target="_blank" class="title">Berliner Terror-Fahrer ist tot: Anis Amri in Mailand erschossen - Personenkontrolle eskalierte</a><br/>
                     <a href="http://www.epochtimes.de/politik/deutschland/berliner-lkw-anschlag-polizei-sucht-taeter-mit-dna-zweite-festnahme-wieder-der-falsche-a2004170.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/deutschland/berliner-lkw-anschlag-polizei-sucht-taeter-mi...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>138 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1233926143327588" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1233926143327588" target="blank">Facebook-Post mit 138 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
@@ -288,8 +284,8 @@
                     <a href="http://www.pi-news.net/2016/12/merkel-stolz-und-zuversichtlich/" rel="nofollow" target="_blank" class="title">Merkel stolz und zuversichtlich</a><br/>
                     <a href="http://www.pi-news.net/2016/12/merkel-stolz-und-zuversichtlich/" rel="nofollow" target="_blank" class="outlink">http://www.pi-news.net/2016/12/merkel-stolz-und-zuversichtlich/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>137 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235084853211717" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235084853211717" target="blank">Facebook-Post mit 137 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/02/medien-pi-news-politically-incorrect/" target="blank">Hintergrund zu &quot;Politically Incorrect&quot;</a>
@@ -299,8 +295,8 @@
                     <a href="http://m.abendblatt.de/hamburg/harburg/article209057409/Mutmasslicher-Terrorhelfer-im-Landkreis-Harburg-gefasst.html?utm_source=dlvr.it&amp;utm_medium=twitter" rel="nofollow" target="_blank" class="title">Mutmaßlicher Terrorhelfer im Landkreis Harburg gefasst</a><br/>
                     <a href="http://m.abendblatt.de/hamburg/harburg/article209057409/Mutmasslicher-Terrorhelfer-im-Landkreis-Harburg-gefasst.html?utm_source=dlvr.it&amp;utm_medium=twitter" rel="nofollow" target="_blank" class="outlink">http://m.abendblatt.de/hamburg/harburg/article209057409/Mutmasslicher-Terrorhelfer-im-Land...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>126 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234309863289216" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234309863289216" target="blank">Facebook-Post mit 126 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -308,8 +304,8 @@
                     <a href="https://philosophia-perennis.com/2016/12/25/tagesschau-verspottet-opfer-neu/" rel="nofollow" target="_blank" class="title">WIDERWÄRTIG! Die Tagesschau verspottet Opfer des Terrors philosophia perennis</a><br/>
                     <a href="https://philosophia-perennis.com/2016/12/25/tagesschau-verspottet-opfer-neu/" rel="nofollow" target="_blank" class="outlink">https://philosophia-perennis.com/2016/12/25/tagesschau-verspottet-opfer-neu/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> junker ddr merkel jesus gutmensch</span><br/>
-                    <span>122 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1237294879657381" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1237294879657381" target="blank">Facebook-Post mit 122 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -317,8 +313,8 @@
                     <a href="https://www.gmx.net/magazine/politik/weihnachtsansprache-joachim-gauck-warnt-anschlag-schueren-feindbildern-32084946" rel="nofollow" target="_blank" class="title">Weihnachtsansprache: Joachim Gauck warnt nach Anschlag vor Schüren von Feindbildern</a><br/>
                     <a href="https://www.gmx.net/magazine/politik/weihnachtsansprache-joachim-gauck-warnt-anschlag-schueren-feindbildern-32084946" rel="nofollow" target="_blank" class="outlink">https://www.gmx.net/magazine/politik/weihnachtsansprache-joachim-gauck-warnt-anschlag-schu...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> gauck berlin joachim dpa bellevue</span><br/>
-                    <span>122 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1237239206329615" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1237239206329615" target="blank">Facebook-Post mit 122 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -326,8 +322,8 @@
                     <a href="http://www.metropolico.org/2016/12/25/gipfel-der-unverfrorenheit/" rel="nofollow" target="_blank" class="title">Gipfel der Unverfrorenheit</a><br/>
                     <a href="http://www.metropolico.org/2016/12/25/gipfel-der-unverfrorenheit/" rel="nofollow" target="_blank" class="outlink">http://www.metropolico.org/2016/12/25/gipfel-der-unverfrorenheit/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> thomas maizière henning maiziere bmi</span><br/>
-                    <span>101 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1237167273003475" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1237167273003475" target="blank">Facebook-Post mit 101 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -335,8 +331,8 @@
                     <a href="https://www.welt.de/politik/live160535230/Merkel-fordert-deutlich-beschleunigte-Abschiebungen-nach-Tunesien.html" rel="nofollow" target="_blank" class="title">Anschlag in Berlin: Bundeskriminalamt nennt Herkunft der Todesopfer</a><br/>
                     <a href="https://www.welt.de/politik/live160535230/Merkel-fordert-deutlich-beschleunigte-Abschiebungen-nach-Tunesien.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/live160535230/Merkel-fordert-deutlich-beschleunigte-Abschiebun...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> amri berlin anis dpa tunesien</span><br/>
-                    <span>101 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235780459808823" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235780459808823" target="blank">Facebook-Post mit 101 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -344,8 +340,8 @@
                     <a href="http://www.focus.de/panorama/videos/verstoss-gegen-das-kriegswaffengesetz-neun-maenner-in-haft-sek-entdeckt-waffenlager-in-duesseldorfer-maghrebviertel_id_6398722.html?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=facebook-focus-online-politik&amp;fbc=facebook-focus-online-politik&amp;ts=201612231424" rel="nofollow" target="_blank" class="title">Neun Männer in Haft: SEK entdeckt Waffenlager in Düsseldorfer Maghrebviertel</a><br/>
                     <a href="http://www.focus.de/panorama/videos/verstoss-gegen-das-kriegswaffengesetz-neun-maenner-in-haft-sek-entdeckt-waffenlager-in-duesseldorfer-maghrebviertel_id_6398722.html?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=facebook-focus-online-politik&amp;fbc=facebook-focus-online-politik&amp;ts=201612231424" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/panorama/videos/verstoss-gegen-das-kriegswaffengesetz-neun-maenner-in-...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> thomas schruck butz michler göring-eckart</span><br/>
-                    <span>94 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235610449825824" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235610449825824" target="blank">Facebook-Post mit 94 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -353,8 +349,8 @@
                     <a href="https://www.facebook.com/events/378823575793013/" rel="nofollow" target="_blank" class="title">Advent, Advent ein Lichtlein brennt...</a><br/>
                     <a href="https://www.facebook.com/events/378823575793013/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/events/378823575793013/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>93 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1233933819993487" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1233933819993487" target="blank">Facebook-Post mit 93 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -362,8 +358,8 @@
                     <a href="http://www.focus.de/politik/deutschland/gesuchter-terror-verdaechtiger-lka-wusste-seit-monaten-von-amris-anschlagsplaenen_id_6392775.html" rel="nofollow" target="_blank" class="title">LKA wusste seit Monaten von Amris Anschlagsplänen</a><br/>
                     <a href="http://www.focus.de/politik/deutschland/gesuchter-terror-verdaechtiger-lka-wusste-seit-monaten-von-amris-anschlagsplaenen_id_6392775.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/politik/deutschland/gesuchter-terror-verdaechtiger-lka-wusste-seit-mon...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> frank hoffmann wagner nirgendwo sebastian</span><br/>
-                    <span>91 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234856353234567" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234856353234567" target="blank">Facebook-Post mit 91 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -371,8 +367,8 @@
                     <a href="https://jungefreiheit.de/debatte/kommentar/2016/anis-amri-und-die-gruenen-moralapostel/" rel="nofollow" target="_blank" class="title">Anis Amri und die grünen Moralapostel</a><br/>
                     <a href="https://jungefreiheit.de/debatte/kommentar/2016/anis-amri-und-die-gruenen-moralapostel/" rel="nofollow" target="_blank" class="outlink">https://jungefreiheit.de/debatte/kommentar/2016/anis-amri-und-die-gruenen-moralapostel/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> amri deutschland tunesien göring-eckardt paulwitz</span><br/>
-                    <span>83 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234812336572302" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234812336572302" target="blank">Facebook-Post mit 83 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2016/12/27/medien-junge-freiheit/" target="blank">Hintergrund zur Jungen Freiheit</a>
@@ -382,8 +378,8 @@
                     <a href="https://de.sputniknews.com/panorama/20161225313911736-mann-mit-is-flagge-passiert-grenze-zu-deutschland/" rel="nofollow" target="_blank" class="title">Völlig unbemerkt: Mann mit IS-Flagge passiert dänisch-deutsche Grenze</a><br/>
                     <a href="https://de.sputniknews.com/panorama/20161225313911736-mann-mit-is-flagge-passiert-grenze-zu-deutschland/" rel="nofollow" target="_blank" class="outlink">https://de.sputniknews.com/panorama/20161225313911736-mann-mit-is-flagge-passiert-grenze-z...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> selbstkontrolle westeuropas</span><br/>
-                    <span>81 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1237364306317105" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1237364306317105" target="blank">Facebook-Post mit 81 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://de.wikipedia.org/wiki/Sputnik_(Nachrichtenportal)" target="_blank">Hintergrund zu Sputnik</a>
@@ -393,8 +389,8 @@
                     <a href="http://www.focus.de/regional/sachsen/herausforderung-fuer-bedienstete-mehr-auslaender-in-sachsens-gefaengnissen-konfliktpotenzial_id_6403781.html" rel="nofollow" target="_blank" class="title">Mehr Ausländer in Sachsens Gefängnissen - Herausforderung für Bedienstete</a><br/>
                     <a href="http://www.focus.de/regional/sachsen/herausforderung-fuer-bedienstete-mehr-auslaender-in-sachsens-gefaengnissen-konfliktpotenzial_id_6403781.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/regional/sachsen/herausforderung-fuer-bedienstete-mehr-auslaender-in-s...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> focus polen famous rumänien sachsen</span><br/>
-                    <span>81 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1237277946325741" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1237277946325741" target="blank">Facebook-Post mit 81 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -402,8 +398,8 @@
                     <a href="http://www.lr-online.de/nachrichten/politik/De-Maizi%25E8re-will-Grenzkontrollen-verlaengern;art743,5758336" rel="nofollow" target="_blank" class="title">De Maizière will Grenzkontrollen verlängern</a><br/>
                     <a href="http://www.lr-online.de/nachrichten/politik/De-Maizi%25E8re-will-Grenzkontrollen-verlaengern;art743,5758336" rel="nofollow" target="_blank" class="outlink">http://www.lr-online.de/nachrichten/politik/De-Maizi%25E8re-will-Grenzkontrollen-verlaenge...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>81 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1237364306317105" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1237364306317105" target="blank">Facebook-Post mit 81 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -411,8 +407,8 @@
                     <a href="https://www.welt.de/politik/deutschland/article160510989/Herrmann-zu-Fluechtlingen-Von-vielen-gehen-Risiken-aus.html?utm_content=buffere3454&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" rel="nofollow" target="_blank" class="title">Identitätsklärung: Herrmann zu Flüchtlingen „Von vielen gehen Risiken aus“</a><br/>
                     <a href="https://www.welt.de/politik/deutschland/article160510989/Herrmann-zu-Fluechtlingen-Von-vielen-gehen-Risiken-aus.html?utm_content=buffere3454&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article160510989/Herrmann-zu-Fluechtlingen-Von-vie...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> bayerns herrmann joachim autoplay berlin</span><br/>
-                    <span>76 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234732816580254" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234732816580254" target="blank">Facebook-Post mit 76 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -420,8 +416,8 @@
                     <a href="http://denken-erwuenscht.com/kleine-geschichten-aus-dem-bunten-deutschland/" rel="nofollow" target="_blank" class="title">Kleine Geschichten aus dem bunten Deutschland</a><br/>
                     <a href="http://denken-erwuenscht.com/kleine-geschichten-aus-dem-bunten-deutschland/" rel="nofollow" target="_blank" class="outlink">http://denken-erwuenscht.com/kleine-geschichten-aus-dem-bunten-deutschland/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> deutschland almut rosebrock</span><br/>
-                    <span>75 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1234749743245228" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1234749743245228" target="blank">Facebook-Post mit 75 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -429,8 +425,8 @@
                     <a href="http://www.epochtimes.de/politik/europa/schock-im-kindergarten-islam-prediger-stuermt-weihnachtsauffuehrung-zwei-vaeter-zerren-afrikaner-aus-dem-saal-a2003991.html" rel="nofollow" target="_blank" class="title">Schock im Kindergarten: Islam-Prediger stürmt Weihnachtsaufführung - Zwei Väter zerren Afrikaner aus dem Saal</a><br/>
                     <a href="http://www.epochtimes.de/politik/europa/schock-im-kindergarten-islam-prediger-stuermt-weihnachtsauffuehrung-zwei-vaeter-zerren-afrikaner-aus-dem-saal-a2003991.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/europa/schock-im-kindergarten-islam-prediger-stuermt-weih...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> tschaikowskys allah oberösterreich domain nussknacker</span><br/>
-                    <span>62 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232423343477868" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232423343477868" target="blank">Facebook-Post mit 62 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
@@ -440,8 +436,8 @@
                     <a href="http://www.derwesten.de/staedte/dortmund/junger-mann-19-rempelt-versehentlich-unbekannten-an-der-sticht-ihn-nieder-id209084465.html" rel="nofollow" target="_blank" class="title">Dortmund: Junger Mann (19) rempelt versehentlich Unbekannten an - der sticht ihn nieder</a><br/>
                     <a href="http://www.derwesten.de/staedte/dortmund/junger-mann-19-rempelt-versehentlich-unbekannten-an-der-sticht-ihn-nieder-id209084465.html" rel="nofollow" target="_blank" class="outlink">http://www.derwesten.de/staedte/dortmund/junger-mann-19-rempelt-versehentlich-unbekannten-...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>58 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1237345992985603" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1237345992985603" target="blank">Facebook-Post mit 58 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -449,8 +445,8 @@
                     <a href="http://www.presseportal.de/blaulicht/pm/43648/3516554" rel="nofollow" target="_blank" class="title">POL-MR: Frau angegriffen - Polizei sucht dringend nach Zeugen; | Pressemitteilung Polizei Marburg-Biedenkopf</a><br/>
                     <a href="http://www.presseportal.de/blaulicht/pm/43648/3516554" rel="nofollow" target="_blank" class="outlink">http://www.presseportal.de/blaulicht/pm/43648/3516554</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> kirchhain marburg-biedenkopf stadtallendorf jürgen schlick</span><br/>
-                    <span>50 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1233974469989422" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1233974469989422" target="blank">Facebook-Post mit 50 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -458,8 +454,8 @@
                     <a href="https://www.polizeibericht-dresden.de/bericht/23581" rel="nofollow" target="_blank" class="title">Polizeibericht Dresden: 17.12.2016 - Zeugenaufruf nach sexuellem Übergriff</a><br/>
                     <a href="https://www.polizeibericht-dresden.de/bericht/23581" rel="nofollow" target="_blank" class="outlink">https://www.polizeibericht-dresden.de/bericht/23581</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> walpurgisstraße dresden-neustadt dresden</span><br/>
-                    <span>42 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232364356817100" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232364356817100" target="blank">Facebook-Post mit 42 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -467,8 +463,8 @@
                     <a href="https://deutsch.rt.com/international/44451-attentat-in-turkei-russischen-botschafter/" rel="nofollow" target="_blank" class="title">Attentat in der Türkei: Russischer Botschafter getötet, Angreifer war türkischer Polizist</a><br/>
                     <a href="https://deutsch.rt.com/international/44451-attentat-in-turkei-russischen-botschafter/" rel="nofollow" target="_blank" class="outlink">https://deutsch.rt.com/international/44451-attentat-in-turkei-russischen-botschafter/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>40 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232395363480666" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232395363480666" target="blank">Facebook-Post mit 40 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/04/medien-RT-RTdeutsch-russia-today/" target="_blank">Hintergrund zu RT</a>
@@ -478,8 +474,8 @@
                     <a href="https://de.wikipedia.org/wiki/Kombattant" rel="nofollow" target="_blank" class="title">Kombattant – Wikipedia</a><br/>
                     <a href="https://de.wikipedia.org/wiki/Kombattant" rel="nofollow" target="_blank" class="outlink">https://de.wikipedia.org/wiki/Kombattant</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> levée hlko völker türkei</span><br/>
-                    <span>38 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232376700149199" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232376700149199" target="blank">Facebook-Post mit 38 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -487,8 +483,8 @@
                     <a href="http://www.presseportal.de/blaulicht/pm/11562/3518906" rel="nofollow" target="_blank" class="title">POL-E: Essen/ Oberhausen/ Duisburg:  Möglicherweise vereitelte Polizei Essen einen Anschlag auf das Centro Oberhausen - Zwei Brüder in Gewahrsam genommen | Pressemitteilung Polizei Essen</a><br/>
                     <a href="http://www.presseportal.de/blaulicht/pm/11562/3518906" rel="nofollow" target="_blank" class="outlink">http://www.presseportal.de/blaulicht/pm/11562/3518906</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>35 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235689936484542" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235689936484542" target="blank">Facebook-Post mit 35 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -496,8 +492,8 @@
                     <a href="http://www.pi-news.net/2016/12/fuerth-auto-von-pegida-teamleiter-beschaedigt/#more-547517" rel="nofollow" target="_blank" class="title">Fürth: Auto von Pegida-Teamleiter beschädigt</a><br/>
                     <a href="http://www.pi-news.net/2016/12/fuerth-auto-von-pegida-teamleiter-beschaedigt/#more-547517" rel="nofollow" target="_blank" class="outlink">http://www.pi-news.net/2016/12/fuerth-auto-von-pegida-teamleiter-beschaedigt/#more-547517</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>30 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1235755469811322" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1235755469811322" target="blank">Facebook-Post mit 30 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/02/medien-pi-news-politically-incorrect/" target="blank">Hintergrund zu &quot;Politically Incorrect&quot;</a>
@@ -507,8 +503,8 @@
                     <a href="https://deutsch.rt.com/international/44463-ankara-schiesserei-nahe-us-botschaft/" rel="nofollow" target="_blank" class="title">Ankara: Schießerei nahe US-Botschaft nach tödlichem Attentat auf russischen Botschafter</a><br/>
                     <a href="https://deutsch.rt.com/international/44463-ankara-schiesserei-nahe-us-botschaft/" rel="nofollow" target="_blank" class="outlink">https://deutsch.rt.com/international/44463-ankara-schiesserei-nahe-us-botschaft/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> ankara reuters dept #turkey gallery</span><br/>
-                    <span>28 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232464140140455" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232464140140455" target="blank">Facebook-Post mit 28 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/04/medien-RT-RTdeutsch-russia-today/" target="_blank">Hintergrund zu RT</a>
@@ -518,8 +514,8 @@
                     <a href="http://www.epochtimes.de/politik/welt/ankara-russischer-botschafter-bei-anschlag-erschossen-video-a2003973.html" rel="nofollow" target="_blank" class="title">&quot;Rache für Aleppo&quot; – Russischer Botschafter erschossen – Statement von Putin</a><br/>
                     <a href="http://www.epochtimes.de/politik/welt/ankara-russischer-botschafter-bei-anschlag-erschossen-video-a2003973.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/welt/ankara-russischer-botschafter-bei-anschlag-erschosse...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> türkei ankara karlow putin russland</span><br/>
-                    <span>18 Likes auf <a class="postLink" href="https://facebook.com/796885057031701_1232460463474156" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/796885057031701_1232460463474156" target="blank">Facebook-Post mit 18 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>

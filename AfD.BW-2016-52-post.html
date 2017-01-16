@@ -10,17 +10,13 @@
           <div id="outer">
             <div id="inner">
               <div id="title">
-                <h1>#neurechtewelt</h1>
-                <p class="manifesto">
-                <b>Die Angst und der Hass schaffen sich eigene Realitäten.</b> Wir geben einen Einblick<br/>
-                in die Diskussionswelt der Neuen Rechten und listen jede Woche 50 Links aus den<br/>
-                populärsten Posts auf Facebook.
-                </p>
+                <h1><b>Worüber diskutiert die AfD Baden Württemberg?</b></h1>
               </div>
               <div id="controls">
+                <p>Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebsten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
                 <form>
                   <label>Facebook-Seite:<br/>
-                    <select id="page">
+                    <select id="page" onChange="updatePage();">
                       <option value="alternativefuerde">AfD - Deutschland</option>
                       <option value="pegidaevofficial">Pegida</option>
                       <option value="AfDfuerNRW">AfD - Nordrhein Westfalen</option>
@@ -28,7 +24,8 @@
                     </select>
                   </label><br/>
                   <label>Woche:<br/>
-                    <select id="week">
+                    <select id="week" onChange="updatePage();">
+                      <option value="2017-2">Letzte Woche</option>
                       <option value="2017-1">2. - 8. Januar</option>
                       <option value="2016-52" selected="selected">26. Dezember - 1. Januar</option>
                       <option value="2016-51">19. - 25. Dezember</option>
@@ -37,14 +34,13 @@
                     </select>
                   </label>
                 </form>
-                <p>
-                  <a href="javascript:updatePage();">Anzeigen »</a>
-                </p>
+
                 <div id="externals">
                   <h3>Kontakt</h3>
                   email <a href="mailto:neurechtewelt[at]posteo.de">neurechtewelt[at]posteo.de</a><br/>
-                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/>
-                  <p>Wir freuen uns über Kritik und Feedback!<br/><br/> Außerdem wären wir dankbar für Vorschläge, welche weiteren Seiten<br/> wir aufnehmen sollen!</p>
+                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/><br/><br/>
+                  <h3>Selbstverständnis</h3>
+                  Wir wollen Journalisten bei der Recherche helfen und zu Aufklärungsarbeit über die Neue Rechte beitragen.
                 </div>
               </div>
               <div id="links">
@@ -54,8 +50,8 @@
                     <a href="https://www.facebook.com/AfDBgL/posts/1841684176109302" rel="nofollow" target="_blank" class="title">&quot;Wählt mich, ich kann sonst nichts&quot;</a><br/>
                     <a href="https://www.facebook.com/AfDBgL/posts/1841684176109302" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/AfDBgL/posts/1841684176109302</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>9 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_1841687049442348" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_1841687049442348" target="blank">Facebook-Post mit 9 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -63,8 +59,8 @@
                     <a href="https://www.youtube.com/watch?v=3DoBQbIHE2U" rel="nofollow" target="_blank" class="title">Ende der Täuschung</a><br/>
                     <a href="https://www.youtube.com/watch?v=3DoBQbIHE2U" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=3DoBQbIHE2U</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> europa deutschland euro-bzw</span><br/>
-                    <span>4 Likes auf 2 zugehörigen Posts <a class="postLink" href="https://facebook.com/570893299597210_632182210320181" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank"> [Post 2]</a></span>
+                    
+                    <span>Gefunden auf 2 Facebook-Posts mit ingesamt 4 Likes: <a class="postLink" href="https://facebook.com/570893299597210_632182210320181" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank"> [Post 2]</a></span>
                     </span>
                     
                   </li><li>
@@ -72,8 +68,8 @@
                     <a href="https://www.facebook.com/franzjosef.ferme/videos/616535598551509/" rel="nofollow" target="_blank" class="title">KONDITIONIERUNG und GEHORSAM, die schlimmste Geisel der Menschheit. </a><br/>
                     <a href="https://www.facebook.com/franzjosef.ferme/videos/616535598551509/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/franzjosef.ferme/videos/616535598551509/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>4 Likes auf 2 zugehörigen Posts <a class="postLink" href="https://facebook.com/570893299597210_632182210320181" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank"> [Post 2]</a></span>
+                    
+                    <span>Gefunden auf 2 Facebook-Posts mit ingesamt 4 Likes: <a class="postLink" href="https://facebook.com/570893299597210_632182210320181" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank"> [Post 2]</a></span>
                     </span>
                     
                   </li><li>
@@ -81,8 +77,8 @@
                     <a href="https://de.wikipedia.org/wiki/Erster_Opiumkrieg" rel="nofollow" target="_blank" class="title">Erster Opiumkrieg</a><br/>
                     <a href="https://de.wikipedia.org/wiki/Erster_Opiumkrieg" rel="nofollow" target="_blank" class="outlink">https://de.wikipedia.org/wiki/Erster_Opiumkrieg</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> china chinas isbn elliot kanton</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -90,8 +86,8 @@
                     <a href="https://h0rusfalke.wordpress.com/category/sexualisierung/" rel="nofollow" target="_blank" class="title">sexualisierung</a><br/>
                     <a href="https://h0rusfalke.wordpress.com/category/sexualisierung/" rel="nofollow" target="_blank" class="outlink">https://h0rusfalke.wordpress.com/category/sexualisierung/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -99,8 +95,8 @@
                     <a href="https://www.youtube.com/watch?feature=player_embedded&amp;v=8DWohL9lRUs#t=282" rel="nofollow" target="_blank" class="title">Manipulierbar durch unser Reptiliengehirn</a><br/>
                     <a href="https://www.youtube.com/watch?feature=player_embedded&amp;v=8DWohL9lRUs#t=282" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?feature=player_embedded&amp;v=8DWohL9lRUs#t=282</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> youtube</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -108,8 +104,8 @@
                     <a href="http://faszinationmensch.com/2015/03/04/was-haben-freimauerer-mit-satanismus-und-kinderschandung-zu-tun/" rel="nofollow" target="_blank" class="title">Was haben Freimauerer mit Satanismus und Kinderschändung zu tun? – Ritueller Missbrauch</a><br/>
                     <a href="http://faszinationmensch.com/2015/03/04/was-haben-freimauerer-mit-satanismus-und-kinderschandung-zu-tun/" rel="nofollow" target="_blank" class="outlink">http://faszinationmensch.com/2015/03/04/was-haben-freimauerer-mit-satanismus-und-kindersch...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -117,8 +113,8 @@
                     <a href="https://de.wikipedia.org/wiki/Martin_Luther_King" rel="nofollow" target="_blank" class="title">Martin Luther King</a><br/>
                     <a href="https://de.wikipedia.org/wiki/Martin_Luther_King" rel="nofollow" target="_blank" class="outlink">https://de.wikipedia.org/wiki/Martin_Luther_King</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> king kings martin luther montgomery</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -126,8 +122,8 @@
                     <a href="http://itccs.org/" rel="nofollow" target="_blank" class="title">Welcome to ITCCS.ORG and The International Tribunal into Crimes of Church and State</a><br/>
                     <a href="http://itccs.org/" rel="nofollow" target="_blank" class="outlink">http://itccs.org/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> the and this united west</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -135,8 +131,8 @@
                     <a href="https://www.welt.de/geschichte/gallery156204659/Britische-concentration-camps-im-Burenkrieg.html" rel="nofollow" target="_blank" class="title">Kriegsverbrechen: Britische „concentration camps“ im Burenkrieg</a><br/>
                     <a href="https://www.welt.de/geschichte/gallery156204659/Britische-concentration-camps-im-Burenkrieg.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/geschichte/gallery156204659/Britische-concentration-camps-im-Burenkrie...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -144,8 +140,8 @@
                     <a href="http://www.zeit.de/reisen/2013-06/amsterdam-sklaverei-black-heritage-tour" rel="nofollow" target="_blank" class="title">Sklaverei in den Niederlanden: Die Schattenseite der Grachten</a><br/>
                     <a href="http://www.zeit.de/reisen/2013-06/amsterdam-sklaverei-black-heritage-tour" rel="nofollow" target="_blank" class="outlink">http://www.zeit.de/reisen/2013-06/amsterdam-sklaverei-black-heritage-tour</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> tosch niederlande surinam jennifer tromp</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -153,8 +149,8 @@
                     <a href="https://www.facebook.com/franzjosef.ferme/videos/619661118238957/" rel="nofollow" target="_blank" class="title">Was ist los in diesem Land und in der Welt? </a><br/>
                     <a href="https://www.facebook.com/franzjosef.ferme/videos/619661118238957/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/franzjosef.ferme/videos/619661118238957/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -162,8 +158,8 @@
                     <a href="https://www.contra-magazin.com/2016/12/grossbritannien-rund-3-500-verdaechtige-in-paedophilenskandal/" rel="nofollow" target="_blank" class="title">Großbritannien: Rund 3.500 Verdächtige in Pädophilenskandal</a><br/>
                     <a href="https://www.contra-magazin.com/2016/12/grossbritannien-rund-3-500-verdaechtige-in-paedophilenskandal/" rel="nofollow" target="_blank" class="outlink">https://www.contra-magazin.com/2016/12/grossbritannien-rund-3-500-verdaechtige-in-paedophi...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> npcc woodward bzw großbritannien police</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -171,8 +167,8 @@
                     <a href="https://de.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi" rel="nofollow" target="_blank" class="title">Mohandas Karamchand Gandhi</a><br/>
                     <a href="https://de.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi" rel="nofollow" target="_blank" class="outlink">https://de.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> gandhi gandhis indien südafrika london</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -180,8 +176,8 @@
                     <a href="http://www.spiegel.de/spiegelgeschichte/mittelalter-die-inquisition-verfolgte-andersglaeubige-als-ketzer-a-913942.html" rel="nofollow" target="_blank" class="title">Mittelalter: Die Inquisition verfolgte Andersgläubige als Ketzer</a><br/>
                     <a href="http://www.spiegel.de/spiegelgeschichte/mittelalter-die-inquisition-verfolgte-andersglaeubige-als-ketzer-a-913942.html" rel="nofollow" target="_blank" class="outlink">http://www.spiegel.de/spiegelgeschichte/mittelalter-die-inquisition-verfolgte-andersglaeub...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> fournier pierre carcassonne montaillou planissoles</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -189,8 +185,8 @@
                     <a href="https://de.wikipedia.org/wiki/Kongogr%C3%A4uel" rel="nofollow" target="_blank" class="title">Kongogräuel – Wikipedia</a><br/>
                     <a href="https://de.wikipedia.org/wiki/Kongogr%C3%A4uel" rel="nofollow" target="_blank" class="outlink">https://de.wikipedia.org/wiki/Kongogr%C3%A4uel</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> leopold kongo isbn belgisch-kongo kollmer</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -198,8 +194,8 @@
                     <a href="https://www.helles-koepfchen.de/mahatma-gandhi.html" rel="nofollow" target="_blank" class="title">Mahatma Gandhi - Gewaltloser Kampf für die Freiheit</a><br/>
                     <a href="https://www.helles-koepfchen.de/mahatma-gandhi.html" rel="nofollow" target="_blank" class="outlink">https://www.helles-koepfchen.de/mahatma-gandhi.html</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> gandhi indien satyagraha gandhis südafrika</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -207,8 +203,8 @@
                     <a href="https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842789235998796/?type=3&amp;theater" rel="nofollow" target="_blank" class="title">Ein erfolgreiches Jahr für die AfD geht zu Ende und ein noch erfolgreicheres Jahr 2017 erwartet uns.</a><br/>
                     <a href="https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842789235998796/?type=3&amp;theater" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_1842796065998113" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_1842796065998113" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -216,8 +212,8 @@
                     <a href="https://www.facebook.com/photo.php?fbid=10205726344815007&amp;set=a.1710934610334.2085717.1147186415&amp;type=3" rel="nofollow" target="_blank" class="title">Seltsame Zufälle</a><br/>
                     <a href="https://www.facebook.com/photo.php?fbid=10205726344815007&amp;set=a.1710934610334.2085717.1147186415&amp;type=3" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/photo.php?fbid=10205726344815007&amp;set=a.1710934610334.2085717.1147...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -225,8 +221,8 @@
                     <a href="https://www.youtube.com/watch?v=H-HpwzmWewM" rel="nofollow" target="_blank" class="title">Elijah Wood spricht von organisierter Pädophilie in Hollywood</a><br/>
                     <a href="https://www.youtube.com/watch?v=H-HpwzmWewM" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=H-HpwzmWewM</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> youtube</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -234,8 +230,8 @@
                     <a href="https://www.tagesschau.de/jahresrueckblick/meldung125750.html" rel="nofollow" target="_blank" class="title">Jahresrückblick 1996: Kinderschänder-Skandal erschüttert Belgien</a><br/>
                     <a href="https://www.tagesschau.de/jahresrueckblick/meldung125750.html" rel="nofollow" target="_blank" class="outlink">https://www.tagesschau.de/jahresrueckblick/meldung125750.html</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> stockholm martin belgien michelle unicef</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -243,8 +239,8 @@
                     <a href="http://www.theologe.de/LInquisition.htm" rel="nofollow" target="_blank" class="title">Inquisition - Die grausamen Foltermethoden der Kirche - Die Inquisition und die Frauen</a><br/>
                     <a href="http://www.theologe.de/LInquisition.htm" rel="nofollow" target="_blank" class="outlink">http://www.theologe.de/LInquisition.htm</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -252,8 +248,8 @@
                     <a href="https://de.wikipedia.org/wiki/Johann_Ohneland#Auss.C3.B6hnung_mit_dem_Papst" rel="nofollow" target="_blank" class="title">Johann Ohneland</a><br/>
                     <a href="https://de.wikipedia.org/wiki/Johann_Ohneland#Auss.C3.B6hnung_mit_dem_Papst" rel="nofollow" target="_blank" class="outlink">https://de.wikipedia.org/wiki/Johann_Ohneland#Auss.C3.B6hnung_mit_dem_Papst</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> johann johanns england richard philipp</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -261,8 +257,8 @@
                     <a href="https://www.youtube.com/watch?v=XU6AB8z-iOM" rel="nofollow" target="_blank" class="title">Der Reichtum der Kirche ist Blutgeld - komplette Dokumentation</a><br/>
                     <a href="https://www.youtube.com/watch?v=XU6AB8z-iOM" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=XU6AB8z-iOM</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> youtube</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -270,8 +266,8 @@
                     <a href="http://www.religionskritik.net/forum/thread.php?threadid=1462&amp;threadview=1&amp;hilight=&amp;hilightuser=0&amp;sid=0cd72bf03461e38e21a8ad253d1b720c#post7922" rel="nofollow" target="_blank" class="title">Entwicklung der &quot;Technik der Conquista&quot;</a><br/>
                     <a href="http://www.religionskritik.net/forum/thread.php?threadid=1462&amp;threadview=1&amp;hilight=&amp;hilightuser=0&amp;sid=0cd72bf03461e38e21a8ad253d1b720c#post7922" rel="nofollow" target="_blank" class="outlink">http://www.religionskritik.net/forum/thread.php?threadid=1462&amp;threadview=1&amp;hilight=&amp;hiligh...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -279,8 +275,8 @@
                     <a href="https://www.welt.de/print-wams/article614303/Belgiens-Koenig-Albert-tritt-noch-in-diesem-Jahr-zurueck.html" rel="nofollow" target="_blank" class="title">&quot;Belgiens König Albert tritt noch in diesem Jahr zurück&quot;</a><br/>
                     <a href="https://www.welt.de/print-wams/article614303/Belgiens-Koenig-Albert-tritt-noch-in-diesem-Jahr-zurueck.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/print-wams/article614303/Belgiens-Koenig-Albert-tritt-noch-in-diesem-J...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> nicolas albert belgien dutroux jean</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -288,8 +284,8 @@
                     <a href="https://www.facebook.com/franzjosef.ferme/videos/621446128060456/" rel="nofollow" target="_blank" class="title">Alle Wege führen nach Rom, oder doch eher nach Babylon? </a><br/>
                     <a href="https://www.facebook.com/franzjosef.ferme/videos/621446128060456/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/franzjosef.ferme/videos/621446128060456/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -297,8 +293,8 @@
                     <a href="http://www.spiegel.de/spiegel/print/d-45789219.html" rel="nofollow" target="_blank" class="title">NIEDERLANDE / KRIEGSVERBRECHEN: Gehen Sie beten</a><br/>
                     <a href="http://www.spiegel.de/spiegel/print/d-45789219.html" rel="nofollow" target="_blank" class="outlink">http://www.spiegel.de/spiegel/print/d-45789219.html</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> hueting van niederländisch-indien amsterdam joop</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -306,8 +302,8 @@
                     <a href="http://www.welt.de/vermischtes/article134755777/Sex-Luegen-MI5-und-200-vermisste-Kinder.html" rel="nofollow" target="_blank" class="title">Großbritannien: Sex, Lügen, MI5 - und 200 vermisste Kinder</a><br/>
                     <a href="http://www.welt.de/vermischtes/article134755777/Sex-Luegen-MI5-und-200-vermisste-Kinder.html" rel="nofollow" target="_blank" class="outlink">http://www.welt.de/vermischtes/article134755777/Sex-Luegen-MI5-und-200-vermisste-Kinder.html</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> smith cyril savile jimmy images</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -315,8 +311,8 @@
                     
                     <a href="http://www.berliner-zeitung.de/vor-einhundert-jahren-wurde-im-sueden-afrikas-der-buren-krieg-begonnen-modernste-graeuel-16436046" rel="nofollow" target="_blank" class="outlink">http://www.berliner-zeitung.de/vor-einhundert-jahren-wurde-im-sueden-afrikas-der-buren-kri...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -324,8 +320,8 @@
                     <a href="http://www.t-online.de/nachrichten/ausland/id_69677708/kinderschaender-skandal-um-bbc-moderator-jimmy-savile-500-opfer.html" rel="nofollow" target="_blank" class="title">Kinderschänder-Skandal um BBC-Moderator Jimmy Savile: 500 Opfer</a><br/>
                     <a href="http://www.t-online.de/nachrichten/ausland/id_69677708/kinderschaender-skandal-um-bbc-moderator-jimmy-savile-500-opfer.html" rel="nofollow" target="_blank" class="outlink">http://www.t-online.de/nachrichten/ausland/id_69677708/kinderschaender-skandal-um-bbc-mode...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> nspcc großbritannien harris glitter entwistle</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -333,8 +329,8 @@
                     <a href="https://www.youtube.com/watch?v=11_xWZOjlMg&amp;t=8s" rel="nofollow" target="_blank" class="title">Experiment zur Konformität in Gruppensituationen</a><br/>
                     <a href="https://www.youtube.com/watch?v=11_xWZOjlMg&amp;t=8s" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=11_xWZOjlMg&amp;t=8s</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> youtube</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -342,8 +338,8 @@
                     <a href="https://www.youtube.com/watch?time_continue=3262&amp;v=frDYpCDRdK4" rel="nofollow" target="_blank" class="title">Die Macht der (Freimaurer-)Logen - Guido Grandt</a><br/>
                     <a href="https://www.youtube.com/watch?time_continue=3262&amp;v=frDYpCDRdK4" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?time_continue=3262&amp;v=frDYpCDRdK4</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> youtube</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -351,8 +347,8 @@
                     <a href="http://www.spiegel.de/panorama/dutroux-affaere-belgien-will-sexgeruechte-um-koenig-albert-klein-halten-a-152423.html" rel="nofollow" target="_blank" class="title">Dutroux-Affäre: Belgien will Sexgerüchte um König Albert klein halten</a><br/>
                     <a href="http://www.spiegel.de/panorama/dutroux-affaere-belgien-will-sexgeruechte-um-koenig-albert-klein-halten-a-152423.html" rel="nofollow" target="_blank" class="outlink">http://www.spiegel.de/panorama/dutroux-affaere-belgien-will-sexgeruechte-um-koenig-albert-...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> nicolas dutroux albert belgien jean</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -360,8 +356,8 @@
                     <a href="https://www.youtube.com/watch?v=KWiQijckYKM" rel="nofollow" target="_blank" class="title">Kinderprostitution: Vertuschte de Maiziere (CDU) Verstrickungen von Politikern? (Kontraste, ARD)</a><br/>
                     <a href="https://www.youtube.com/watch?v=KWiQijckYKM" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=KWiQijckYKM</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> youtube</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -369,8 +365,8 @@
                     <a href="https://de.wikipedia.org/wiki/Geschichte_Indiens#Britische_Ostindien-Kompanie" rel="nofollow" target="_blank" class="title">Geschichte Indiens</a><br/>
                     <a href="https://de.wikipedia.org/wiki/Geschichte_Indiens#Britische_Ostindien-Kompanie" rel="nofollow" target="_blank" class="outlink">https://de.wikipedia.org/wiki/Geschichte_Indiens#Britische_Ostindien-Kompanie</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> indien gandhi sikkim indira pakistan</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/570893299597210_630748613796874" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li>

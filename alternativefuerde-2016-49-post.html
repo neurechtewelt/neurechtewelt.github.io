@@ -10,17 +10,13 @@
           <div id="outer">
             <div id="inner">
               <div id="title">
-                <h1>#neurechtewelt</h1>
-                <p class="manifesto">
-                <b>Die Angst und der Hass schaffen sich eigene Realitäten.</b> Wir geben einen Einblick<br/>
-                in die Diskussionswelt der Neuen Rechten und listen jede Woche 50 Links aus den<br/>
-                populärsten Posts auf Facebook.
-                </p>
+                <h1><b>Worüber diskutiert die AfD?</b></h1>
               </div>
               <div id="controls">
+                <p>Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebsten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
                 <form>
                   <label>Facebook-Seite:<br/>
-                    <select id="page">
+                    <select id="page" onChange="updatePage();">
                       <option value="alternativefuerde" selected="selected">AfD - Deutschland</option>
                       <option value="pegidaevofficial">Pegida</option>
                       <option value="AfDfuerNRW">AfD - Nordrhein Westfalen</option>
@@ -28,7 +24,8 @@
                     </select>
                   </label><br/>
                   <label>Woche:<br/>
-                    <select id="week">
+                    <select id="week" onChange="updatePage();">
+                      <option value="2017-2">Letzte Woche</option>
                       <option value="2017-1">2. - 8. Januar</option>
                       <option value="2016-52">26. Dezember - 1. Januar</option>
                       <option value="2016-51">19. - 25. Dezember</option>
@@ -37,14 +34,13 @@
                     </select>
                   </label>
                 </form>
-                <p>
-                  <a href="javascript:updatePage();">Anzeigen »</a>
-                </p>
+
                 <div id="externals">
                   <h3>Kontakt</h3>
                   email <a href="mailto:neurechtewelt[at]posteo.de">neurechtewelt[at]posteo.de</a><br/>
-                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/>
-                  <p>Wir freuen uns über Kritik und Feedback!<br/><br/> Außerdem wären wir dankbar für Vorschläge, welche weiteren Seiten<br/> wir aufnehmen sollen!</p>
+                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/><br/><br/>
+                  <h3>Selbstverständnis</h3>
+                  Wir wollen Journalisten bei der Recherche helfen und zu Aufklärungsarbeit über die Neue Rechte beitragen.
                 </div>
               </div>
               <div id="links">
@@ -54,8 +50,8 @@
                     
                     <a href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf" rel="nofollow" target="_blank" class="outlink">https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatz...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>7295 Likes auf 2 zugehörigen Posts <a class="postLink" href="https://facebook.com/540404695989874_1316517238378612" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/540404695989874_1315971585099844" target="blank"> [Post 2]</a></span>
+                    
+                    <span>Gefunden auf 2 Facebook-Posts mit ingesamt 7295 Likes: <a class="postLink" href="https://facebook.com/540404695989874_1316517238378612" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/540404695989874_1315971585099844" target="blank"> [Post 2]</a></span>
                     </span>
                     
                   </li><li>
@@ -63,8 +59,8 @@
                     <a href="https://www.welt.de/politik/deutschland/article160016612/Auch-Deutsche-haben-einen-Integrationskurs-dringend-noetig.html" rel="nofollow" target="_blank" class="title">Angela Merkel gegen Vollverschleierung: „Bei uns heißt es: Gesicht zeigen“</a><br/>
                     <a href="https://www.welt.de/politik/deutschland/article160016612/Auch-Deutsche-haben-einen-Integrationskurs-dringend-noetig.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article160016612/Auch-Deutsche-haben-einen-Integra...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> merkel cdu europa deutschland csu</span><br/>
-                    <span>4554 Likes auf 3 zugehörigen Posts <a class="postLink" href="https://facebook.com/540404695989874_1583889424958248" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/540404695989874_1182094105161366" target="blank"> [Post 2]</a><a class="postLink" href="https://facebook.com/540404695989874_1314502338580102" target="blank"> [Post 3]</a></span>
+                    
+                    <span>Gefunden auf 3 Facebook-Posts mit ingesamt 4554 Likes: <a class="postLink" href="https://facebook.com/540404695989874_1583889424958248" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/540404695989874_1182094105161366" target="blank"> [Post 2]</a><a class="postLink" href="https://facebook.com/540404695989874_1314502338580102" target="blank"> [Post 3]</a></span>
                     </span>
                     
                   </li><li>
@@ -72,8 +68,8 @@
                     <a href="http://www.heute.at/news/welt/75-Prozent-der-minderjaehrigen-Fluechtlinge-sind-erwachsen;art23661,1378109" rel="nofollow" target="_blank" class="title"> Tests in Dänemark: 75 Prozent der &quot;minderjährigen&quot; Flüchtlinge sind erwachsen</a><br/>
                     <a href="http://www.heute.at/news/welt/75-Prozent-der-minderjaehrigen-Fluechtlinge-sind-erwachsen;art23661,1378109" rel="nofollow" target="_blank" class="outlink">http://www.heute.at/news/welt/75-Prozent-der-minderjaehrigen-Fluechtlinge-sind-erwachsen;a...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> teresa großbritannien dänemark kopenhagen mcnair</span><br/>
-                    <span>3482 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1318960678134268" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1318960678134268" target="blank">Facebook-Post mit 3482 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -81,8 +77,8 @@
                     <a href="https://www.welt.de/politik/deutschland/article159980003/Wendt-verhoehnt-das-Opfer.html" rel="nofollow" target="_blank" class="title">Tote Studentin in Freiburg: „Rainer Wendt verhöhnt das Opfer“</a><br/>
                     <a href="https://www.welt.de/politik/deutschland/article159980003/Wendt-verhoehnt-das-Opfer.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article159980003/Wendt-verhoehnt-das-Opfer.html</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> wendt freiburg malchow mayer seibert</span><br/>
-                    <span>3298 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1314152235281779" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1314152235281779" target="blank">Facebook-Post mit 3298 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -90,8 +86,8 @@
                     <a href="https://www.facebook.com/sigmar.gabriel/posts/1382839205082131" rel="nofollow" target="_blank" class="title">Wir alle sind erschüttert über den abscheulichen Mord in Freiburg.</a><br/>
                     <a href="https://www.facebook.com/sigmar.gabriel/posts/1382839205082131" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/sigmar.gabriel/posts/1382839205082131</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3298 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1314152235281779" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1314152235281779" target="blank">Facebook-Post mit 3298 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -99,8 +95,8 @@
                     <a href="http://www.focus.de/regional/rheinland-pfalz/parteien-gruene-waehlen-landesvorstand-und-bundestagskandidaten_id_6321974.html" rel="nofollow" target="_blank" class="title">Parteien: Grüne sehen sich als Hauptgegner der AfD</a><br/>
                     <a href="http://www.focus.de/regional/rheinland-pfalz/parteien-gruene-waehlen-landesvorstand-und-bundestagskandidaten_id_6321974.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/regional/rheinland-pfalz/parteien-gruene-waehlen-landesvorstand-und-bu...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> fritz links kasulke afd spd</span><br/>
-                    <span>2666 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1321402974556705" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1321402974556705" target="blank">Facebook-Post mit 2666 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -108,8 +104,8 @@
                     <a href="https://www.welt.de/politik/deutschland/article160171830/Das-Bild-von-der-erfolgreichen-Migrantin-hat-Risse.html" rel="nofollow" target="_blank" class="title">Sawsan Chebli: Die Berliner Staatssekretärin und die Scharia</a><br/>
                     <a href="https://www.welt.de/politik/deutschland/article160171830/Das-Bild-von-der-erfolgreichen-Migrantin-hat-Risse.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article160171830/Das-Bild-von-der-erfolgreichen-Mi...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> chebli spd müller michael sawsan</span><br/>
-                    <span>2373 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1321633247867011" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1321633247867011" target="blank">Facebook-Post mit 2373 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -117,8 +113,8 @@
                     <a href="http://www.sat1.de/tv/fruehstuecksfernsehen/video/1-die-zustaende-bei-der-polizei-sind-katastrophal-clip" rel="nofollow" target="_blank" class="title">Frühstücksfernsehen - Video - Die Zustände bei der Polizei sind katastrophal!</a><br/>
                     <a href="http://www.sat1.de/tv/fruehstuecksfernsehen/video/1-die-zustaende-bei-der-polizei-sind-katastrophal-clip" rel="nofollow" target="_blank" class="outlink">http://www.sat1.de/tv/fruehstuecksfernsehen/video/1-die-zustaende-bei-der-polizei-sind-kat...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> nick hein</span><br/>
-                    <span>1661 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1315971585099844" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1315971585099844" target="blank">Facebook-Post mit 1661 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -126,8 +122,8 @@
                     <a href="https://www.google.de/search?q=afd" rel="nofollow" target="_blank" class="title">afd - Google-Suche</a><br/>
                     <a href="https://www.google.de/search?q=afd" rel="nofollow" target="_blank" class="outlink">https://www.google.de/search?q=afd</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> afd</span><br/>
-                    <span>1445 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1320072831356386" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1320072831356386" target="blank">Facebook-Post mit 1445 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -135,8 +131,8 @@
                     <a href="http://www.spiegel.de/politik/deutschland/angela-merkel-lehnt-beschluss-des-cdu-parteitags-zum-doppelpass-ab-a-1124856.html" rel="nofollow" target="_blank" class="title">Angela Merkel lehnt CDU-Parteitagsbeschluss zum Doppelpass ab</a><br/>
                     <a href="http://www.spiegel.de/politik/deutschland/angela-merkel-lehnt-beschluss-des-cdu-parteitags-zum-doppelpass-ab-a-1124856.html" rel="nofollow" target="_blank" class="outlink">http://www.spiegel.de/politik/deutschland/angela-merkel-lehnt-beschluss-des-cdu-parteitags...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> merkel deutschland gabriel spd cdu</span><br/>
-                    <span>1298 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1316215875075415" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1316215875075415" target="blank">Facebook-Post mit 1298 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -144,8 +140,8 @@
                     <a href="https://www.welt.de/politik/ausland/article160132361/Tuerkische-Imame-spionieren-in-Deutschland-fuer-Erdogan.html" rel="nofollow" target="_blank" class="title">Türkische Imame spionieren in Deutschland für Erdogan</a><br/>
                     <a href="https://www.welt.de/politik/ausland/article160132361/Tuerkische-Imame-spionieren-in-Deutschland-fuer-Erdogan.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/ausland/article160132361/Tuerkische-Imame-spionieren-in-Deutsc...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> deutschland düsseldorf ankara christiansen sabine</span><br/>
-                    <span>918 Likes auf 2 zugehörigen Posts <a class="postLink" href="https://facebook.com/540404695989874_1318664554830547" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/540404695989874_1185453021492141" target="blank"> [Post 2]</a></span>
+                    
+                    <span>Gefunden auf 2 Facebook-Posts mit ingesamt 918 Likes: <a class="postLink" href="https://facebook.com/540404695989874_1318664554830547" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/540404695989874_1185453021492141" target="blank"> [Post 2]</a></span>
                     </span>
                     
                   </li><li>
@@ -153,8 +149,8 @@
                     <a href="https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1831479983796388/?type=3&amp;theater" rel="nofollow" target="_blank" class="title">+++ Wir sagen 6.000 mal Danke,Danke,Danke +++</a><br/>
                     <a href="https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1831479983796388/?type=3&amp;theater" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1831...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>40 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1831486293795757" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1831486293795757" target="blank">Facebook-Post mit 40 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -162,8 +158,8 @@
                     <a href="http://aidabund.de/2016/12/08/neues-design-zum-jahreswechsel/" rel="nofollow" target="_blank" class="title">Neues Design zum Jahreswechsel</a><br/>
                     <a href="http://aidabund.de/2016/12/08/neues-design-zum-jahreswechsel/" rel="nofollow" target="_blank" class="outlink">http://aidabund.de/2016/12/08/neues-design-zum-jahreswechsel/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> aida afd waldheim christian rss</span><br/>
-                    <span>23 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1285205718218761" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1285205718218761" target="blank">Facebook-Post mit 23 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -171,8 +167,8 @@
                     <a href="https://www.facebook.com/maximilian.weber.3785/posts/552447648278229" rel="nofollow" target="_blank" class="title">Renzi ist so eben zurückgetreten! Österreich-Schock gerade etwas verdaut!</a><br/>
                     <a href="https://www.facebook.com/maximilian.weber.3785/posts/552447648278229" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/maximilian.weber.3785/posts/552447648278229</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>18 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_552448424944818" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_552448424944818" target="blank">Facebook-Post mit 18 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -180,8 +176,8 @@
                     <a href="http://the-germanz.de/exklusiv-alea-iacta-est-hedwig-von-beverfoerde-tritt-aus-der-cdu-aus/" rel="nofollow" target="_blank" class="title">EXKLUSIV: Alea iacta est - Hedwig von Beverfoerde tritt aus der CDU aus</a><br/>
                     <a href="http://the-germanz.de/exklusiv-alea-iacta-est-hedwig-von-beverfoerde-tritt-aus-der-cdu-aus/" rel="nofollow" target="_blank" class="outlink">http://the-germanz.de/exklusiv-alea-iacta-est-hedwig-von-beverfoerde-tritt-aus-der-cdu-aus/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> merkel angela cdu deutschland hedwig</span><br/>
-                    <span>15 Likes auf 3 zugehörigen Posts <a class="postLink" href="https://facebook.com/540404695989874_10209904939434285" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/540404695989874_325836304481632" target="blank"> [Post 2]</a><a class="postLink" href="https://facebook.com/540404695989874_635653436617553" target="blank"> [Post 3]</a></span>
+                    
+                    <span>Gefunden auf 3 Facebook-Posts mit ingesamt 15 Likes: <a class="postLink" href="https://facebook.com/540404695989874_10209904939434285" target="blank"> [Post 1]</a><a class="postLink" href="https://facebook.com/540404695989874_325836304481632" target="blank"> [Post 2]</a><a class="postLink" href="https://facebook.com/540404695989874_635653436617553" target="blank"> [Post 3]</a></span>
                     </span>
                     
                   </li><li>
@@ -189,8 +185,8 @@
                     <a href="http://www.bayern-depesche.de/regional/wirtschaftspublizist-peter-boehringer-will-f%C3%BCr-die-afd-in-den-deutschen-bundestag.html" rel="nofollow" target="_blank" class="title">Wirtschaftspublizist Peter Boehringer will für die AfD in den Deutschen Bundestag</a><br/>
                     <a href="http://www.bayern-depesche.de/regional/wirtschaftspublizist-peter-boehringer-will-f%C3%BCr-die-afd-in-den-deutschen-bundestag.html" rel="nofollow" target="_blank" class="outlink">http://www.bayern-depesche.de/regional/wirtschaftspublizist-peter-boehringer-will-f%C3%BCr...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> frohmeier amberg-neumarkt afd boehringer axel</span><br/>
-                    <span>11 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1714639405520289" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1714639405520289" target="blank">Facebook-Post mit 11 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -198,8 +194,8 @@
                     <a href="http://www.berliner-zeitung.de/politik/abschaffung-der-rundfunkgebuehren-afd-beantragt-kuendigung-des-staatsvertrags-25225070?dmcid=sm_fb" rel="nofollow" target="_blank" class="title">Abschaffung der Rundfunkgebühren: AfD beantragt Kündigung des Staatsvertrags</a><br/>
                     <a href="http://www.berliner-zeitung.de/politik/abschaffung-der-rundfunkgebuehren-afd-beantragt-kuendigung-des-staatsvertrags-25225070?dmcid=sm_fb" rel="nofollow" target="_blank" class="outlink">http://www.berliner-zeitung.de/politik/abschaffung-der-rundfunkgebuehren-afd-beantragt-kue...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>10 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1180671641970279" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1180671641970279" target="blank">Facebook-Post mit 10 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -207,8 +203,8 @@
                     <a href="http://www.freiewelt.net/nachricht/trump-will-zusammenarbeit-mit-russland-gegen-islamistischen-terror-und-ein-ende-des-fluechtlingsstroms-10069449/" rel="nofollow" target="_blank" class="title">Trump will Zusammenarbeit mit Russland gegen islamistischen Terror und ein Ende des Flüchtlingsstroms</a><br/>
                     <a href="http://www.freiewelt.net/nachricht/trump-will-zusammenarbeit-mit-russland-gegen-islamistischen-terror-und-ein-ende-des-fluechtlingsstroms-10069449/" rel="nofollow" target="_blank" class="outlink">http://www.freiewelt.net/nachricht/trump-will-zusammenarbeit-mit-russland-gegen-islamistis...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> russland trump usa putin migrations</span><br/>
-                    <span>8 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_316952542037009" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_316952542037009" target="blank">Facebook-Post mit 8 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://lobbypedia.de/wiki/FreieWelt.net" target="_blank">Hintergrund zu freiewelt.net</a>
@@ -218,8 +214,8 @@
                     <a href="https://www.facebook.com/BR24/photos/a.208051235335.171746.208046455335/10154599312550336/?type=3&amp;hc_ref=PAGES_TIMELINE" rel="nofollow" target="_blank" class="title">CDU-Vize Armin Laschet lehnt deutschlandweite Volksentscheide deutlich ab</a><br/>
                     <a href="https://www.facebook.com/BR24/photos/a.208051235335.171746.208046455335/10154599312550336/?type=3&amp;hc_ref=PAGES_TIMELINE" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/BR24/photos/a.208051235335.171746.208046455335/10154599312550336/...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>7 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1830099070601146" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1830099070601146" target="blank">Facebook-Post mit 7 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -227,8 +223,8 @@
                     <a href="https://www.facebook.com/ZDFheute/videos/10154832924120680/" rel="nofollow" target="_blank" class="title">Marine Le Pen im ZDF-Interview: &quot;... dann bin ich populistisch&quot;</a><br/>
                     <a href="https://www.facebook.com/ZDFheute/videos/10154832924120680/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/ZDFheute/videos/10154832924120680/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>6 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1073958999397304" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1073958999397304" target="blank">Facebook-Post mit 6 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -236,8 +232,8 @@
                     <a href="http://www.sueddeutsche.de/politik/doppelte-staatsbuergerschaft-sich-zwischen-zwei-laendern-entscheiden-muessen-1.3284471" rel="nofollow" target="_blank" class="title">CDU: Doppelte Staatsbürgerschaft oder Optionspflicht?</a><br/>
                     <a href="http://www.sueddeutsche.de/politik/doppelte-staatsbuergerschaft-sich-zwischen-zwei-laendern-entscheiden-muessen-1.3284471" rel="nofollow" target="_blank" class="outlink">http://www.sueddeutsche.de/politik/doppelte-staatsbuergerschaft-sich-zwischen-zwei-laender...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> cdu spd deutschland schweiz maas</span><br/>
-                    <span>5 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_203579153383071" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_203579153383071" target="blank">Facebook-Post mit 5 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -245,8 +241,8 @@
                     <a href="https://www.facebook.com/peter.rollar?fref=nf" rel="nofollow" target="_blank" class="title">Peter Rollar</a><br/>
                     <a href="https://www.facebook.com/peter.rollar?fref=nf" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/peter.rollar?fref=nf</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>5 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1718482868468914" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1718482868468914" target="blank">Facebook-Post mit 5 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -254,8 +250,8 @@
                     <a href="https://www.gmx.net/magazine/panorama/hinweise-berliner-u-bahn-treter-32053372" rel="nofollow" target="_blank" class="title">Sechs Hinweise auf Berliner U-Bahn-Treter</a><br/>
                     <a href="https://www.gmx.net/magazine/panorama/hinweise-berliner-u-bahn-treter-32053372" rel="nofollow" target="_blank" class="outlink">https://www.gmx.net/magazine/panorama/hinweise-berliner-u-bahn-treter-32053372</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> dpa bildfunk berlin/dpa achtung spiegel</span><br/>
-                    <span>5 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1185739434796833" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1185739434796833" target="blank">Facebook-Post mit 5 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -263,8 +259,8 @@
                     <a href="https://www.facebook.com/Dr.Frauke.Petry/photos/a.782724038446912.1073741828.782456275140355/1298906490161995/?type=3&amp;theater" rel="nofollow" target="_blank" class="title">++ Bargeld ist Freiheit, die es unbedingt zu verteidigen gilt! ++</a><br/>
                     <a href="https://www.facebook.com/Dr.Frauke.Petry/photos/a.782724038446912.1073741828.782456275140355/1298906490161995/?type=3&amp;theater" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/Dr.Frauke.Petry/photos/a.782724038446912.1073741828.7824562751403...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>5 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1184330371604406" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1184330371604406" target="blank">Facebook-Post mit 5 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -272,8 +268,8 @@
                     <a href="http://www.epochtimes.de/politik/europa/gesetz-in-slowakei-islam-kann-nicht-als-religionsgemeinschaft-anerkannt-werden-a1992679.html" rel="nofollow" target="_blank" class="title">Slowakei beschließt: Islam kann nicht als Religionsgemeinschaft anerkannt werden</a><br/>
                     <a href="http://www.epochtimes.de/politik/europa/gesetz-in-slowakei-islam-kann-nicht-als-religionsgemeinschaft-anerkannt-werden-a1992679.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/europa/gesetz-in-slowakei-islam-kann-nicht-als-religionsg...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> slowakei danko express andrej danko.foto</span><br/>
-                    <span>5 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1582661251747732" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1582661251747732" target="blank">Facebook-Post mit 5 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
@@ -283,8 +279,8 @@
                     <a href="https://www.tag24.de/nachrichten/afd-frau-sieht-mitschuld-von-merkel-fuer-mord-in-freiburg-tote-studentin-maria-189555" rel="nofollow" target="_blank" class="title">AfD-Frau gibt Merkel Mitschuld an Tod der Freiburg-Studentin</a><br/>
                     <a href="https://www.tag24.de/nachrichten/afd-frau-sieht-mitschuld-von-merkel-fuer-mord-in-freiburg-tote-studentin-maria-189555" rel="nofollow" target="_blank" class="outlink">https://www.tag24.de/nachrichten/afd-frau-sieht-mitschuld-von-merkel-fuer-mord-in-freiburg...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> merkel alice weidel angela paul</span><br/>
-                    <span>5 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1184491494921627" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1184491494921627" target="blank">Facebook-Post mit 5 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -292,8 +288,8 @@
                     <a href="http://www.huffingtonpost.de/2016/12/04/mord-studentin-freiburg_n_13421394.html?utm_hp_ref=germany&amp;ir=Germany" rel="nofollow" target="_blank" class="title">Reaktionen auf Mord an Maria L. in Freiburg: &quot;Die Vertreter der Willkommenskultur schweigen&quot;</a><br/>
                     <a href="http://www.huffingtonpost.de/2016/12/04/mord-studentin-freiburg_n_13421394.html?utm_hp_ref=germany&amp;ir=Germany" rel="nofollow" target="_blank" class="outlink">http://www.huffingtonpost.de/2016/12/04/mord-studentin-freiburg_n_13421394.html?utm_hp_ref...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> freiburg wendt rainer gabriel merkels</span><br/>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1312794412084228" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1312794412084228" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -301,8 +297,8 @@
                     <a href="https://m.facebook.com/story.php?story_fbid=1141447745950646&amp;substory_index=0&amp;id=581019311993495" rel="nofollow" target="_blank" class="title">Kanzlerin Merkel, läßt sich gestern von ihren Klaqueren 11 Minuten lang beklatschen und feiern! </a><br/>
                     <a href="https://m.facebook.com/story.php?story_fbid=1141447745950646&amp;substory_index=0&amp;id=581019311993495" rel="nofollow" target="_blank" class="outlink">https://m.facebook.com/story.php?story_fbid=1141447745950646&amp;substory_index=0&amp;id=581019311...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1585142691499588" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1585142691499588" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -310,8 +306,8 @@
                     <a href="https://www.facebook.com/MERKEL.schafft.uns.ab/videos/1842846972600490/" rel="nofollow" target="_blank" class="title">MERKEL MITVERANTWORTLICH AM TOD DER STUDENTIN</a><br/>
                     <a href="https://www.facebook.com/MERKEL.schafft.uns.ab/videos/1842846972600490/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/MERKEL.schafft.uns.ab/videos/1842846972600490/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_225800547857874" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_225800547857874" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -319,8 +315,8 @@
                     <a href="http://vera-lengsfeld.de/2016/12/09/die-stasi-ist-unter-uns/" rel="nofollow" target="_blank" class="title">Die Stasi ist unter uns</a><br/>
                     <a href="http://vera-lengsfeld.de/2016/12/09/die-stasi-ist-unter-uns/" rel="nofollow" target="_blank" class="outlink">http://vera-lengsfeld.de/2016/12/09/die-stasi-ist-unter-uns/</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> ddr stasi merkel schwesig deutschland</span><br/>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_379711319039983" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_379711319039983" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -328,8 +324,8 @@
                     <a href="https://www.unzensuriert.at/content/0022525-Koelner-Gutmenschen-gehen-die-Augen-auf-Kaum-noch-freiwillige-Helfer-fuer" rel="nofollow" target="_blank" class="title">Kölner Gutmenschen gehen die Augen auf: Kaum noch freiwillige Helfer für Asylindustrie</a><br/>
                     <a href="https://www.unzensuriert.at/content/0022525-Koelner-Gutmenschen-gehen-die-Augen-auf-Kaum-noch-freiwillige-Helfer-fuer" rel="nofollow" target="_blank" class="outlink">https://www.unzensuriert.at/content/0022525-Koelner-Gutmenschen-gehen-die-Augen-auf-Kaum-n...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> claus-ulrich prölß freiwillige köln iban</span><br/>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1718160521834482" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1718160521834482" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="https://de.wikipedia.org/wiki/Unzensuriert.at" target="blank">Hintergrund zu Unzensuriert.at</a>
@@ -339,8 +335,8 @@
                     <a href="http://www.deutscherarbeitgeberverband.de/aktuelles/2016/2016_12_05_dav_aktuelles_grab.html" rel="nofollow" target="_blank" class="title">Wir graben uns feige das eigene Grab</a><br/>
                     <a href="http://www.deutscherarbeitgeberverband.de/aktuelles/2016/2016_12_05_dav_aktuelles_grab.html" rel="nofollow" target="_blank" class="outlink">http://www.deutscherarbeitgeberverband.de/aktuelles/2016/2016_12_05_dav_aktuelles_grab.html</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> deutschland dav klaus-dietrich allensbach moore</span><br/>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_325822007816395" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_325822007816395" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -348,8 +344,8 @@
                     <a href="http://www.epochtimes.de/politik/europa/von-800-minderjaehrigen-fluechtlingen-600-volljaehrig-daenemarks-roentgentest-enttarnt-altersbetrueger-a1995108.html" rel="nofollow" target="_blank" class="title">Von 800 „minderjährigen“ Flüchtlingen 600 volljährig: Dänemarks Röntgentest enttarnt Altersbetrüger</a><br/>
                     <a href="http://www.epochtimes.de/politik/europa/von-800-minderjaehrigen-fluechtlingen-600-volljaehrig-daenemarks-roentgentest-enttarnt-altersbetrueger-a1995108.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/europa/von-800-minderjaehrigen-fluechtlingen-600-volljaeh...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> großbritannien dänemark støjberg singer dänemarkfoto</span><br/>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_10210279560858152" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_10210279560858152" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     <br/><span class="warn">
           <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
@@ -359,8 +355,8 @@
                     <a href="http://www.freitum.de/2016/12/der-fall-maria-ladenburger-das.html" rel="nofollow" target="_blank" class="title">FREITUM: Der Fall Maria L.: Das Schweigen des öffentlich-rechtlichen Rundfunks</a><br/>
                     <a href="http://www.freitum.de/2016/12/der-fall-maria-ladenburger-das.html" rel="nofollow" target="_blank" class="outlink">http://www.freitum.de/2016/12/der-fall-maria-ladenburger-das.html</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> maria publicdomainpictures pixabay hoeneß froelich</span><br/>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1180232145347562" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1180232145347562" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -368,8 +364,8 @@
                     <a href="https://www.contra-magazin.com/2016/12/zum-treppentreter-von-neukoelln-entgleitet-der-kanzlerin-die-welt/" rel="nofollow" target="_blank" class="title">Zum Treppentreter von Neukölln: Entgleitet der Kanzlerin die Welt?</a><br/>
                     <a href="https://www.contra-magazin.com/2016/12/zum-treppentreter-von-neukoelln-entgleitet-der-kanzlerin-die-welt/" rel="nofollow" target="_blank" class="outlink">https://www.contra-magazin.com/2016/12/zum-treppentreter-von-neukoelln-entgleitet-der-kanz...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> deutschland merkel washington martin wenzel</span><br/>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_327272607671335" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_327272607671335" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -377,8 +373,8 @@
                     <a href="https://www.facebook.com/Schule.und.Bildungspolitik.in.der.Kritik/photos/a.391461757910245.1073741830.387755994947488/414866592236428/?type=3&amp;theater" rel="nofollow" target="_blank" class="title">Leistungsabbau im Gymnasium in Niedersachsen 2016!</a><br/>
                     <a href="https://www.facebook.com/Schule.und.Bildungspolitik.in.der.Kritik/photos/a.391461757910245.1073741830.387755994947488/414866592236428/?type=3&amp;theater" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/Schule.und.Bildungspolitik.in.der.Kritik/photos/a.391461757910245...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_419813505075070" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_419813505075070" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -386,8 +382,8 @@
                     <a href="https://www.welt.de/politik/ausland/article160071342/Der-Brexit-war-der-erste-Stein-der-aus-der-Mauer-brach.html" rel="nofollow" target="_blank" class="title">Nigel Farage: „Der Brexit war der erste Stein, der aus der Mauer brach“</a><br/>
                     <a href="https://www.welt.de/politik/ausland/article160071342/Der-Brexit-war-der-erste-Stein-der-aus-der-Mauer-brach.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/ausland/article160071342/Der-Brexit-war-der-erste-Stein-der-au...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> italien trump farage nigel italiens</span><br/>
-                    <span>4 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1072236019569602" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1072236019569602" target="blank">Facebook-Post mit 4 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -395,8 +391,8 @@
                     <a href="http://focus.de/6317971" rel="nofollow" target="_blank" class="title">Flüchtlingskrise: Flüchtlinge liefern sich mehrere Massenschlägereien</a><br/>
                     <a href="http://focus.de/6317971" rel="nofollow" target="_blank" class="outlink">http://focus.de/6317971</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> schweiz marokko ceuta baden-württemberg brüssel</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1185788368125273" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1185788368125273" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -404,8 +400,8 @@
                     <a href="https://www.youtube.com/watch?v=KSUCaUDAQ18&amp;feature=youtu.be" rel="nofollow" target="_blank" class="title">Live. Merkel verliert stark an Zustimmung nur mehr 89 % Zustimmung</a><br/>
                     <a href="https://www.youtube.com/watch?v=KSUCaUDAQ18&amp;feature=youtu.be" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=KSUCaUDAQ18&amp;feature=youtu.be</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> youtube</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1314570361906633" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1314570361906633" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -413,8 +409,8 @@
                     <a href="https://www.facebook.com/Dr.Bernd.Baumann/videos/vb.1679743389020111/1723341097993673/?type=2&amp;theater" rel="nofollow" target="_blank" class="title">Alarmierend: Deutschland nahm dieses Jahr mehr Asylanträge an – als die ganze übrige Welt zusammen.</a><br/>
                     <a href="https://www.facebook.com/Dr.Bernd.Baumann/videos/vb.1679743389020111/1723341097993673/?type=2&amp;theater" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/Dr.Bernd.Baumann/videos/vb.1679743389020111/1723341097993673/?typ...</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1265335080199038" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1265335080199038" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -422,8 +418,8 @@
                     <a href="http://www.presseportal.de/blaulicht/pm/6337/3501614" rel="nofollow" target="_blank" class="title">POL-HH: 161204-7. 81-jähriger Taxifahrer von Fahrgästen ausgeraubt</a><br/>
                     <a href="http://www.presseportal.de/blaulicht/pm/6337/3501614" rel="nofollow" target="_blank" class="outlink">http://www.presseportal.de/blaulicht/pm/6337/3501614</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> hamburg speckenreye billstedt krü hamburg-horn</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_153300255146588" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_153300255146588" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -431,8 +427,8 @@
                     <a href="https://www.facebook.com/DeutschlandHeimatVaterland/videos/528114330729745/" rel="nofollow" target="_blank" class="title">Volkes Stimme - Der Polizist</a><br/>
                     <a href="https://www.facebook.com/DeutschlandHeimatVaterland/videos/528114330729745/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/DeutschlandHeimatVaterland/videos/528114330729745/</a><br/>
                     <span class="hint">
-                    <span></span>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1715899642060570" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1715899642060570" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -440,8 +436,8 @@
                     <a href="https://www.youtube.com/watch?v=7tO9AWBZnnE" rel="nofollow" target="_blank" class="title">Spendenaufruf von Jörg Meuthen</a><br/>
                     <a href="https://www.youtube.com/watch?v=7tO9AWBZnnE" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=7tO9AWBZnnE</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> youtube</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1715147372136159" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1715147372136159" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -449,8 +445,8 @@
                     <a href="https://www.welt.de/vermischtes/article160096855/Warum-es-so-lang-keine-Oeffentlichkeitsfahndung-gab.html" rel="nofollow" target="_blank" class="title">U-Bahn-Tritt in Berlin-Neukölln: Warum es so lange keine Öffentlichkeitsfahndung gab</a><br/>
                     <a href="https://www.welt.de/vermischtes/article160096855/Warum-es-so-lang-keine-Oeffentlichkeitsfahndung-gab.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/vermischtes/article160096855/Warum-es-so-lang-keine-Oeffentlichkeitsfa...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> bvg wenzel reetz torben berlin</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1185472818156828" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1185472818156828" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -458,8 +454,8 @@
                     <a href="http://www.aktiencheck.de/exklusiv/Artikel-AfD_Vize_Gauland_doppelte_Staatsbuergerschaft_ist_falsch-7593905" rel="nofollow" target="_blank" class="title">AfD-Vize Gauland: Die doppelte Staatsbürgerschaft ist falsch!</a><br/>
                     <a href="http://www.aktiencheck.de/exklusiv/Artikel-AfD_Vize_Gauland_doppelte_Staatsbuergerschaft_ist_falsch-7593905" rel="nofollow" target="_blank" class="outlink">http://www.aktiencheck.de/exklusiv/Artikel-AfD_Vize_Gauland_doppelte_Staatsbuergerschaft_i...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> merkel gauland cdu deutschland alexander</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_204131749994478" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_204131749994478" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -467,8 +463,8 @@
                     <a href="https://www.youtube.com/watch?v=wzUebalc-JY" rel="nofollow" target="_blank" class="title">Angela Merkel: Hat sie das wirklich gesagt? ☛ Teil 2 ☚</a><br/>
                     <a href="https://www.youtube.com/watch?v=wzUebalc-JY" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=wzUebalc-JY</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> youtube</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_377797185898063" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_377797185898063" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -476,8 +472,8 @@
                     <a href="http://www.stern.de/panorama/vergewaltiger-von-bochum--polizei-nimmt-irakischen-fluechtling-fest-7227090.html?utm_campaign=artikel-header&amp;utm_medium=share&amp;utm_source=facebook" rel="nofollow" target="_blank" class="title">Vergewaltigungen in Bochum: Polizei nimmt irakischen Flüchtling fest</a><br/>
                     <a href="http://www.stern.de/panorama/vergewaltiger-von-bochum--polizei-nimmt-irakischen-fluechtling-fest-7227090.html?utm_campaign=artikel-header&amp;utm_medium=share&amp;utm_source=facebook" rel="nofollow" target="_blank" class="outlink">http://www.stern.de/panorama/vergewaltiger-von-bochum--polizei-nimmt-irakischen-fluechtlin...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> bochum irak bochums dpa</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1182113701826073" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1182113701826073" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -485,8 +481,8 @@
                     <a href="http://www.nordkurier.de/brandenburg/hat-die-polizei-die-kriminalstatistik-gefaelscht-205811003.html" rel="nofollow" target="_blank" class="title">Zweifel an den Zahlen: Hat die Polizei die Kriminalstatistik gefälscht?</a><br/>
                     <a href="http://www.nordkurier.de/brandenburg/hat-die-polizei-die-kriminalstatistik-gefaelscht-205811003.html" rel="nofollow" target="_blank" class="outlink">http://www.nordkurier.de/brandenburg/hat-die-polizei-die-kriminalstatistik-gefaelscht-2058...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> brandenburgs ralf feuring holzschuher michael</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_1283460508384794" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_1283460508384794" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li><li>
@@ -494,8 +490,8 @@
                     <a href="http://www.merkur.de/lokales/region-tegernsee/tegernsee-ort29547/landgericht-faellt-urteil-sansibarer-42-muss-vier-jahre-in-haft-7011969.html" rel="nofollow" target="_blank" class="title">Landgericht fällt Urteil: Sansibarer (42) muss vier Jahre in Haft</a><br/>
                     <a href="http://www.merkur.de/lokales/region-tegernsee/tegernsee-ort29547/landgericht-faellt-urteil-sansibarer-42-muss-vier-jahre-in-haft-7011969.html" rel="nofollow" target="_blank" class="outlink">http://www.merkur.de/lokales/region-tegernsee/tegernsee-ort29547/landgericht-faellt-urteil...</a><br/>
                     <span class="hint">
-                    <span><b>Entitäten</b> rumänien balkan sansibar münchen deutschland</span><br/>
-                    <span>3 Likes auf <a class="postLink" href="https://facebook.com/540404695989874_637475213102042" target="blank">zugehörigem Post</a></span>
+                    
+                    <span>Gefunden auf diesem <a class="postLink" href="https://facebook.com/540404695989874_637475213102042" target="blank">Facebook-Post mit 3 Likes</a></span>
                     </span>
                     
                   </li>
