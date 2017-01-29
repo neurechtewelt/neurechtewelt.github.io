@@ -46,7 +46,7 @@ div#title h1 { font-size: 28px; }
 }
 
 #inner ul li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 #inner ul li a {
@@ -74,18 +74,29 @@ a.title {
 a.outlink {
   font-size: 14px;
   line-height: 16px;
-  color: #006621;
+  color: #545454;
+}
+
+img.preview {
+  width: 60px;
+  margin-top: 3px;
+  max-height: 40px;
+  border: 1px solid #545454;
+  margin-right: 10px;
 }
 
 .hint {
-  font-size: small;
-  line-height: 1.2;
+  margin-top: 3px;
+  font-size: 14px;
+  line-height: 1;
   word-wrap: break-word;
   color: #545454;
 }
 
-postLink {
+a.postlink {
+  font-size: 14px;
   text-decoration: underline;
+  color: #1a0dab;
 }
 
 .warn a {
