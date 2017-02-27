@@ -117,3 +117,7 @@ a.postlink {
   margin: 0;
   font-size: 13px;
 }
+
+span.mediaref {
+  font-style: italic;
+}
