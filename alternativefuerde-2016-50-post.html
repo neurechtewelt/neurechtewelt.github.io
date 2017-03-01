@@ -1,463 +1,387 @@
-<html>
+<html lang="de">
         <head>
-          <title>Worüber hat die AfD in der Woche vom 12. - 18. Dezember diskutiert? - #neurechtewelt</title>
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+          <meta charset="utf-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+          <meta name="description" content="{generateTitle(pageId, weekYear, weekOfWeekYear)}"/>
+          <meta name="author" content="neurechtewelt"/>
           <meta name="referrer" content="no-referrer"/>
-          <link rel="stylesheet" href="main.css"/>
+          <title>Worüber hat die AfD in der Woche vom 12. - 18. Dezember diskutiert? - #neurechtewelt</title>
+          <link href="bootstrap.min.css" rel="stylesheet"/>
+          <link href="narrow-jumbotron.css" rel="stylesheet"/>
           <script src="main.js"></script>
         </head>
         <body>
-          <div id="outer">
-            <div id="inner">
-              <div id="title">
-                <h1><b>Worüber hat die AfD in der Woche vom 12. - 18. Dezember diskutiert?</b></h1>
-              </div>
-              <div id="controls">
-                <p>Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebsten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
-                <form>
-                  <label>Facebook-Seite:<br/>
-                    <select id="page" onChange="updatePage();">
-                      <option value="alternativefuerde" selected="selected">AfD - Deutschland</option>
-                      <option value="pegidaevofficial">Pegida</option>
-                    </select>
-                  </label><br/>
-                  <label>Woche:<br/>
-                    <select id="week" onChange="updatePage();">
-                      <option value="2017-8">Letzte Woche</option>
-                      <optgroup label="Februar">
-                        <option value="2017-7">13. Februar - 19. Februar</option>
-                        <option value="2017-6">6. Februar - 12. Februar</option>
-                        <option value="2017-5">30. Januar - 5. Februar</option>
-                      </optgroup>
-                      <optgroup label="Januar">
-                        <option value="2017-4">23. - 29. Januar</option>
-                        <option value="2017-3">16. - 22. Januar</option>
-                        <option value="2017-2">9. - 15. Januar</option>
-                        <option value="2017-1">2. - 8. Januar</option>
-                      </optgroup>
-                      <optgroup label="Dezember">
-                        <option value="2016-52">26. Dezember - 1. Januar</option>
-                        <option value="2016-51">19. - 25. Dezember</option>
-                        <option value="2016-50" selected="selected">12. - 18. Dezember</option>
-                        <option value="2016-49">5. - 11. Dezember</option>
-                      </optgroup>
-                    </select>
-                  </label>
-                </form>
-
-                <div id="externals">
-                  <h3>Kontakt</h3>
-                  email <a href="mailto:neurechtewelt[at]posteo.de">neurechtewelt[at]posteo.de</a><br/>
-                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/><br/><br/>
-                  <h3>Selbstverständnis</h3>
-                  Wir wollen Journalisten bei der Recherche helfen und zu Aufklärungsarbeit über die Neue Rechte beitragen.
-                  <br/><br/><br/>
-                  <h3>Wir in der Presse</h3>
-                  <ul style="padding-top: 0; margin-top: 5px;">
-                    <li>
-                      <a href="http://ze.tt/es-gibt-wirklich-nur-vier-themen-ueber-die-neurechte-auf-facebook-sprechen/" target="_blank">Es gibt wirklich nur vier Themen, über die Neurechte auf Facebook sprechen</a>
-                      <br/> <span class="mediaref">ze.tt, 15. Februar</span>
-                    </li>
-                    <li><a href="http://meedia.de/2017/01/24/neurechtewelt-web-projekt-listet-beliebteste-news-artikel-von-afd-und-pegida-anhaengern-bei-facebook-auf/" target="_blank">
-                      Neurechtewelt: Web-Projekt listet News-Artikel, die bei AfD- und Pegida-Anhängern „steil“ gehen</a><br/> <span class="mediaref">MEEDIA, 24. Januar</span></li>
-                  </ul>
-                </div>
-              </div>
-              <div id="links">
-                <ul>
-                  <li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf" rel="nofollow" target="_blank" class="medium">Alternative für Deutschland</a><br/>
-                        
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf" rel="nofollow" target="_blank" class="outlink">https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatz...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 3 Facebook-Posts mit ingesamt 8173 Likes: <a class="postlink" href="https://facebook.com/540404695989874_1329522633744739" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/540404695989874_1325625424134460" target="blank"> [Post 2]</a><a class="postlink" href="https://facebook.com/540404695989874_1322722324424770" target="blank"> [Post 3]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.focus.de/politik/ausland/ukraine-konflikt-merkel-und-hollande-fuer-verlaengerung-der-eu-sanktionen-gegen-russland_id_6347064.html" rel="nofollow" target="_blank" class="medium">FOCUS Online</a><br/>
-                        <a href="http://www.focus.de/politik/ausland/ukraine-konflikt-merkel-und-hollande-fuer-verlaengerung-der-eu-sanktionen-gegen-russland_id_6347064.html" rel="nofollow" target="_blank" class="title">Merkel und Hollande für Verlängerung der EU-Sanktionen gegen Russland</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.focus.de/politik/ausland/ukraine-konflikt-merkel-und-hollande-fuer-verlaengerung-der-eu-sanktionen-gegen-russland_id_6347064.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://p5.focus.de/img/fotos/crop6347073/0092714129-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-161118-99-226586-large-4-3.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.focus.de/politik/ausland/ukraine-konflikt-merkel-und-hollande-fuer-verlaengerung-der-eu-sanktionen-gegen-russland_id_6347064.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/politik/ausland/ukraine-konflikt-merkel-und-hollande-fuer-verlaengerun...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1324133640950305" target="blank">Facebook-Post mit 3612 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/politik/deutschland/article158615977/280-000-Auslaender-zur-Fahndung-ausgeschrieben.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/politik/deutschland/article158615977/280-000-Auslaender-zur-Fahndung-ausgeschrieben.html" rel="nofollow" target="_blank" class="title">Festnahme und Abschiebung: 280.000 Ausländer zur Fahndung ausgeschrieben</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/politik/deutschland/article158615977/280-000-Auslaender-zur-Fahndung-ausgeschrieben.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/politik/deutschland/mobile158619188/5221353067-ci16x9-w1200/Polizeikontrollen-auf-der-Autobahn-3.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/politik/deutschland/article158615977/280-000-Auslaender-zur-Fahndung-ausgeschrieben.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article158615977/280-000-Auslaender-zur-Fahndung-a...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1325979480765721" target="blank">Facebook-Post mit 3372 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.morgenpost.de/politik/article208989789/Abschiebung-trotz-Protest-34-Afghanen-nach-Kabul-geflogen.html" rel="nofollow" target="_blank" class="medium">morgenpost.de</a><br/>
-                        <a href="https://www.morgenpost.de/politik/article208989789/Abschiebung-trotz-Protest-34-Afghanen-nach-Kabul-geflogen.html" rel="nofollow" target="_blank" class="title">Bundesinnenminister Thomas de Maiziere: Viele Straftäter unter abgeschobenen Afghanen</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.morgenpost.de/politik/article208989789/Abschiebung-trotz-Protest-34-Afghanen-nach-Kabul-geflogen.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://img.morgenpost.de/img/politik/crop208991095/680296576-w820-cv16_9-q70/14931C00076B95B4.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.morgenpost.de/politik/article208989789/Abschiebung-trotz-Protest-34-Afghanen-nach-Kabul-geflogen.html" rel="nofollow" target="_blank" class="outlink">https://www.morgenpost.de/politik/article208989789/Abschiebung-trotz-Protest-34-Afghanen-n...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1325979480765721" target="blank">Facebook-Post mit 3372 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.digitalfernsehen.de/ARD-will-Rundfunkbeitrag-schrittweise-anheben.147476.0.html" rel="nofollow" target="_blank" class="medium">digitalfernsehen.de</a><br/>
-                        <a href="http://www.digitalfernsehen.de/ARD-will-Rundfunkbeitrag-schrittweise-anheben.147476.0.html" rel="nofollow" target="_blank" class="title">ARD will Rundfunkbeitrag schrittweise anheben</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.digitalfernsehen.de/ARD-will-Rundfunkbeitrag-schrittweise-anheben.147476.0.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.digitalfernsehen.de/uploads/tx_txavcontent/Rundfunkbeitrag2_start_37.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.digitalfernsehen.de/ARD-will-Rundfunkbeitrag-schrittweise-anheben.147476.0.html" rel="nofollow" target="_blank" class="outlink">http://www.digitalfernsehen.de/ARD-will-Rundfunkbeitrag-schrittweise-anheben.147476.0.html</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1329522633744739" target="blank">Facebook-Post mit 3241 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://players.brightcove.net/18140073001/65fa926a-0fe0-4031-8cbf-9db35cecf64a_default/index.html?videoId=5247712826001" rel="nofollow" target="_blank" class="medium">brightcove.net</a><br/>
-                        
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://players.brightcove.net/18140073001/65fa926a-0fe0-4031-8cbf-9db35cecf64a_default/index.html?videoId=5247712826001" rel="nofollow" target="_blank" class="outlink">http://players.brightcove.net/18140073001/65fa926a-0fe0-4031-8cbf-9db35cecf64a_default/ind...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1325625424134460" target="blank">Facebook-Post mit 2502 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.focus.de/familie/schule/schule-lehrer-klagen-ueber-noten-inflation-beim-abitur_id_6327470.html" rel="nofollow" target="_blank" class="medium">FOCUS Online</a><br/>
-                        <a href="http://www.focus.de/familie/schule/schule-lehrer-klagen-ueber-noten-inflation-beim-abitur_id_6327470.html" rel="nofollow" target="_blank" class="title">Schule: Lehrer klagen über Noten-&quot;Inflation&quot; beim Abitur</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.focus.de/familie/schule/schule-lehrer-klagen-ueber-noten-inflation-beim-abitur_id_6327470.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://p5.focus.de/img/fotos/crop6264512/5302713229-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-161128-99-336795-large-4-3.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.focus.de/familie/schule/schule-lehrer-klagen-ueber-noten-inflation-beim-abitur_id_6327470.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/familie/schule/schule-lehrer-klagen-ueber-noten-inflation-beim-abitur_...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 2 Facebook-Posts mit ingesamt 2432 Likes: <a class="postlink" href="https://facebook.com/540404695989874_1322722324424770" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/540404695989874_158999264576687" target="blank"> [Post 2]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/blankenburgwehrtsich2/videos/1794000637518522/" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/blankenburgwehrtsich2/videos/1794000637518522/" rel="nofollow" target="_blank" class="title">Gutmenschen bürgen für &quot;Flüchtlinge&quot; und müssen jetzt zahlen</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/blankenburgwehrtsich2/videos/1794000637518522/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/blankenburgwehrtsich2/videos/1794000637518522/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 2 Facebook-Posts mit ingesamt 21 Likes: <a class="postlink" href="https://facebook.com/540404695989874_1738270776487993" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/540404695989874_1738261886488882" target="blank"> [Post 2]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://frank-hansel.de/die-afd-im-jahre-4-die-gefahren-auf-der-zielgeraden" rel="nofollow" target="_blank" class="medium">frank-hansel.de</a><br/>
-                        <a href="http://frank-hansel.de/die-afd-im-jahre-4-die-gefahren-auf-der-zielgeraden" rel="nofollow" target="_blank" class="title">Die AfD im Jahre 4:  Die Gefahren auf der Zielgeraden</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://frank-hansel.de/die-afd-im-jahre-4-die-gefahren-auf-der-zielgeraden" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://frank-hansel.de/wp-content/uploads/2017/01/unspecifiedddd.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://frank-hansel.de/die-afd-im-jahre-4-die-gefahren-auf-der-zielgeraden" rel="nofollow" target="_blank" class="outlink">http://frank-hansel.de/die-afd-im-jahre-4-die-gefahren-auf-der-zielgeraden</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_10211500948340639" target="blank">Facebook-Post mit 8 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/OhneWorte2015/photos/a.464166660351578.1073741832.449628281805416/916722455095994/?type=3&amp;theater" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/OhneWorte2015/photos/a.464166660351578.1073741832.449628281805416/916722455095994/?type=3&amp;theater" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/OhneWorte2015/photos/a.464166660351578.1073741832.449628281805416...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1271913842874495" target="blank">Facebook-Post mit 6 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.youtube.com/watch?v=LNV3mPTYm2s" rel="nofollow" target="_blank" class="medium">RT</a><br/>
-                        <a href="https://www.youtube.com/watch?v=LNV3mPTYm2s" rel="nofollow" target="_blank" class="title">Journalistin zerlegt in den UN in 2 Minuten die Glaubwürdigkeit der Mainstream-Presse zu Syrien</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.youtube.com/watch?v=LNV3mPTYm2s" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://i.ytimg.com/vi/LNV3mPTYm2s/maxresdefault.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.youtube.com/watch?v=LNV3mPTYm2s" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=LNV3mPTYm2s</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_380885618922553" target="blank">Facebook-Post mit 6 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        <span class="warn">
-          <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/04/medien-RT-RTdeutsch-russia-today/" target="_blank">Hintergrund zu RT</a>
-        </span>
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/politik/ausland/article160313722/Oesterreich-legt-Vision-fuer-EU-Abschottungspolitik-vor.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/politik/ausland/article160313722/Oesterreich-legt-Vision-fuer-EU-Abschottungspolitik-vor.html" rel="nofollow" target="_blank" class="title">Flüchtlinge: Österreich legt Vision für EU-Abschottungspolitik vor</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/politik/ausland/article160313722/Oesterreich-legt-Vision-fuer-EU-Abschottungspolitik-vor.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/politik/ausland/mobile160321800/9361352287-ci16x9-w1200/Informal-meeting-of-European-Union-s-Foreign-Ministers.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/politik/ausland/article160313722/Oesterreich-legt-Vision-fuer-EU-Abschottungspolitik-vor.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/ausland/article160313722/Oesterreich-legt-Vision-fuer-EU-Absch...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_265305533884570" target="blank">Facebook-Post mit 6 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/DonaldTrump/photos/a.488852220724.393301.153080620724/10158281524825725/?type=3" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/DonaldTrump/photos/a.488852220724.393301.153080620724/10158281524825725/?type=3" rel="nofollow" target="_blank" class="title">We're going to start saying 'Merry Christmas' again!</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/DonaldTrump/photos/a.488852220724.393301.153080620724/10158281524825725/?type=3" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/DonaldTrump/photos/a.488852220724.393301.153080620724/10158281524...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1617392815232069" target="blank">Facebook-Post mit 5 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.bild.de/regional/berlin/buschkowsky-kolumne/scharia-und-stasi-im-neuen-senat-mich-schuettelts-49300114.bild.html?wtmc=fb.shr" rel="nofollow" target="_blank" class="medium">BILD.de</a><br/>
-                        <a href="http://www.bild.de/regional/berlin/buschkowsky-kolumne/scharia-und-stasi-im-neuen-senat-mich-schuettelts-49300114.bild.html?wtmc=fb.shr" rel="nofollow" target="_blank" class="title">Scharia und Stasi im neuen Senat! Mich schüttelt’s</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.bild.de/regional/berlin/buschkowsky-kolumne/scharia-und-stasi-im-neuen-senat-mich-schuettelts-49300114.bild.html?wtmc=fb.shr" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://bilder.bild.de/fotos/bild-logo-35166394/Bild/30.bild.png"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.bild.de/regional/berlin/buschkowsky-kolumne/scharia-und-stasi-im-neuen-senat-mich-schuettelts-49300114.bild.html?wtmc=fb.shr" rel="nofollow" target="_blank" class="outlink">http://www.bild.de/regional/berlin/buschkowsky-kolumne/scharia-und-stasi-im-neuen-senat-mi...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1294151540657512" target="blank">Facebook-Post mit 5 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://hd.welt.de/politik-edition/article159698752/Bekommen-wir-ein-Ministerium-fuer-Wahrheit.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="http://hd.welt.de/politik-edition/article159698752/Bekommen-wir-ein-Ministerium-fuer-Wahrheit.html" rel="nofollow" target="_blank" class="title">Essay: Bekommen wir ein Ministerium für Wahrheit?</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://hd.welt.de/politik-edition/article159698752/Bekommen-wir-ein-Ministerium-fuer-Wahrheit.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://hd.welt.de/img/politik-edition/crop159698751/8066936447-ci3x2l-w900/Henryk-M-Broder-Autor.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://hd.welt.de/politik-edition/article159698752/Bekommen-wir-ein-Ministerium-fuer-Wahrheit.html" rel="nofollow" target="_blank" class="outlink">http://hd.welt.de/politik-edition/article159698752/Bekommen-wir-ein-Ministerium-fuer-Wahrh...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1191052304265546" target="blank">Facebook-Post mit 5 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.kul-tours.de/afd-alternative-fuer-deutschland-aktuell.html" rel="nofollow" target="_blank" class="medium">kul-tours.de</a><br/>
-                        <a href="http://www.kul-tours.de/afd-alternative-fuer-deutschland-aktuell.html" rel="nofollow" target="_blank" class="title">Wahlen 2017: Beliebte AfD gewinnt in Umfragen - Mehrheit im Blick</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.kul-tours.de/afd-alternative-fuer-deutschland-aktuell.html" rel="nofollow" target="_blank" class="outlink">http://www.kul-tours.de/afd-alternative-fuer-deutschland-aktuell.html</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_107499479748537" target="blank">Facebook-Post mit 5 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/BeatrixVonStorch/photos/a.555550651153051.1073741828.549796328395150/1350618268312948/?type=3&amp;theater" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/BeatrixVonStorch/photos/a.555550651153051.1073741828.549796328395150/1350618268312948/?type=3&amp;theater" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/BeatrixVonStorch/photos/a.555550651153051.1073741828.549796328395...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1191337570903686" target="blank">Facebook-Post mit 5 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/article160306848/EU-Sanktionen-gegen-Russland-werden-verlaengert.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/article160306848/EU-Sanktionen-gegen-Russland-werden-verlaengert.html" rel="nofollow" target="_blank" class="title">EU-Flüchtlingskrise: EU verlängert Wirtschaftssanktionen gegen Russland</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/article160306848/EU-Sanktionen-gegen-Russland-werden-verlaengert.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/mobile160306847/1731358177-ci16x9-w1200/urn-newsml-dpa-com-20090101-161214-99-541638-large-4-3-jpg.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/article160306848/EU-Sanktionen-gegen-Russland-werden-verlaengert.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/article160306848/EU-Sankt...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1327265377303798" target="blank">Facebook-Post mit 5 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.t-online.de/regionales/id_79814172/afd-schlaegt-einladung-der-kirchen-nach-kritik-aus.html" rel="nofollow" target="_blank" class="medium">t-online.de</a><br/>
-                        <a href="http://www.t-online.de/regionales/id_79814172/afd-schlaegt-einladung-der-kirchen-nach-kritik-aus.html" rel="nofollow" target="_blank" class="title">AfD schlägt Einladung der Kirchen nach Kritik aus</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.t-online.de/regionales/id_79814172/afd-schlaegt-einladung-der-kirchen-nach-kritik-aus.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://bilder.t-online.de/b/79/81/41/80/id_79814180/tid_da/markus-droege.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.t-online.de/regionales/id_79814172/afd-schlaegt-einladung-der-kirchen-nach-kritik-aus.html" rel="nofollow" target="_blank" class="outlink">http://www.t-online.de/regionales/id_79814172/afd-schlaegt-einladung-der-kirchen-nach-krit...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_668144953368379" target="blank">Facebook-Post mit 5 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/ZDFheute/videos/10154832924120680/" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/ZDFheute/videos/10154832924120680/" rel="nofollow" target="_blank" class="title">Marine Le Pen im ZDF-Interview: &quot;... dann bin ich populistisch&quot;</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/ZDFheute/videos/10154832924120680/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/ZDFheute/videos/10154832924120680/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_311600529233542" target="blank">Facebook-Post mit 5 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
+          <div class="container">
+            <div class="header clearfix">
+              <nav>
+                <ul class="nav nav-pills float-right">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nrw.html">Über uns</a>
                   </li>
                 </ul>
-                <p>
-                  <a href="#">↑ nach oben</a><br/><br/>
+              </nav>
+              <h3 class="text-muted">#neurechtewelt</h3>
+            </div>
+            <div class="jumbotron" style="padding: 1rem 2rem 1rem 2rem; text-align: left;">
+              <p class="lead"><b>Die Angst und der Hass schaffen sich eigene Realitäten</b>. Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebtesten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
+              <form class="form-inline">
+                <label class="mr-sm-2" for="page">Facebook-Seite</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="page" onChange="updatePage();">
+                  <option value="alternativefuerde" selected="selected">AfD</option>
+                  <option value="pegidaevofficial">Pegida</option>
+                </select>
+                <label class="mr-sm-2" for="week">&nbsp;&nbsp;&nbsp;Woche</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="week" onChange="updatePage();">
+                  <option value="2017-8">Letzte Woche</option>
+                  <optgroup label="Februar">
+                    <option value="2017-7">13. Februar - 19. Februar</option>
+                    <option value="2017-6">6. Februar - 12. Februar</option>
+                    <option value="2017-5">30. Januar - 5. Februar</option>
+                  </optgroup>
+                  <optgroup label="Januar">
+                    <option value="2017-4">23. - 29. Januar</option>
+                    <option value="2017-3">16. - 22. Januar</option>
+                    <option value="2017-2">9. - 15. Januar</option>
+                    <option value="2017-1">2. - 8. Januar</option>
+                  </optgroup>
+                  <optgroup label="Dezember">
+                    <option value="2016-52">26. Dezember - 1. Januar</option>
+                    <option value="2016-51">19. - 25. Dezember</option>
+                    <option value="2016-50" selected="selected">12. - 18. Dezember</option>
+                    <option value="2016-49">5. - 11. Dezember</option>
+                  </optgroup>
+                </select>
+                </form>
+            </div>
+            <div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Alternative für Deutschland</h6>
+                
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf">https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf</a>
+                <p class="small">
+                  <span>Gefunden auf 3 Facebook-Posts mit ingesamt 8173 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1329522633744739" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1325625424134460" target="blank"> [Post 2]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1322722324424770" target="blank"> [Post 3]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.focus.de/politik/ausland/ukraine-konflikt-merkel-und-hollande-fuer-verlaengerung-der-eu-sanktionen-gegen-russland_id_6347064.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://p5.focus.de/img/fotos/crop6347073/0092714129-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-161118-99-226586-large-4-3.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>FOCUS Online</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.focus.de/politik/ausland/ukraine-konflikt-merkel-und-hollande-fuer-verlaengerung-der-eu-sanktionen-gegen-russland_id_6347064.html" rel="nofollow" target="_blank">Merkel und Hollande für Verlängerung der EU-Sanktionen gegen Russland</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.focus.de/politik/ausland/ukraine-konflikt-merkel-und-hollande-fuer-verlaengerung-der-eu-sanktionen-gegen-russland_id_6347064.html">http://www.focus.de/politik/ausland/ukraine-konflikt-merkel-und-hollande-fuer-verlaengerung-der-eu-sanktionen-gegen-russland_id_63...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1324133640950305" target="blank">Facebook-Post mit 3612 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/politik/deutschland/article158615977/280-000-Auslaender-zur-Fahndung-ausgeschrieben.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/politik/deutschland/mobile158619188/5221353067-ci16x9-w1200/Polizeikontrollen-auf-der-Autobahn-3.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/politik/deutschland/article158615977/280-000-Auslaender-zur-Fahndung-ausgeschrieben.html" rel="nofollow" target="_blank">Festnahme und Abschiebung: 280.000 Ausländer zur Fahndung ausgeschrieben</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/politik/deutschland/article158615977/280-000-Auslaender-zur-Fahndung-ausgeschrieben.html">https://www.welt.de/politik/deutschland/article158615977/280-000-Auslaender-zur-Fahndung-ausgeschrieben.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1325979480765721" target="blank">Facebook-Post mit 3372 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.morgenpost.de/politik/article208989789/Abschiebung-trotz-Protest-34-Afghanen-nach-Kabul-geflogen.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://img.morgenpost.de/img/politik/crop208991095/680296576-w820-cv16_9-q70/14931C00076B95B4.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>morgenpost.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.morgenpost.de/politik/article208989789/Abschiebung-trotz-Protest-34-Afghanen-nach-Kabul-geflogen.html" rel="nofollow" target="_blank">Bundesinnenminister Thomas de Maiziere: Viele Straftäter unter abgeschobenen Afghanen</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.morgenpost.de/politik/article208989789/Abschiebung-trotz-Protest-34-Afghanen-nach-Kabul-geflogen.html">https://www.morgenpost.de/politik/article208989789/Abschiebung-trotz-Protest-34-Afghanen-nach-Kabul-geflogen.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1325979480765721" target="blank">Facebook-Post mit 3372 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.digitalfernsehen.de/ARD-will-Rundfunkbeitrag-schrittweise-anheben.147476.0.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.digitalfernsehen.de/uploads/tx_txavcontent/Rundfunkbeitrag2_start_37.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>digitalfernsehen.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.digitalfernsehen.de/ARD-will-Rundfunkbeitrag-schrittweise-anheben.147476.0.html" rel="nofollow" target="_blank">ARD will Rundfunkbeitrag schrittweise anheben</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.digitalfernsehen.de/ARD-will-Rundfunkbeitrag-schrittweise-anheben.147476.0.html">http://www.digitalfernsehen.de/ARD-will-Rundfunkbeitrag-schrittweise-anheben.147476.0.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1329522633744739" target="blank">Facebook-Post mit 3241 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>brightcove.net</h6>
+                
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://players.brightcove.net/18140073001/65fa926a-0fe0-4031-8cbf-9db35cecf64a_default/index.html?videoId=5247712826001">http://players.brightcove.net/18140073001/65fa926a-0fe0-4031-8cbf-9db35cecf64a_default/index.html?videoId=5247712826001</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1325625424134460" target="blank">Facebook-Post mit 2502 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.focus.de/familie/schule/schule-lehrer-klagen-ueber-noten-inflation-beim-abitur_id_6327470.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://p5.focus.de/img/fotos/crop6264512/5302713229-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-161128-99-336795-large-4-3.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>FOCUS Online</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.focus.de/familie/schule/schule-lehrer-klagen-ueber-noten-inflation-beim-abitur_id_6327470.html" rel="nofollow" target="_blank">Schule: Lehrer klagen über Noten-&quot;Inflation&quot; beim Abitur</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.focus.de/familie/schule/schule-lehrer-klagen-ueber-noten-inflation-beim-abitur_id_6327470.html">http://www.focus.de/familie/schule/schule-lehrer-klagen-ueber-noten-inflation-beim-abitur_id_6327470.html</a>
+                <p class="small">
+                  <span>Gefunden auf 2 Facebook-Posts mit ingesamt 2432 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1322722324424770" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_158999264576687" target="blank"> [Post 2]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/blankenburgwehrtsich2/videos/1794000637518522/" rel="nofollow" target="_blank">Gutmenschen bürgen für &quot;Flüchtlinge&quot; und müssen jetzt zahlen</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/blankenburgwehrtsich2/videos/1794000637518522/">https://www.facebook.com/blankenburgwehrtsich2/videos/1794000637518522/</a>
+                <p class="small">
+                  <span>Gefunden auf 2 Facebook-Posts mit ingesamt 21 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1738270776487993" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1738261886488882" target="blank"> [Post 2]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://frank-hansel.de/die-afd-im-jahre-4-die-gefahren-auf-der-zielgeraden" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://frank-hansel.de/wp-content/uploads/2017/01/unspecifiedddd.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>frank-hansel.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://frank-hansel.de/die-afd-im-jahre-4-die-gefahren-auf-der-zielgeraden" rel="nofollow" target="_blank">Die AfD im Jahre 4:  Die Gefahren auf der Zielgeraden</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://frank-hansel.de/die-afd-im-jahre-4-die-gefahren-auf-der-zielgeraden">http://frank-hansel.de/die-afd-im-jahre-4-die-gefahren-auf-der-zielgeraden</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_10211500948340639" target="blank">Facebook-Post mit 8 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/OhneWorte2015/photos/a.464166660351578.1073741832.449628281805416/916722455095994/?type=3&amp;theater">https://www.facebook.com/OhneWorte2015/photos/a.464166660351578.1073741832.449628281805416/916722455095994/?type=3&amp;theater</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1271913842874495" target="blank">Facebook-Post mit 6 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.youtube.com/watch?v=LNV3mPTYm2s" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://i.ytimg.com/vi/LNV3mPTYm2s/maxresdefault.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>RT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.youtube.com/watch?v=LNV3mPTYm2s" rel="nofollow" target="_blank">Journalistin zerlegt in den UN in 2 Minuten die Glaubwürdigkeit der Mainstream-Presse zu Syrien</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.youtube.com/watch?v=LNV3mPTYm2s">https://www.youtube.com/watch?v=LNV3mPTYm2s</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_380885618922553" target="blank">Facebook-Post mit 6 Likes</a></span>
+                  <br/><a class="warn" href="https://correctiv.org/recherchen/neue-rechte/artikel/2017/01/04/medien-RT-RTdeutsch-russia-today/" target="_blank">Hintergrund zu RT</a>
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/politik/ausland/article160313722/Oesterreich-legt-Vision-fuer-EU-Abschottungspolitik-vor.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/politik/ausland/mobile160321800/9361352287-ci16x9-w1200/Informal-meeting-of-European-Union-s-Foreign-Ministers.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/politik/ausland/article160313722/Oesterreich-legt-Vision-fuer-EU-Abschottungspolitik-vor.html" rel="nofollow" target="_blank">Flüchtlinge: Österreich legt Vision für EU-Abschottungspolitik vor</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/politik/ausland/article160313722/Oesterreich-legt-Vision-fuer-EU-Abschottungspolitik-vor.html">https://www.welt.de/politik/ausland/article160313722/Oesterreich-legt-Vision-fuer-EU-Abschottungspolitik-vor.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_265305533884570" target="blank">Facebook-Post mit 6 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/DonaldTrump/photos/a.488852220724.393301.153080620724/10158281524825725/?type=3" rel="nofollow" target="_blank">We're going to start saying 'Merry Christmas' again!</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/DonaldTrump/photos/a.488852220724.393301.153080620724/10158281524825725/?type=3">https://www.facebook.com/DonaldTrump/photos/a.488852220724.393301.153080620724/10158281524825725/?type=3</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1617392815232069" target="blank">Facebook-Post mit 5 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.bild.de/regional/berlin/buschkowsky-kolumne/scharia-und-stasi-im-neuen-senat-mich-schuettelts-49300114.bild.html?wtmc=fb.shr" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://bilder.bild.de/fotos/bild-logo-35166394/Bild/30.bild.png"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>BILD.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.bild.de/regional/berlin/buschkowsky-kolumne/scharia-und-stasi-im-neuen-senat-mich-schuettelts-49300114.bild.html?wtmc=fb.shr" rel="nofollow" target="_blank">Scharia und Stasi im neuen Senat! Mich schüttelt’s</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.bild.de/regional/berlin/buschkowsky-kolumne/scharia-und-stasi-im-neuen-senat-mich-schuettelts-49300114.bild.html?wtmc=fb.shr">http://www.bild.de/regional/berlin/buschkowsky-kolumne/scharia-und-stasi-im-neuen-senat-mich-schuettelts-49300114.bild.html?wtmc=f...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1294151540657512" target="blank">Facebook-Post mit 5 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://hd.welt.de/politik-edition/article159698752/Bekommen-wir-ein-Ministerium-fuer-Wahrheit.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://hd.welt.de/img/politik-edition/crop159698751/8066936447-ci3x2l-w900/Henryk-M-Broder-Autor.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://hd.welt.de/politik-edition/article159698752/Bekommen-wir-ein-Ministerium-fuer-Wahrheit.html" rel="nofollow" target="_blank">Essay: Bekommen wir ein Ministerium für Wahrheit?</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://hd.welt.de/politik-edition/article159698752/Bekommen-wir-ein-Ministerium-fuer-Wahrheit.html">http://hd.welt.de/politik-edition/article159698752/Bekommen-wir-ein-Ministerium-fuer-Wahrheit.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1191052304265546" target="blank">Facebook-Post mit 5 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>kul-tours.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.kul-tours.de/afd-alternative-fuer-deutschland-aktuell.html" rel="nofollow" target="_blank">Wahlen 2017: Beliebte AfD gewinnt in Umfragen - Mehrheit im Blick</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.kul-tours.de/afd-alternative-fuer-deutschland-aktuell.html">http://www.kul-tours.de/afd-alternative-fuer-deutschland-aktuell.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_107499479748537" target="blank">Facebook-Post mit 5 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/BeatrixVonStorch/photos/a.555550651153051.1073741828.549796328395150/1350618268312948/?type=3&amp;theater">https://www.facebook.com/BeatrixVonStorch/photos/a.555550651153051.1073741828.549796328395150/1350618268312948/?type=3&amp;theater</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1191337570903686" target="blank">Facebook-Post mit 5 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/article160306848/EU-Sanktionen-gegen-Russland-werden-verlaengert.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/mobile160306847/1731358177-ci16x9-w1200/urn-newsml-dpa-com-20090101-161214-99-541638-large-4-3-jpg.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/article160306848/EU-Sanktionen-gegen-Russland-werden-verlaengert.html" rel="nofollow" target="_blank">EU-Flüchtlingskrise: EU verlängert Wirtschaftssanktionen gegen Russland</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/article160306848/EU-Sanktionen-gegen-Russland-werden-verlaengert.html">https://www.welt.de/newsticker/dpa_nt/infoline_nt/brennpunkte_nt/article160306848/EU-Sanktionen-gegen-Russland-werden-verlaengert....</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1327265377303798" target="blank">Facebook-Post mit 5 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.t-online.de/regionales/id_79814172/afd-schlaegt-einladung-der-kirchen-nach-kritik-aus.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://bilder.t-online.de/b/79/81/41/80/id_79814180/tid_da/markus-droege.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>t-online.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.t-online.de/regionales/id_79814172/afd-schlaegt-einladung-der-kirchen-nach-kritik-aus.html" rel="nofollow" target="_blank">AfD schlägt Einladung der Kirchen nach Kritik aus</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.t-online.de/regionales/id_79814172/afd-schlaegt-einladung-der-kirchen-nach-kritik-aus.html">http://www.t-online.de/regionales/id_79814172/afd-schlaegt-einladung-der-kirchen-nach-kritik-aus.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_668144953368379" target="blank">Facebook-Post mit 5 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/ZDFheute/videos/10154832924120680/" rel="nofollow" target="_blank">Marine Le Pen im ZDF-Interview: &quot;... dann bin ich populistisch&quot;</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/ZDFheute/videos/10154832924120680/">https://www.facebook.com/ZDFheute/videos/10154832924120680/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_311600529233542" target="blank">Facebook-Post mit 5 Likes</a></span>
+                  
                 </p>
               </div>
             </div>
+            <footer class="footer">
+              <div class="row marketing" style="margin: 0;">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+                  <a href="#" style="color: #545454;">↑ nach oben</a>
+                </div>
+              </div>
+            </footer>
           </div>
+          <script src="ie10-viewport-bug-workaround.js"></script>
         </body>
       </html>

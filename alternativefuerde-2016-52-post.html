@@ -1,463 +1,393 @@
-<html>
+<html lang="de">
         <head>
-          <title>Worüber hat die AfD in der Woche vom 26. Dezember - 1. Januar diskutiert? - #neurechtewelt</title>
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+          <meta charset="utf-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+          <meta name="description" content="{generateTitle(pageId, weekYear, weekOfWeekYear)}"/>
+          <meta name="author" content="neurechtewelt"/>
           <meta name="referrer" content="no-referrer"/>
-          <link rel="stylesheet" href="main.css"/>
+          <title>Worüber hat die AfD in der Woche vom 26. Dezember - 1. Januar diskutiert? - #neurechtewelt</title>
+          <link href="bootstrap.min.css" rel="stylesheet"/>
+          <link href="narrow-jumbotron.css" rel="stylesheet"/>
           <script src="main.js"></script>
         </head>
         <body>
-          <div id="outer">
-            <div id="inner">
-              <div id="title">
-                <h1><b>Worüber hat die AfD in der Woche vom 26. Dezember - 1. Januar diskutiert?</b></h1>
-              </div>
-              <div id="controls">
-                <p>Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebsten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
-                <form>
-                  <label>Facebook-Seite:<br/>
-                    <select id="page" onChange="updatePage();">
-                      <option value="alternativefuerde" selected="selected">AfD - Deutschland</option>
-                      <option value="pegidaevofficial">Pegida</option>
-                    </select>
-                  </label><br/>
-                  <label>Woche:<br/>
-                    <select id="week" onChange="updatePage();">
-                      <option value="2017-8">Letzte Woche</option>
-                      <optgroup label="Februar">
-                        <option value="2017-7">13. Februar - 19. Februar</option>
-                        <option value="2017-6">6. Februar - 12. Februar</option>
-                        <option value="2017-5">30. Januar - 5. Februar</option>
-                      </optgroup>
-                      <optgroup label="Januar">
-                        <option value="2017-4">23. - 29. Januar</option>
-                        <option value="2017-3">16. - 22. Januar</option>
-                        <option value="2017-2">9. - 15. Januar</option>
-                        <option value="2017-1">2. - 8. Januar</option>
-                      </optgroup>
-                      <optgroup label="Dezember">
-                        <option value="2016-52" selected="selected">26. Dezember - 1. Januar</option>
-                        <option value="2016-51">19. - 25. Dezember</option>
-                        <option value="2016-50">12. - 18. Dezember</option>
-                        <option value="2016-49">5. - 11. Dezember</option>
-                      </optgroup>
-                    </select>
-                  </label>
-                </form>
-
-                <div id="externals">
-                  <h3>Kontakt</h3>
-                  email <a href="mailto:neurechtewelt[at]posteo.de">neurechtewelt[at]posteo.de</a><br/>
-                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/><br/><br/>
-                  <h3>Selbstverständnis</h3>
-                  Wir wollen Journalisten bei der Recherche helfen und zu Aufklärungsarbeit über die Neue Rechte beitragen.
-                  <br/><br/><br/>
-                  <h3>Wir in der Presse</h3>
-                  <ul style="padding-top: 0; margin-top: 5px;">
-                    <li>
-                      <a href="http://ze.tt/es-gibt-wirklich-nur-vier-themen-ueber-die-neurechte-auf-facebook-sprechen/" target="_blank">Es gibt wirklich nur vier Themen, über die Neurechte auf Facebook sprechen</a>
-                      <br/> <span class="mediaref">ze.tt, 15. Februar</span>
-                    </li>
-                    <li><a href="http://meedia.de/2017/01/24/neurechtewelt-web-projekt-listet-beliebteste-news-artikel-von-afd-und-pegida-anhaengern-bei-facebook-auf/" target="_blank">
-                      Neurechtewelt: Web-Projekt listet News-Artikel, die bei AfD- und Pegida-Anhängern „steil“ gehen</a><br/> <span class="mediaref">MEEDIA, 24. Januar</span></li>
-                  </ul>
-                </div>
-              </div>
-              <div id="links">
-                <ul>
-                  <li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.focus.de/politik/deutschland/news-ticker-zur-koelner-silvesternacht-silvesternacht-unter-starken-sicherheitsvorkehrungen-focus-online-in-koeln_id_6429489.html" rel="nofollow" target="_blank" class="medium">FOCUS Online</a><br/>
-                        <a href="http://www.focus.de/politik/deutschland/news-ticker-zur-koelner-silvesternacht-silvesternacht-unter-starken-sicherheitsvorkehrungen-focus-online-in-koeln_id_6429489.html" rel="nofollow" target="_blank" class="title">Kölner Silvesternacht im News-Ticker</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.focus.de/politik/deutschland/news-ticker-zur-koelner-silvesternacht-silvesternacht-unter-starken-sicherheitsvorkehrungen-focus-online-in-koeln_id_6429489.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.focus.de/resources/ver1-0/pics/fol/focus_online_badge_1200x627px.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.focus.de/politik/deutschland/news-ticker-zur-koelner-silvesternacht-silvesternacht-unter-starken-sicherheitsvorkehrungen-focus-online-in-koeln_id_6429489.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/politik/deutschland/news-ticker-zur-koelner-silvesternacht-silvesterna...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1348166188547050" target="blank">Facebook-Post mit 11713 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/politik/deutschland/article160749025/Grosse-Gruppen-von-Nordafrikanern-irritieren-die-Polizei.html?campaign_id=A100#Comments" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/politik/deutschland/article160749025/Grosse-Gruppen-von-Nordafrikanern-irritieren-die-Polizei.html?campaign_id=A100#Comments" rel="nofollow" target="_blank" class="title">Silvester in Köln: Große Gruppen von Nordafrikanern irritieren die Polizei</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/politik/deutschland/article160749025/Grosse-Gruppen-von-Nordafrikanern-irritieren-die-Polizei.html?campaign_id=A100#Comments" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/politik/deutschland/mobile160750598/7401358587-ci16x9-w1200/Silvester-2016-17-Koeln.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/politik/deutschland/article160749025/Grosse-Gruppen-von-Nordafrikanern-irritieren-die-Polizei.html?campaign_id=A100#Comments" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article160749025/Grosse-Gruppen-von-Nordafrikanern...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1348166188547050" target="blank">Facebook-Post mit 11713 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.sueddeutsche.de/panorama/berlin-obdachloser-angezuendet-tatverdaechtige-stellen-sich-1.3310600" rel="nofollow" target="_blank" class="medium">Süddeutsche.de</a><br/>
-                        <a href="http://www.sueddeutsche.de/panorama/berlin-obdachloser-angezuendet-tatverdaechtige-stellen-sich-1.3310600" rel="nofollow" target="_blank" class="title">Obdachloser angezündet - Haftbefehle gegen Verdächtige</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.sueddeutsche.de/panorama/berlin-obdachloser-angezuendet-tatverdaechtige-stellen-sich-1.3310600" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://polpix.sueddeutsche.com/staticassets/img/article/facebook-default.140428.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.sueddeutsche.de/panorama/berlin-obdachloser-angezuendet-tatverdaechtige-stellen-sich-1.3310600" rel="nofollow" target="_blank" class="outlink">http://www.sueddeutsche.de/panorama/berlin-obdachloser-angezuendet-tatverdaechtige-stellen...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1343508122346190" target="blank">Facebook-Post mit 8011 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf" rel="nofollow" target="_blank" class="medium">Alternative für Deutschland</a><br/>
-                        
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf" rel="nofollow" target="_blank" class="outlink">https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatz...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1345948258768843" target="blank">Facebook-Post mit 6696 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www1.wdr.de/nachrichten/rheinland/entsorgung-beschlagnahmte-korane-100.html" rel="nofollow" target="_blank" class="medium">WDR</a><br/>
-                        <a href="http://www1.wdr.de/nachrichten/rheinland/entsorgung-beschlagnahmte-korane-100.html" rel="nofollow" target="_blank" class="title">Beschlagnahmte Korane in der Wüste vergraben?</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www1.wdr.de/nachrichten/rheinland/entsorgung-beschlagnahmte-korane-100.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www1.wdr.de/nachrichten/grossrazzia-nrw-is-104~_v-gseagaleriexl.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www1.wdr.de/nachrichten/rheinland/entsorgung-beschlagnahmte-korane-100.html" rel="nofollow" target="_blank" class="outlink">http://www1.wdr.de/nachrichten/rheinland/entsorgung-beschlagnahmte-korane-100.html</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1345948258768843" target="blank">Facebook-Post mit 6696 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/politik/deutschland/article160599160/Polizeibeschaeftigte-wenden-sich-von-etablierten-Parteien-ab.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/politik/deutschland/article160599160/Polizeibeschaeftigte-wenden-sich-von-etablierten-Parteien-ab.html" rel="nofollow" target="_blank" class="title">GdP-Chef in Hessen: „Polizeibeschäftigte wenden sich von etablierten Parteien ab“</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/politik/deutschland/article160599160/Polizeibeschaeftigte-wenden-sich-von-etablierten-Parteien-ab.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/politik/deutschland/mobile160602648/8451354577-ci16x9-w1200/Drogenrazzia-in-Frankfurt.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/politik/deutschland/article160599160/Polizeibeschaeftigte-wenden-sich-von-etablierten-Parteien-ab.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article160599160/Polizeibeschaeftigte-wenden-sich-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 2 Facebook-Posts mit ingesamt 5437 Likes: <a class="postlink" href="https://facebook.com/540404695989874_1343264049037264" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/540404695989874_1207129489373623" target="blank"> [Post 2]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.koeln.de/koeln/was_ist_los/silvester/das-silvester-programm-2016-am-koelner-dom_1039916.html" rel="nofollow" target="_blank" class="medium">koeln.de</a><br/>
-                        <a href="http://www.koeln.de/koeln/was_ist_los/silvester/das-silvester-programm-2016-am-koelner-dom_1039916.html" rel="nofollow" target="_blank" class="title">Das Silvester-Programm 2016 am Kölner Dom</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.koeln.de/koeln/was_ist_los/silvester/das-silvester-programm-2016-am-koelner-dom_1039916.html" rel="nofollow" target="_blank" class="outlink">http://www.koeln.de/koeln/was_ist_los/silvester/das-silvester-programm-2016-am-koelner-dom...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1345211458842523" target="blank">Facebook-Post mit 4800 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.rp-online.de/nrw/staedte/koeln/fluechtlinge-als-sicherheitsleute-in-koelner-silvesternacht-eingesetzt-aid-1.6492715" rel="nofollow" target="_blank" class="medium">Rheinische Post</a><br/>
-                        <a href="http://www.rp-online.de/nrw/staedte/koeln/fluechtlinge-als-sicherheitsleute-in-koelner-silvesternacht-eingesetzt-aid-1.6492715" rel="nofollow" target="_blank" class="title">Flüchtlinge als Sicherheitsleute in Kölner Silvesternacht eingesetzt</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.rp-online.de/nrw/staedte/koeln/fluechtlinge-als-sicherheitsleute-in-koelner-silvesternacht-eingesetzt-aid-1.6492715" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://bc03.rp-online.de/polopoly_fs/zahlreiche-menschen-31122015-koeln-nordrhein-westfalen-1.5681917.1452454444!httpImage/2787374815.jpg_gen/derivatives/d950x950/2787374815.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.rp-online.de/nrw/staedte/koeln/fluechtlinge-als-sicherheitsleute-in-koelner-silvesternacht-eingesetzt-aid-1.6492715" rel="nofollow" target="_blank" class="outlink">http://www.rp-online.de/nrw/staedte/koeln/fluechtlinge-als-sicherheitsleute-in-koelner-sil...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1345211458842523" target="blank">Facebook-Post mit 4800 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.tagesschau.de/inland/bka-kriminalitaet-fluechtlinge-103.html" rel="nofollow" target="_blank" class="medium">tagesschau.de</a><br/>
-                        <a href="http://www.tagesschau.de/inland/bka-kriminalitaet-fluechtlinge-103.html" rel="nofollow" target="_blank" class="title">Vertraulicher BKA-Bericht: Zuwanderer begehen weniger Straftaten</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.tagesschau.de/inland/bka-kriminalitaet-fluechtlinge-103.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.tagesschau.de/multimedia/bilder/taschendieb-101~_v-videowebm.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.tagesschau.de/inland/bka-kriminalitaet-fluechtlinge-103.html" rel="nofollow" target="_blank" class="outlink">http://www.tagesschau.de/inland/bka-kriminalitaet-fluechtlinge-103.html</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1347008371996165" target="blank">Facebook-Post mit 3937 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/KriminalitaetImKontextVonZuwanderung_2015.html" rel="nofollow" target="_blank" class="medium">bka.de</a><br/>
-                        <a href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/KriminalitaetImKontextVonZuwanderung_2015.html" rel="nofollow" target="_blank" class="title">BKA  -  Lagebilder - Bundeslagebild Kriminalität im Kontext von Zuwanderung 2015</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/KriminalitaetImKontextVonZuwanderung_2015.html" rel="nofollow" target="_blank" class="outlink">https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/Krimi...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1347008371996165" target="blank">Facebook-Post mit 3937 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/kernaussagenZuKriminalitaetImKontextVonZuwanderung.html?nn=62336" rel="nofollow" target="_blank" class="medium">bka.de</a><br/>
-                        <a href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/kernaussagenZuKriminalitaetImKontextVonZuwanderung.html?nn=62336" rel="nofollow" target="_blank" class="title">BKA  -  Kriminalität im Kontext von Zuwanderung - Kernaussagen 'Kriminalität im Kontext von Zuwanderung', Betrachtungszeitraum: 01.01. – 30.09.2016</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/kernaussagenZuKriminalitaetImKontextVonZuwanderung.html?nn=62336" rel="nofollow" target="_blank" class="outlink">https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/Krimi...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1347008371996165" target="blank">Facebook-Post mit 3937 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://afdspenden.de/" rel="nofollow" target="_blank" class="medium">afdspenden.de</a><br/>
-                        <a href="https://afdspenden.de/" rel="nofollow" target="_blank" class="title">AfD Spenden - Spendenkampagne 2016</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://afdspenden.de/" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://cdn.afd.tools/sites/76/2016/10/17165607/logo_afd_100h.png"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://afdspenden.de/" rel="nofollow" target="_blank" class="outlink">https://afdspenden.de/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1344410118922657" target="blank">Facebook-Post mit 2171 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/politik/deutschland/article160617271/Gefaehrdern-keine-Chance-zum-Untertauchen-lassen.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/politik/deutschland/article160617271/Gefaehrdern-keine-Chance-zum-Untertauchen-lassen.html" rel="nofollow" target="_blank" class="title">SPD-Vize Stegner fordert Rückführungsabkommen</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/politik/deutschland/article160617271/Gefaehrdern-keine-Chance-zum-Untertauchen-lassen.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/politik/deutschland/mobile160617269/7571352047-ci16x9-w1200/Ralf-Stegner-2.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/politik/deutschland/article160617271/Gefaehrdern-keine-Chance-zum-Untertauchen-lassen.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article160617271/Gefaehrdern-keine-Chance-zum-Unte...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1344128242284178" target="blank">Facebook-Post mit 1910 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/politik/deutschland/article160597281/Immer-weniger-Deutsche-glauben-an-Integrationserfolg.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/politik/deutschland/article160597281/Immer-weniger-Deutsche-glauben-an-Integrationserfolg.html" rel="nofollow" target="_blank" class="title">Flüchtlingskrise: Immer weniger Deutsche glauben an Integrationserfolg</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/politik/deutschland/article160597281/Immer-weniger-Deutsche-glauben-an-Integrationserfolg.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/politik/deutschland/mobile160597284/9961357217-ci16x9-w1200/Offenbacher-Schueler-treffen-Bundespraesidenten.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/politik/deutschland/article160597281/Immer-weniger-Deutsche-glauben-an-Integrationserfolg.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article160597281/Immer-weniger-Deutsche-glauben-an...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 2 Facebook-Posts mit ingesamt 33 Likes: <a class="postlink" href="https://facebook.com/540404695989874_261676957585082" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/540404695989874_1840384519572601" target="blank"> [Post 2]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://de.blastingnews.com/politik/2016/12/afd-anhanger-erweisen-totem-lkw-fahrer-von-berlin-die-letzte-ehre-001339099.html" rel="nofollow" target="_blank" class="medium">blastingnews.com</a><br/>
-                        <a href="http://de.blastingnews.com/politik/2016/12/afd-anhanger-erweisen-totem-lkw-fahrer-von-berlin-die-letzte-ehre-001339099.html" rel="nofollow" target="_blank" class="title">AfD-Anhänger erweisen totem LKW-Fahrer von Berlin die letzte Ehre</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://de.blastingnews.com/politik/2016/12/afd-anhanger-erweisen-totem-lkw-fahrer-von-berlin-die-letzte-ehre-001339099.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://static.blastingnews.com/media/photogallery/2016/12/19/main/anhanger-der-afd-in-polen-bei-der-bestattung-urbans_1060407.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://de.blastingnews.com/politik/2016/12/afd-anhanger-erweisen-totem-lkw-fahrer-von-berlin-die-letzte-ehre-001339099.html" rel="nofollow" target="_blank" class="outlink">http://de.blastingnews.com/politik/2016/12/afd-anhanger-erweisen-totem-lkw-fahrer-von-berl...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 2 Facebook-Posts mit ingesamt 17 Likes: <a class="postlink" href="https://facebook.com/540404695989874_1573517479343485" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/540404695989874_1094633527329851" target="blank"> [Post 2]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/498550173567592/videos/1257389127683689/" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/498550173567592/videos/1257389127683689/" rel="nofollow" target="_blank" class="title">Guido Reil ist zum Direktkandidaten zur Landtagswahl 2017 für die AfD für den Wahlkreis 65 Essen I - MH II gewählt worden!</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/498550173567592/videos/1257389127683689/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/498550173567592/videos/1257389127683689/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_224408804673430" target="blank">Facebook-Post mit 15 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/AfDBgL/posts/1841684176109302" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/AfDBgL/posts/1841684176109302" rel="nofollow" target="_blank" class="title">&quot;Wählt mich, ich kann sonst nichts&quot;</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/AfDBgL/posts/1841684176109302" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/AfDBgL/posts/1841684176109302</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1841684779442575" target="blank">Facebook-Post mit 12 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/31/bilderberg-website-gehackt-drohung-an-die-eliten/?nlid=7066dcd1ca" rel="nofollow" target="_blank" class="medium">Deutsche Wirtschaftsnachrichten</a><br/>
-                        <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/31/bilderberg-website-gehackt-drohung-an-die-eliten/?nlid=7066dcd1ca" rel="nofollow" target="_blank" class="title">Bilderberg-Website gehackt, Drohung an die Eliten</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/31/bilderberg-website-gehackt-drohung-an-die-eliten/?nlid=7066dcd1ca" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://deutsche-wirtschafts-nachrichten.de/wp-content/uploads/2016/12/Bilderberg-600x521.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/31/bilderberg-website-gehackt-drohung-an-die-eliten/?nlid=7066dcd1ca" rel="nofollow" target="_blank" class="outlink">https://deutsche-wirtschafts-nachrichten.de/2016/12/31/bilderberg-website-gehackt-drohung-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1798251663773449" target="blank">Facebook-Post mit 10 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        <span class="warn">
-          <a href="https://www.vice.com/de/article/wie-serioes-sind-die-deutschen-wirtschafts-nachrichten-283" target="_blank">Hintergrund zu &quot;Deutsche Wirtschaftsnachrichten&quot;</a>
-        </span>
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842789235998796/?type=3&amp;theater" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842789235998796/?type=3&amp;theater" rel="nofollow" target="_blank" class="title">Ein erfolgreiches Jahr für die AfD geht zu Ende und ein noch erfolgreicheres Jahr 2017 erwartet uns.</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842789235998796/?type=3&amp;theater" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1842793742665012" target="blank">Facebook-Post mit 10 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://m.facebook.com/story.php?story_fbid=1620113344960515&amp;id=1564401833865000" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://m.facebook.com/story.php?story_fbid=1620113344960515&amp;id=1564401833865000" rel="nofollow" target="_blank" class="title">Verfassungsrechtliches Gutachten bestätigt: Merkels Grenzöffnung war rechtswidrig!</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://m.facebook.com/story.php?story_fbid=1620113344960515&amp;id=1564401833865000" rel="nofollow" target="_blank" class="outlink">https://m.facebook.com/story.php?story_fbid=1620113344960515&amp;id=1564401833865000</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1625522417461615" target="blank">Facebook-Post mit 10 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
+          <div class="container">
+            <div class="header clearfix">
+              <nav>
+                <ul class="nav nav-pills float-right">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nrw.html">Über uns</a>
                   </li>
                 </ul>
-                <p>
-                  <a href="#">↑ nach oben</a><br/><br/>
+              </nav>
+              <h3 class="text-muted">#neurechtewelt</h3>
+            </div>
+            <div class="jumbotron" style="padding: 1rem 2rem 1rem 2rem; text-align: left;">
+              <p class="lead"><b>Die Angst und der Hass schaffen sich eigene Realitäten</b>. Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebtesten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
+              <form class="form-inline">
+                <label class="mr-sm-2" for="page">Facebook-Seite</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="page" onChange="updatePage();">
+                  <option value="alternativefuerde" selected="selected">AfD</option>
+                  <option value="pegidaevofficial">Pegida</option>
+                </select>
+                <label class="mr-sm-2" for="week">&nbsp;&nbsp;&nbsp;Woche</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="week" onChange="updatePage();">
+                  <option value="2017-8">Letzte Woche</option>
+                  <optgroup label="Februar">
+                    <option value="2017-7">13. Februar - 19. Februar</option>
+                    <option value="2017-6">6. Februar - 12. Februar</option>
+                    <option value="2017-5">30. Januar - 5. Februar</option>
+                  </optgroup>
+                  <optgroup label="Januar">
+                    <option value="2017-4">23. - 29. Januar</option>
+                    <option value="2017-3">16. - 22. Januar</option>
+                    <option value="2017-2">9. - 15. Januar</option>
+                    <option value="2017-1">2. - 8. Januar</option>
+                  </optgroup>
+                  <optgroup label="Dezember">
+                    <option value="2016-52" selected="selected">26. Dezember - 1. Januar</option>
+                    <option value="2016-51">19. - 25. Dezember</option>
+                    <option value="2016-50">12. - 18. Dezember</option>
+                    <option value="2016-49">5. - 11. Dezember</option>
+                  </optgroup>
+                </select>
+                </form>
+            </div>
+            <div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.focus.de/politik/deutschland/news-ticker-zur-koelner-silvesternacht-silvesternacht-unter-starken-sicherheitsvorkehrungen-focus-online-in-koeln_id_6429489.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.focus.de/resources/ver1-0/pics/fol/focus_online_badge_1200x627px.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>FOCUS Online</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.focus.de/politik/deutschland/news-ticker-zur-koelner-silvesternacht-silvesternacht-unter-starken-sicherheitsvorkehrungen-focus-online-in-koeln_id_6429489.html" rel="nofollow" target="_blank">Kölner Silvesternacht im News-Ticker</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.focus.de/politik/deutschland/news-ticker-zur-koelner-silvesternacht-silvesternacht-unter-starken-sicherheitsvorkehrungen-focus-online-in-koeln_id_6429489.html">http://www.focus.de/politik/deutschland/news-ticker-zur-koelner-silvesternacht-silvesternacht-unter-starken-sicherheitsvorkehrunge...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1348166188547050" target="blank">Facebook-Post mit 11713 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/politik/deutschland/article160749025/Grosse-Gruppen-von-Nordafrikanern-irritieren-die-Polizei.html?campaign_id=A100#Comments" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/politik/deutschland/mobile160750598/7401358587-ci16x9-w1200/Silvester-2016-17-Koeln.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/politik/deutschland/article160749025/Grosse-Gruppen-von-Nordafrikanern-irritieren-die-Polizei.html?campaign_id=A100#Comments" rel="nofollow" target="_blank">Silvester in Köln: Große Gruppen von Nordafrikanern irritieren die Polizei</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/politik/deutschland/article160749025/Grosse-Gruppen-von-Nordafrikanern-irritieren-die-Polizei.html?campaign_id=A100#Comments">https://www.welt.de/politik/deutschland/article160749025/Grosse-Gruppen-von-Nordafrikanern-irritieren-die-Polizei.html?campaign_id...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1348166188547050" target="blank">Facebook-Post mit 11713 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.sueddeutsche.de/panorama/berlin-obdachloser-angezuendet-tatverdaechtige-stellen-sich-1.3310600" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://polpix.sueddeutsche.com/staticassets/img/article/facebook-default.140428.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Süddeutsche.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.sueddeutsche.de/panorama/berlin-obdachloser-angezuendet-tatverdaechtige-stellen-sich-1.3310600" rel="nofollow" target="_blank">Obdachloser angezündet - Haftbefehle gegen Verdächtige</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.sueddeutsche.de/panorama/berlin-obdachloser-angezuendet-tatverdaechtige-stellen-sich-1.3310600">http://www.sueddeutsche.de/panorama/berlin-obdachloser-angezuendet-tatverdaechtige-stellen-sich-1.3310600</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1343508122346190" target="blank">Facebook-Post mit 8011 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Alternative für Deutschland</h6>
+                
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf">https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1345948258768843" target="blank">Facebook-Post mit 6696 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www1.wdr.de/nachrichten/rheinland/entsorgung-beschlagnahmte-korane-100.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www1.wdr.de/nachrichten/grossrazzia-nrw-is-104~_v-gseagaleriexl.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>WDR</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www1.wdr.de/nachrichten/rheinland/entsorgung-beschlagnahmte-korane-100.html" rel="nofollow" target="_blank">Beschlagnahmte Korane in der Wüste vergraben?</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www1.wdr.de/nachrichten/rheinland/entsorgung-beschlagnahmte-korane-100.html">http://www1.wdr.de/nachrichten/rheinland/entsorgung-beschlagnahmte-korane-100.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1345948258768843" target="blank">Facebook-Post mit 6696 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/politik/deutschland/article160599160/Polizeibeschaeftigte-wenden-sich-von-etablierten-Parteien-ab.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/politik/deutschland/mobile160602648/8451354577-ci16x9-w1200/Drogenrazzia-in-Frankfurt.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/politik/deutschland/article160599160/Polizeibeschaeftigte-wenden-sich-von-etablierten-Parteien-ab.html" rel="nofollow" target="_blank">GdP-Chef in Hessen: „Polizeibeschäftigte wenden sich von etablierten Parteien ab“</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/politik/deutschland/article160599160/Polizeibeschaeftigte-wenden-sich-von-etablierten-Parteien-ab.html">https://www.welt.de/politik/deutschland/article160599160/Polizeibeschaeftigte-wenden-sich-von-etablierten-Parteien-ab.html</a>
+                <p class="small">
+                  <span>Gefunden auf 2 Facebook-Posts mit ingesamt 5437 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1343264049037264" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1207129489373623" target="blank"> [Post 2]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>koeln.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.koeln.de/koeln/was_ist_los/silvester/das-silvester-programm-2016-am-koelner-dom_1039916.html" rel="nofollow" target="_blank">Das Silvester-Programm 2016 am Kölner Dom</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.koeln.de/koeln/was_ist_los/silvester/das-silvester-programm-2016-am-koelner-dom_1039916.html">http://www.koeln.de/koeln/was_ist_los/silvester/das-silvester-programm-2016-am-koelner-dom_1039916.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1345211458842523" target="blank">Facebook-Post mit 4800 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.rp-online.de/nrw/staedte/koeln/fluechtlinge-als-sicherheitsleute-in-koelner-silvesternacht-eingesetzt-aid-1.6492715" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://bc03.rp-online.de/polopoly_fs/zahlreiche-menschen-31122015-koeln-nordrhein-westfalen-1.5681917.1452454444!httpImage/2787374815.jpg_gen/derivatives/d950x950/2787374815.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Rheinische Post</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.rp-online.de/nrw/staedte/koeln/fluechtlinge-als-sicherheitsleute-in-koelner-silvesternacht-eingesetzt-aid-1.6492715" rel="nofollow" target="_blank">Flüchtlinge als Sicherheitsleute in Kölner Silvesternacht eingesetzt</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.rp-online.de/nrw/staedte/koeln/fluechtlinge-als-sicherheitsleute-in-koelner-silvesternacht-eingesetzt-aid-1.6492715">http://www.rp-online.de/nrw/staedte/koeln/fluechtlinge-als-sicherheitsleute-in-koelner-silvesternacht-eingesetzt-aid-1.6492715</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1345211458842523" target="blank">Facebook-Post mit 4800 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.tagesschau.de/inland/bka-kriminalitaet-fluechtlinge-103.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.tagesschau.de/multimedia/bilder/taschendieb-101~_v-videowebm.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>tagesschau.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.tagesschau.de/inland/bka-kriminalitaet-fluechtlinge-103.html" rel="nofollow" target="_blank">Vertraulicher BKA-Bericht: Zuwanderer begehen weniger Straftaten</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.tagesschau.de/inland/bka-kriminalitaet-fluechtlinge-103.html">http://www.tagesschau.de/inland/bka-kriminalitaet-fluechtlinge-103.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1347008371996165" target="blank">Facebook-Post mit 3937 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>bka.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/KriminalitaetImKontextVonZuwanderung_2015.html" rel="nofollow" target="_blank">BKA  -  Lagebilder - Bundeslagebild Kriminalität im Kontext von Zuwanderung 2015</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/KriminalitaetImKontextVonZuwanderung_2015.html">https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/Kriminal...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1347008371996165" target="blank">Facebook-Post mit 3937 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>bka.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/kernaussagenZuKriminalitaetImKontextVonZuwanderung.html?nn=62336" rel="nofollow" target="_blank">BKA  -  Kriminalität im Kontext von Zuwanderung - Kernaussagen 'Kriminalität im Kontext von Zuwanderung', Betrachtungszeitraum: 01.01. – 30.09.2016</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/kernaussagenZuKriminalitaetImKontextVonZuwanderung.html?nn=62336">https://www.bka.de/SharedDocs/Downloads/DE/Publikationen/JahresberichteUndLagebilder/KriminalitaetImKontextVonZuwanderung/kernauss...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1347008371996165" target="blank">Facebook-Post mit 3937 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://afdspenden.de/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://cdn.afd.tools/sites/76/2016/10/17165607/logo_afd_100h.png"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>afdspenden.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://afdspenden.de/" rel="nofollow" target="_blank">AfD Spenden - Spendenkampagne 2016</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://afdspenden.de/">https://afdspenden.de/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1344410118922657" target="blank">Facebook-Post mit 2171 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/politik/deutschland/article160617271/Gefaehrdern-keine-Chance-zum-Untertauchen-lassen.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/politik/deutschland/mobile160617269/7571352047-ci16x9-w1200/Ralf-Stegner-2.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/politik/deutschland/article160617271/Gefaehrdern-keine-Chance-zum-Untertauchen-lassen.html" rel="nofollow" target="_blank">SPD-Vize Stegner fordert Rückführungsabkommen</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/politik/deutschland/article160617271/Gefaehrdern-keine-Chance-zum-Untertauchen-lassen.html">https://www.welt.de/politik/deutschland/article160617271/Gefaehrdern-keine-Chance-zum-Untertauchen-lassen.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1344128242284178" target="blank">Facebook-Post mit 1910 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/politik/deutschland/article160597281/Immer-weniger-Deutsche-glauben-an-Integrationserfolg.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/politik/deutschland/mobile160597284/9961357217-ci16x9-w1200/Offenbacher-Schueler-treffen-Bundespraesidenten.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/politik/deutschland/article160597281/Immer-weniger-Deutsche-glauben-an-Integrationserfolg.html" rel="nofollow" target="_blank">Flüchtlingskrise: Immer weniger Deutsche glauben an Integrationserfolg</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/politik/deutschland/article160597281/Immer-weniger-Deutsche-glauben-an-Integrationserfolg.html">https://www.welt.de/politik/deutschland/article160597281/Immer-weniger-Deutsche-glauben-an-Integrationserfolg.html</a>
+                <p class="small">
+                  <span>Gefunden auf 2 Facebook-Posts mit ingesamt 33 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_261676957585082" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1840384519572601" target="blank"> [Post 2]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://de.blastingnews.com/politik/2016/12/afd-anhanger-erweisen-totem-lkw-fahrer-von-berlin-die-letzte-ehre-001339099.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://static.blastingnews.com/media/photogallery/2016/12/19/main/anhanger-der-afd-in-polen-bei-der-bestattung-urbans_1060407.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>blastingnews.com</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://de.blastingnews.com/politik/2016/12/afd-anhanger-erweisen-totem-lkw-fahrer-von-berlin-die-letzte-ehre-001339099.html" rel="nofollow" target="_blank">AfD-Anhänger erweisen totem LKW-Fahrer von Berlin die letzte Ehre</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://de.blastingnews.com/politik/2016/12/afd-anhanger-erweisen-totem-lkw-fahrer-von-berlin-die-letzte-ehre-001339099.html">http://de.blastingnews.com/politik/2016/12/afd-anhanger-erweisen-totem-lkw-fahrer-von-berlin-die-letzte-ehre-001339099.html</a>
+                <p class="small">
+                  <span>Gefunden auf 2 Facebook-Posts mit ingesamt 17 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1573517479343485" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1094633527329851" target="blank"> [Post 2]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/498550173567592/videos/1257389127683689/" rel="nofollow" target="_blank">Guido Reil ist zum Direktkandidaten zur Landtagswahl 2017 für die AfD für den Wahlkreis 65 Essen I - MH II gewählt worden!</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/498550173567592/videos/1257389127683689/">https://www.facebook.com/498550173567592/videos/1257389127683689/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_224408804673430" target="blank">Facebook-Post mit 15 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/AfDBgL/posts/1841684176109302" rel="nofollow" target="_blank">&quot;Wählt mich, ich kann sonst nichts&quot;</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/AfDBgL/posts/1841684176109302">https://www.facebook.com/AfDBgL/posts/1841684176109302</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1841684779442575" target="blank">Facebook-Post mit 12 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/31/bilderberg-website-gehackt-drohung-an-die-eliten/?nlid=7066dcd1ca" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://deutsche-wirtschafts-nachrichten.de/wp-content/uploads/2016/12/Bilderberg-600x521.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Deutsche Wirtschaftsnachrichten</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://deutsche-wirtschafts-nachrichten.de/2016/12/31/bilderberg-website-gehackt-drohung-an-die-eliten/?nlid=7066dcd1ca" rel="nofollow" target="_blank">Bilderberg-Website gehackt, Drohung an die Eliten</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://deutsche-wirtschafts-nachrichten.de/2016/12/31/bilderberg-website-gehackt-drohung-an-die-eliten/?nlid=7066dcd1ca">https://deutsche-wirtschafts-nachrichten.de/2016/12/31/bilderberg-website-gehackt-drohung-an-die-eliten/?nlid=7066dcd1ca</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1798251663773449" target="blank">Facebook-Post mit 10 Likes</a></span>
+                  <br/><a class="warn" href="https://www.vice.com/de/article/wie-serioes-sind-die-deutschen-wirtschafts-nachrichten-283" target="_blank">Hintergrund zu &quot;Deutsche Wirtschaftsnachrichten&quot;</a>
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842789235998796/?type=3&amp;theater" rel="nofollow" target="_blank">Ein erfolgreiches Jahr für die AfD geht zu Ende und ein noch erfolgreicheres Jahr 2017 erwartet uns.</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842789235998796/?type=3&amp;theater">https://www.facebook.com/AfDBgL/photos/a.1400119830265741.1073741829.1396976483913409/1842789235998796/?type=3&amp;theater</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1842793742665012" target="blank">Facebook-Post mit 10 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://m.facebook.com/story.php?story_fbid=1620113344960515&amp;id=1564401833865000" rel="nofollow" target="_blank">Verfassungsrechtliches Gutachten bestätigt: Merkels Grenzöffnung war rechtswidrig!</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://m.facebook.com/story.php?story_fbid=1620113344960515&amp;id=1564401833865000">https://m.facebook.com/story.php?story_fbid=1620113344960515&amp;id=1564401833865000</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1625522417461615" target="blank">Facebook-Post mit 10 Likes</a></span>
+                  
                 </p>
               </div>
             </div>
+            <footer class="footer">
+              <div class="row marketing" style="margin: 0;">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+                  <a href="#" style="color: #545454;">↑ nach oben</a>
+                </div>
+              </div>
+            </footer>
           </div>
+          <script src="ie10-viewport-bug-workaround.js"></script>
         </body>
       </html>

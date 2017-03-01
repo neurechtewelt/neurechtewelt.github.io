@@ -1,463 +1,389 @@
-<html>
+<html lang="de">
         <head>
-          <title>Worüber hat die AfD in der Woche vom 19. - 25. Dezember diskutiert? - #neurechtewelt</title>
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+          <meta charset="utf-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+          <meta name="description" content="{generateTitle(pageId, weekYear, weekOfWeekYear)}"/>
+          <meta name="author" content="neurechtewelt"/>
           <meta name="referrer" content="no-referrer"/>
-          <link rel="stylesheet" href="main.css"/>
+          <title>Worüber hat die AfD in der Woche vom 19. - 25. Dezember diskutiert? - #neurechtewelt</title>
+          <link href="bootstrap.min.css" rel="stylesheet"/>
+          <link href="narrow-jumbotron.css" rel="stylesheet"/>
           <script src="main.js"></script>
         </head>
         <body>
-          <div id="outer">
-            <div id="inner">
-              <div id="title">
-                <h1><b>Worüber hat die AfD in der Woche vom 19. - 25. Dezember diskutiert?</b></h1>
-              </div>
-              <div id="controls">
-                <p>Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebsten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
-                <form>
-                  <label>Facebook-Seite:<br/>
-                    <select id="page" onChange="updatePage();">
-                      <option value="alternativefuerde" selected="selected">AfD - Deutschland</option>
-                      <option value="pegidaevofficial">Pegida</option>
-                    </select>
-                  </label><br/>
-                  <label>Woche:<br/>
-                    <select id="week" onChange="updatePage();">
-                      <option value="2017-8">Letzte Woche</option>
-                      <optgroup label="Februar">
-                        <option value="2017-7">13. Februar - 19. Februar</option>
-                        <option value="2017-6">6. Februar - 12. Februar</option>
-                        <option value="2017-5">30. Januar - 5. Februar</option>
-                      </optgroup>
-                      <optgroup label="Januar">
-                        <option value="2017-4">23. - 29. Januar</option>
-                        <option value="2017-3">16. - 22. Januar</option>
-                        <option value="2017-2">9. - 15. Januar</option>
-                        <option value="2017-1">2. - 8. Januar</option>
-                      </optgroup>
-                      <optgroup label="Dezember">
-                        <option value="2016-52">26. Dezember - 1. Januar</option>
-                        <option value="2016-51" selected="selected">19. - 25. Dezember</option>
-                        <option value="2016-50">12. - 18. Dezember</option>
-                        <option value="2016-49">5. - 11. Dezember</option>
-                      </optgroup>
-                    </select>
-                  </label>
-                </form>
-
-                <div id="externals">
-                  <h3>Kontakt</h3>
-                  email <a href="mailto:neurechtewelt[at]posteo.de">neurechtewelt[at]posteo.de</a><br/>
-                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/><br/><br/>
-                  <h3>Selbstverständnis</h3>
-                  Wir wollen Journalisten bei der Recherche helfen und zu Aufklärungsarbeit über die Neue Rechte beitragen.
-                  <br/><br/><br/>
-                  <h3>Wir in der Presse</h3>
-                  <ul style="padding-top: 0; margin-top: 5px;">
-                    <li>
-                      <a href="http://ze.tt/es-gibt-wirklich-nur-vier-themen-ueber-die-neurechte-auf-facebook-sprechen/" target="_blank">Es gibt wirklich nur vier Themen, über die Neurechte auf Facebook sprechen</a>
-                      <br/> <span class="mediaref">ze.tt, 15. Februar</span>
-                    </li>
-                    <li><a href="http://meedia.de/2017/01/24/neurechtewelt-web-projekt-listet-beliebteste-news-artikel-von-afd-und-pegida-anhaengern-bei-facebook-auf/" target="_blank">
-                      Neurechtewelt: Web-Projekt listet News-Artikel, die bei AfD- und Pegida-Anhängern „steil“ gehen</a><br/> <span class="mediaref">MEEDIA, 24. Januar</span></li>
-                  </ul>
-                </div>
-              </div>
-              <div id="links">
-                <ul>
-                  <li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.focus.de/politik/deutschland/anschlag-in-berlin-nach-ihm-fahndet-die-polizei-was-wir-ueber-anis-a-wissen_id_6387625.html" rel="nofollow" target="_blank" class="medium">FOCUS Online</a><br/>
-                        <a href="http://www.focus.de/politik/deutschland/anschlag-in-berlin-nach-ihm-fahndet-die-polizei-was-wir-ueber-anis-a-wissen_id_6387625.html" rel="nofollow" target="_blank" class="title">Anis A.: Das ist über den Terror-Verdächtigen von Berlin bekannt</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.focus.de/politik/deutschland/anschlag-in-berlin-nach-ihm-fahndet-die-polizei-was-wir-ueber-anis-a-wissen_id_6387625.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://p5.focus.de/img/fotos/crop6380644/4532717687-w1200-h627-o-q75-p5/berlin.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.focus.de/politik/deutschland/anschlag-in-berlin-nach-ihm-fahndet-die-polizei-was-wir-ueber-anis-a-wissen_id_6387625.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/politik/deutschland/anschlag-in-berlin-nach-ihm-fahndet-die-polizei-wa...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1335262379837431" target="blank">Facebook-Post mit 8456 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.dailymail.co.uk/news/article-4054140/How-German-police-bungled-hunt-Europe-s-wanted-man-Asylum-seeker-23-wrongly-blamed-Christmas-market-massacre-jumping-red-light.html" rel="nofollow" target="_blank" class="medium">dailymail.co.uk</a><br/>
-                        <a href="http://www.dailymail.co.uk/news/article-4054140/How-German-police-bungled-hunt-Europe-s-wanted-man-Asylum-seeker-23-wrongly-blamed-Christmas-market-massacre-jumping-red-light.html" rel="nofollow" target="_blank" class="title">Tunisian asylum seeker, 23, suspected of carrying out Berlin massacre was arrested THREE times this year amid fears he was planning a terror plot - but police let him go and are now offering 100,000 euros to anyone who finds him</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.dailymail.co.uk/news/article-4054140/How-German-police-bungled-hunt-Europe-s-wanted-man-Asylum-seeker-23-wrongly-blamed-Christmas-market-massacre-jumping-red-light.html" rel="nofollow" target="_blank" class="outlink">http://www.dailymail.co.uk/news/article-4054140/How-German-police-bungled-hunt-Europe-s-wa...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 2 Facebook-Posts mit ingesamt 8456 Likes: <a class="postlink" href="https://facebook.com/540404695989874_1558480554178833" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/540404695989874_1335262379837431" target="blank"> [Post 2]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/politik/deutschland/live160453735/Mutmasslicher-Anschlag-Die-Lage-im-Liveticker.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/politik/deutschland/live160453735/Mutmasslicher-Anschlag-Die-Lage-im-Liveticker.html" rel="nofollow" target="_blank" class="title">Anschlag in Berlin: „Ich schlage dir den Kopf ab&quot;, drohte er dem Mithäftling</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/politik/deutschland/live160453735/Mutmasslicher-Anschlag-Die-Lage-im-Liveticker.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/politik/deutschland/mobile160516458/1501357507-ci16x9-w1200/title.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/politik/deutschland/live160453735/Mutmasslicher-Anschlag-Die-Lage-im-Liveticker.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/live160453735/Mutmasslicher-Anschlag-Die-Lage-im-L...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1332849296745406" target="blank">Facebook-Post mit 7304 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf" rel="nofollow" target="_blank" class="medium">Alternative für Deutschland</a><br/>
-                        
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf" rel="nofollow" target="_blank" class="outlink">https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatz...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1341485645881771" target="blank">Facebook-Post mit 3809 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/Factsheet_WB_Kinderarmut_DE_09_2016.pdf" rel="nofollow" target="_blank" class="medium">bertelsmann-stiftung.de</a><br/>
-                        <a href="https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/Factsheet_WB_Kinderarmut_DE_09_2016.pdf" rel="nofollow" target="_blank" class="title">Kinderarmut: Kinder im SGB-II-Bezug in Deutschland</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/Factsheet_WB_Kinderarmut_DE_09_2016.pdf" rel="nofollow" target="_blank" class="outlink">https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/F...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1341485645881771" target="blank">Facebook-Post mit 3809 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.focus.de/politik/deutschland/jutta-cordt-kuenftige-bamf-chefin-spricht-erstmals-ueber-plaene_id_6372688.html" rel="nofollow" target="_blank" class="medium">FOCUS Online</a><br/>
-                        <a href="http://www.focus.de/politik/deutschland/jutta-cordt-kuenftige-bamf-chefin-spricht-erstmals-ueber-plaene_id_6372688.html" rel="nofollow" target="_blank" class="title">Jutta Cordt: Künftige Bamf-Chefin spricht erstmals über Pläne</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.focus.de/politik/deutschland/jutta-cordt-kuenftige-bamf-chefin-spricht-erstmals-ueber-plaene_id_6372688.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://p5.focus.de/img/fotos/crop6371683/0662715138-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-161218-99-579573-large-4-3.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.focus.de/politik/deutschland/jutta-cordt-kuenftige-bamf-chefin-spricht-erstmals-ueber-plaene_id_6372688.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/politik/deutschland/jutta-cordt-kuenftige-bamf-chefin-spricht-erstmals...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1332176410146028" target="blank">Facebook-Post mit 3254 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.faz.net/aktuell/wirtschaft/cdu-und-wolfgang-schaeuble-sind-bei-bargeld-politik-uneins-14581212.html" rel="nofollow" target="_blank" class="medium">FAZ</a><br/>
-                        <a href="http://www.faz.net/aktuell/wirtschaft/cdu-und-wolfgang-schaeuble-sind-bei-bargeld-politik-uneins-14581212.html" rel="nofollow" target="_blank" class="title">CDU und Wolfgang Schäuble sind bei Bargeld-Politik uneins</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.faz.net/aktuell/wirtschaft/cdu-und-wolfgang-schaeuble-sind-bei-bargeld-politik-uneins-14581212.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://media1.faz.net/ppmedia/aktuell/wirtschaft/1484747309/1.4582071/article_multimedia_overview/der-cdu-parteitag-missbilligte.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.faz.net/aktuell/wirtschaft/cdu-und-wolfgang-schaeuble-sind-bei-bargeld-politik-uneins-14581212.html" rel="nofollow" target="_blank" class="outlink">http://www.faz.net/aktuell/wirtschaft/cdu-und-wolfgang-schaeuble-sind-bei-bargeld-politik-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1334996419864027" target="blank">Facebook-Post mit 1671 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://m.facebook.com/story.php?story_fbid=1649510935349025&amp;substory_index=0&amp;id=1409399859360135" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://m.facebook.com/story.php?story_fbid=1649510935349025&amp;substory_index=0&amp;id=1409399859360135" rel="nofollow" target="_blank" class="title">Betroffenheitsbingo</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://m.facebook.com/story.php?story_fbid=1649510935349025&amp;substory_index=0&amp;id=1409399859360135" rel="nofollow" target="_blank" class="outlink">https://m.facebook.com/story.php?story_fbid=1649510935349025&amp;substory_index=0&amp;id=140939985...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1609104775770046" target="blank">Facebook-Post mit 14 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.waz.de/panorama/wie-die-afd-die-tat-von-berlin-fuer-sich-instrumentalisiert-id209039125.html" rel="nofollow" target="_blank" class="medium">waz.de</a><br/>
-                        <a href="http://www.waz.de/panorama/wie-die-afd-die-tat-von-berlin-fuer-sich-instrumentalisiert-id209039125.html" rel="nofollow" target="_blank" class="title">Wie Marcus Pretzell die Tat von Berlin für die AfD instrumentalisiert</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.waz.de/panorama/wie-die-afd-die-tat-von-berlin-fuer-sich-instrumentalisiert-id209039125.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://img.waz.de/img/panorama/crop209039099/9922964040-w820-cv16_9-q70/imago-st-1216-19260008-75369074.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.waz.de/panorama/wie-die-afd-die-tat-von-berlin-fuer-sich-instrumentalisiert-id209039125.html" rel="nofollow" target="_blank" class="outlink">http://www.waz.de/panorama/wie-die-afd-die-tat-von-berlin-fuer-sich-instrumentalisiert-id2...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_110224829475865" target="blank">Facebook-Post mit 11 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.express.co.uk/news/world/704801/Markus-Soeder-refugees-send-back-impossible-to-integrate-Angela-Merkel" rel="nofollow" target="_blank" class="medium">express.co.uk</a><br/>
-                        <a href="http://www.express.co.uk/news/world/704801/Markus-Soeder-refugees-send-back-impossible-to-integrate-Angela-Merkel" rel="nofollow" target="_blank" class="title">Markus Söder: Send back 'impossible to integrate' refugees</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.express.co.uk/news/world/704801/Markus-Soeder-refugees-send-back-impossible-to-integrate-Angela-Merkel" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://cdn.images.express.co.uk/img/dynamic/78/674x400/soder-704801.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.express.co.uk/news/world/704801/Markus-Soeder-refugees-send-back-impossible-to-integrate-Angela-Merkel" rel="nofollow" target="_blank" class="outlink">http://www.express.co.uk/news/world/704801/Markus-Soeder-refugees-send-back-impossible-to-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_113375399160808" target="blank">Facebook-Post mit 11 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/Marcus.Pretzell.AfD/videos/1150286615036792/" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/Marcus.Pretzell.AfD/videos/1150286615036792/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/Marcus.Pretzell.AfD/videos/1150286615036792/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_10210070244206801" target="blank">Facebook-Post mit 10 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.oe24.at/welt/Nach-Berlin-Trump-sagt-Terror-den-Kampf-an/262804135" rel="nofollow" target="_blank" class="medium">oe24.at</a><br/>
-                        <a href="http://www.oe24.at/welt/Nach-Berlin-Trump-sagt-Terror-den-Kampf-an/262804135" rel="nofollow" target="_blank" class="title">Nach Berlin: Trump sagt Terror den Kampf an</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.oe24.at/welt/Nach-Berlin-Trump-sagt-Terror-den-Kampf-an/262804135" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://images05.oe24.at/trump-reuters-960.jpg/consoleMadonnaNoStretch2/262.088.849"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.oe24.at/welt/Nach-Berlin-Trump-sagt-Terror-den-Kampf-an/262804135" rel="nofollow" target="_blank" class="outlink">http://www.oe24.at/welt/Nach-Berlin-Trump-sagt-Terror-den-Kampf-an/262804135</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_218467261892449" target="blank">Facebook-Post mit 10 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/festnicolaus/videos/1445923328774683/" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/festnicolaus/videos/1445923328774683/" rel="nofollow" target="_blank" class="title">Was die Kanzlerin uns mit ihrer Rede wirklich sagt...</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/festnicolaus/videos/1445923328774683/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/festnicolaus/videos/1445923328774683/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1242905552454300" target="blank">Facebook-Post mit 10 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.lbc.co.uk/radio/presenters/nick-ferrari/farage-merkel-responsibility-for-berlin-attack/" rel="nofollow" target="_blank" class="medium">lbc.co.uk</a><br/>
-                        <a href="http://www.lbc.co.uk/radio/presenters/nick-ferrari/farage-merkel-responsibility-for-berlin-attack/" rel="nofollow" target="_blank" class="title">Farage: Merkel Should Take Responsibility For Berlin...</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.lbc.co.uk/radio/presenters/nick-ferrari/farage-merkel-responsibility-for-berlin-attack/" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://assets4.lbc.co.uk/2016/51/nigel-farage-angry-merkel-1482230331-list-handheld-0.png"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.lbc.co.uk/radio/presenters/nick-ferrari/farage-merkel-responsibility-for-berlin-attack/" rel="nofollow" target="_blank" class="outlink">http://www.lbc.co.uk/radio/presenters/nick-ferrari/farage-merkel-responsibility-for-berlin...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1256675647754619" target="blank">Facebook-Post mit 10 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/newsticker/news2/article160564406/Umfrage-AfD-gewinnt-nach-Anschlag-in-Berlin-deutlich-an-Zuspruch.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/newsticker/news2/article160564406/Umfrage-AfD-gewinnt-nach-Anschlag-in-Berlin-deutlich-an-Zuspruch.html" rel="nofollow" target="_blank" class="title">Umfragen: Umfrage: AfD gewinnt nach Anschlag in Berlin deutlich an Zuspruch</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/newsticker/news2/article160564406/Umfrage-AfD-gewinnt-nach-Anschlag-in-Berlin-deutlich-an-Zuspruch.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/masters/mobile160492822/7651629427-ci16x9-w1200/welt-fallback-jpg.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/newsticker/news2/article160564406/Umfrage-AfD-gewinnt-nach-Anschlag-in-Berlin-deutlich-an-Zuspruch.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/newsticker/news2/article160564406/Umfrage-AfD-gewinnt-nach-Anschlag-in...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1696050077391744" target="blank">Facebook-Post mit 9 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.youtube.com/watch?v=ayeKyx8QpKw" rel="nofollow" target="_blank" class="medium">Youtube</a><br/>
-                        <a href="https://www.youtube.com/watch?v=ayeKyx8QpKw" rel="nofollow" target="_blank" class="title">Petra Federau (AfD): Live-Interview with RussiaToday (Berlin, 21 dec 2016)</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.youtube.com/watch?v=ayeKyx8QpKw" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://i.ytimg.com/vi/ayeKyx8QpKw/maxresdefault.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.youtube.com/watch?v=ayeKyx8QpKw" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=ayeKyx8QpKw</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_447599962294979" target="blank">Facebook-Post mit 9 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.sueddeutsche.de/politik/us-wahl-mehr-wahlmaenner-rebellieren-gegen-clinton-als-gegen-trump-1.3303283" rel="nofollow" target="_blank" class="medium">Süddeutsche.de</a><br/>
-                        <a href="http://www.sueddeutsche.de/politik/us-wahl-mehr-wahlmaenner-rebellieren-gegen-clinton-als-gegen-trump-1.3303283" rel="nofollow" target="_blank" class="title">Mehr Wahlmänner stimmen gegen Clinton als gegen Trump</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.sueddeutsche.de/politik/us-wahl-mehr-wahlmaenner-rebellieren-gegen-clinton-als-gegen-trump-1.3303283" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://polpix.sueddeutsche.com/polopoly_fs/1.3242942.1478712632!/httpImage/image.jpg_gen/derivatives/940x528/image.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.sueddeutsche.de/politik/us-wahl-mehr-wahlmaenner-rebellieren-gegen-clinton-als-gegen-trump-1.3303283" rel="nofollow" target="_blank" class="outlink">http://www.sueddeutsche.de/politik/us-wahl-mehr-wahlmaenner-rebellieren-gegen-clinton-als-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_110471046117910" target="blank">Facebook-Post mit 9 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/23/umfrage-afd-gewinnt-deutlich-cdu-und-spd-verlieren/?ls=fp" rel="nofollow" target="_blank" class="medium">Deutsche Wirtschaftsnachrichten</a><br/>
-                        <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/23/umfrage-afd-gewinnt-deutlich-cdu-und-spd-verlieren/?ls=fp" rel="nofollow" target="_blank" class="title">Umfrage: AfD gewinnt deutlich, CDU und SPD verlieren</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/23/umfrage-afd-gewinnt-deutlich-cdu-und-spd-verlieren/?ls=fp" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://deutsche-wirtschafts-nachrichten.de/wp-content/uploads/2016/12/86246656-768x560.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/23/umfrage-afd-gewinnt-deutlich-cdu-und-spd-verlieren/?ls=fp" rel="nofollow" target="_blank" class="outlink">https://deutsche-wirtschafts-nachrichten.de/2016/12/23/umfrage-afd-gewinnt-deutlich-cdu-un...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_115702682261550" target="blank">Facebook-Post mit 9 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        <span class="warn">
-          <a href="https://www.vice.com/de/article/wie-serioes-sind-die-deutschen-wirtschafts-nachrichten-283" target="_blank">Hintergrund zu &quot;Deutsche Wirtschaftsnachrichten&quot;</a>
-        </span>
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://brd-schwindel.org/pastor-jakob-tscharntke-ich-zaehle-sie-frau-merkel-zu-den-groessten-verbrechern-der-menschheitsgeschichte/" rel="nofollow" target="_blank" class="medium">brd-schwindel.org</a><br/>
-                        
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://brd-schwindel.org/pastor-jakob-tscharntke-ich-zaehle-sie-frau-merkel-zu-den-groessten-verbrechern-der-menschheitsgeschichte/" rel="nofollow" target="_blank" class="outlink">http://brd-schwindel.org/pastor-jakob-tscharntke-ich-zaehle-sie-frau-merkel-zu-den-groesst...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_570719246455778" target="blank">Facebook-Post mit 8 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://m.facebook.com/story.php?story_fbid=1304806712928080&amp;id=131286843613412" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://m.facebook.com/story.php?story_fbid=1304806712928080&amp;id=131286843613412" rel="nofollow" target="_blank" class="title">Präsident Assad und seine Frau sowie Kinder sind heute in einem Waisenhaus in Sednaya (Damaskus-Umland) unterwegs und feiern mit den Waisen-Kindern Weihnachten und beschenken sie.</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://m.facebook.com/story.php?story_fbid=1304806712928080&amp;id=131286843613412" rel="nofollow" target="_blank" class="outlink">https://m.facebook.com/story.php?story_fbid=1304806712928080&amp;id=131286843613412</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1617062668307590" target="blank">Facebook-Post mit 8 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
+          <div class="container">
+            <div class="header clearfix">
+              <nav>
+                <ul class="nav nav-pills float-right">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nrw.html">Über uns</a>
                   </li>
                 </ul>
-                <p>
-                  <a href="#">↑ nach oben</a><br/><br/>
+              </nav>
+              <h3 class="text-muted">#neurechtewelt</h3>
+            </div>
+            <div class="jumbotron" style="padding: 1rem 2rem 1rem 2rem; text-align: left;">
+              <p class="lead"><b>Die Angst und der Hass schaffen sich eigene Realitäten</b>. Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebtesten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
+              <form class="form-inline">
+                <label class="mr-sm-2" for="page">Facebook-Seite</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="page" onChange="updatePage();">
+                  <option value="alternativefuerde" selected="selected">AfD</option>
+                  <option value="pegidaevofficial">Pegida</option>
+                </select>
+                <label class="mr-sm-2" for="week">&nbsp;&nbsp;&nbsp;Woche</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="week" onChange="updatePage();">
+                  <option value="2017-8">Letzte Woche</option>
+                  <optgroup label="Februar">
+                    <option value="2017-7">13. Februar - 19. Februar</option>
+                    <option value="2017-6">6. Februar - 12. Februar</option>
+                    <option value="2017-5">30. Januar - 5. Februar</option>
+                  </optgroup>
+                  <optgroup label="Januar">
+                    <option value="2017-4">23. - 29. Januar</option>
+                    <option value="2017-3">16. - 22. Januar</option>
+                    <option value="2017-2">9. - 15. Januar</option>
+                    <option value="2017-1">2. - 8. Januar</option>
+                  </optgroup>
+                  <optgroup label="Dezember">
+                    <option value="2016-52">26. Dezember - 1. Januar</option>
+                    <option value="2016-51" selected="selected">19. - 25. Dezember</option>
+                    <option value="2016-50">12. - 18. Dezember</option>
+                    <option value="2016-49">5. - 11. Dezember</option>
+                  </optgroup>
+                </select>
+                </form>
+            </div>
+            <div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.focus.de/politik/deutschland/anschlag-in-berlin-nach-ihm-fahndet-die-polizei-was-wir-ueber-anis-a-wissen_id_6387625.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://p5.focus.de/img/fotos/crop6380644/4532717687-w1200-h627-o-q75-p5/berlin.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>FOCUS Online</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.focus.de/politik/deutschland/anschlag-in-berlin-nach-ihm-fahndet-die-polizei-was-wir-ueber-anis-a-wissen_id_6387625.html" rel="nofollow" target="_blank">Anis A.: Das ist über den Terror-Verdächtigen von Berlin bekannt</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.focus.de/politik/deutschland/anschlag-in-berlin-nach-ihm-fahndet-die-polizei-was-wir-ueber-anis-a-wissen_id_6387625.html">http://www.focus.de/politik/deutschland/anschlag-in-berlin-nach-ihm-fahndet-die-polizei-was-wir-ueber-anis-a-wissen_id_6387625.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1335262379837431" target="blank">Facebook-Post mit 8456 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>dailymail.co.uk</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.dailymail.co.uk/news/article-4054140/How-German-police-bungled-hunt-Europe-s-wanted-man-Asylum-seeker-23-wrongly-blamed-Christmas-market-massacre-jumping-red-light.html" rel="nofollow" target="_blank">Tunisian asylum seeker, 23, suspected of carrying out Berlin massacre was arrested THREE times this year amid fears he was planning a terror plot - but police let him go and are now offering 100,000 euros to anyone who finds him</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.dailymail.co.uk/news/article-4054140/How-German-police-bungled-hunt-Europe-s-wanted-man-Asylum-seeker-23-wrongly-blamed-Christmas-market-massacre-jumping-red-light.html">http://www.dailymail.co.uk/news/article-4054140/How-German-police-bungled-hunt-Europe-s-wanted-man-Asylum-seeker-23-wrongly-blamed...</a>
+                <p class="small">
+                  <span>Gefunden auf 2 Facebook-Posts mit ingesamt 8456 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1558480554178833" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1335262379837431" target="blank"> [Post 2]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/politik/deutschland/live160453735/Mutmasslicher-Anschlag-Die-Lage-im-Liveticker.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/politik/deutschland/mobile160516458/1501357507-ci16x9-w1200/title.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/politik/deutschland/live160453735/Mutmasslicher-Anschlag-Die-Lage-im-Liveticker.html" rel="nofollow" target="_blank">Anschlag in Berlin: „Ich schlage dir den Kopf ab&quot;, drohte er dem Mithäftling</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/politik/deutschland/live160453735/Mutmasslicher-Anschlag-Die-Lage-im-Liveticker.html">https://www.welt.de/politik/deutschland/live160453735/Mutmasslicher-Anschlag-Die-Lage-im-Liveticker.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1332849296745406" target="blank">Facebook-Post mit 7304 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Alternative für Deutschland</h6>
+                
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf">https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1341485645881771" target="blank">Facebook-Post mit 3809 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>bertelsmann-stiftung.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/Factsheet_WB_Kinderarmut_DE_09_2016.pdf" rel="nofollow" target="_blank">Kinderarmut: Kinder im SGB-II-Bezug in Deutschland</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/Factsheet_WB_Kinderarmut_DE_09_2016.pdf">https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/Factsheet_WB_Kinderarmut_DE_09_2016.pdf</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1341485645881771" target="blank">Facebook-Post mit 3809 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.focus.de/politik/deutschland/jutta-cordt-kuenftige-bamf-chefin-spricht-erstmals-ueber-plaene_id_6372688.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://p5.focus.de/img/fotos/crop6371683/0662715138-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-161218-99-579573-large-4-3.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>FOCUS Online</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.focus.de/politik/deutschland/jutta-cordt-kuenftige-bamf-chefin-spricht-erstmals-ueber-plaene_id_6372688.html" rel="nofollow" target="_blank">Jutta Cordt: Künftige Bamf-Chefin spricht erstmals über Pläne</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.focus.de/politik/deutschland/jutta-cordt-kuenftige-bamf-chefin-spricht-erstmals-ueber-plaene_id_6372688.html">http://www.focus.de/politik/deutschland/jutta-cordt-kuenftige-bamf-chefin-spricht-erstmals-ueber-plaene_id_6372688.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1332176410146028" target="blank">Facebook-Post mit 3254 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.faz.net/aktuell/wirtschaft/cdu-und-wolfgang-schaeuble-sind-bei-bargeld-politik-uneins-14581212.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://media1.faz.net/ppmedia/aktuell/wirtschaft/1484747309/1.4582071/article_multimedia_overview/der-cdu-parteitag-missbilligte.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>FAZ</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.faz.net/aktuell/wirtschaft/cdu-und-wolfgang-schaeuble-sind-bei-bargeld-politik-uneins-14581212.html" rel="nofollow" target="_blank">CDU und Wolfgang Schäuble sind bei Bargeld-Politik uneins</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.faz.net/aktuell/wirtschaft/cdu-und-wolfgang-schaeuble-sind-bei-bargeld-politik-uneins-14581212.html">http://www.faz.net/aktuell/wirtschaft/cdu-und-wolfgang-schaeuble-sind-bei-bargeld-politik-uneins-14581212.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1334996419864027" target="blank">Facebook-Post mit 1671 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://m.facebook.com/story.php?story_fbid=1649510935349025&amp;substory_index=0&amp;id=1409399859360135" rel="nofollow" target="_blank">Betroffenheitsbingo</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://m.facebook.com/story.php?story_fbid=1649510935349025&amp;substory_index=0&amp;id=1409399859360135">https://m.facebook.com/story.php?story_fbid=1649510935349025&amp;substory_index=0&amp;id=1409399859360135</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1609104775770046" target="blank">Facebook-Post mit 14 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.waz.de/panorama/wie-die-afd-die-tat-von-berlin-fuer-sich-instrumentalisiert-id209039125.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://img.waz.de/img/panorama/crop209039099/9922964040-w820-cv16_9-q70/imago-st-1216-19260008-75369074.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>waz.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.waz.de/panorama/wie-die-afd-die-tat-von-berlin-fuer-sich-instrumentalisiert-id209039125.html" rel="nofollow" target="_blank">Wie Marcus Pretzell die Tat von Berlin für die AfD instrumentalisiert</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.waz.de/panorama/wie-die-afd-die-tat-von-berlin-fuer-sich-instrumentalisiert-id209039125.html">http://www.waz.de/panorama/wie-die-afd-die-tat-von-berlin-fuer-sich-instrumentalisiert-id209039125.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_110224829475865" target="blank">Facebook-Post mit 11 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.express.co.uk/news/world/704801/Markus-Soeder-refugees-send-back-impossible-to-integrate-Angela-Merkel" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://cdn.images.express.co.uk/img/dynamic/78/674x400/soder-704801.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>express.co.uk</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.express.co.uk/news/world/704801/Markus-Soeder-refugees-send-back-impossible-to-integrate-Angela-Merkel" rel="nofollow" target="_blank">Markus Söder: Send back 'impossible to integrate' refugees</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.express.co.uk/news/world/704801/Markus-Soeder-refugees-send-back-impossible-to-integrate-Angela-Merkel">http://www.express.co.uk/news/world/704801/Markus-Soeder-refugees-send-back-impossible-to-integrate-Angela-Merkel</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_113375399160808" target="blank">Facebook-Post mit 11 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/Marcus.Pretzell.AfD/videos/1150286615036792/">https://www.facebook.com/Marcus.Pretzell.AfD/videos/1150286615036792/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_10210070244206801" target="blank">Facebook-Post mit 10 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.oe24.at/welt/Nach-Berlin-Trump-sagt-Terror-den-Kampf-an/262804135" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://images05.oe24.at/trump-reuters-960.jpg/consoleMadonnaNoStretch2/262.088.849"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>oe24.at</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.oe24.at/welt/Nach-Berlin-Trump-sagt-Terror-den-Kampf-an/262804135" rel="nofollow" target="_blank">Nach Berlin: Trump sagt Terror den Kampf an</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.oe24.at/welt/Nach-Berlin-Trump-sagt-Terror-den-Kampf-an/262804135">http://www.oe24.at/welt/Nach-Berlin-Trump-sagt-Terror-den-Kampf-an/262804135</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_218467261892449" target="blank">Facebook-Post mit 10 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/festnicolaus/videos/1445923328774683/" rel="nofollow" target="_blank">Was die Kanzlerin uns mit ihrer Rede wirklich sagt...</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/festnicolaus/videos/1445923328774683/">https://www.facebook.com/festnicolaus/videos/1445923328774683/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1242905552454300" target="blank">Facebook-Post mit 10 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.lbc.co.uk/radio/presenters/nick-ferrari/farage-merkel-responsibility-for-berlin-attack/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://assets4.lbc.co.uk/2016/51/nigel-farage-angry-merkel-1482230331-list-handheld-0.png"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>lbc.co.uk</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.lbc.co.uk/radio/presenters/nick-ferrari/farage-merkel-responsibility-for-berlin-attack/" rel="nofollow" target="_blank">Farage: Merkel Should Take Responsibility For Berlin...</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.lbc.co.uk/radio/presenters/nick-ferrari/farage-merkel-responsibility-for-berlin-attack/">http://www.lbc.co.uk/radio/presenters/nick-ferrari/farage-merkel-responsibility-for-berlin-attack/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1256675647754619" target="blank">Facebook-Post mit 10 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/newsticker/news2/article160564406/Umfrage-AfD-gewinnt-nach-Anschlag-in-Berlin-deutlich-an-Zuspruch.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/masters/mobile160492822/7651629427-ci16x9-w1200/welt-fallback-jpg.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/newsticker/news2/article160564406/Umfrage-AfD-gewinnt-nach-Anschlag-in-Berlin-deutlich-an-Zuspruch.html" rel="nofollow" target="_blank">Umfragen: Umfrage: AfD gewinnt nach Anschlag in Berlin deutlich an Zuspruch</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/newsticker/news2/article160564406/Umfrage-AfD-gewinnt-nach-Anschlag-in-Berlin-deutlich-an-Zuspruch.html">https://www.welt.de/newsticker/news2/article160564406/Umfrage-AfD-gewinnt-nach-Anschlag-in-Berlin-deutlich-an-Zuspruch.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1696050077391744" target="blank">Facebook-Post mit 9 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.youtube.com/watch?v=ayeKyx8QpKw" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://i.ytimg.com/vi/ayeKyx8QpKw/maxresdefault.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Youtube</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.youtube.com/watch?v=ayeKyx8QpKw" rel="nofollow" target="_blank">Petra Federau (AfD): Live-Interview with RussiaToday (Berlin, 21 dec 2016)</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.youtube.com/watch?v=ayeKyx8QpKw">https://www.youtube.com/watch?v=ayeKyx8QpKw</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_447599962294979" target="blank">Facebook-Post mit 9 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.sueddeutsche.de/politik/us-wahl-mehr-wahlmaenner-rebellieren-gegen-clinton-als-gegen-trump-1.3303283" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://polpix.sueddeutsche.com/polopoly_fs/1.3242942.1478712632!/httpImage/image.jpg_gen/derivatives/940x528/image.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Süddeutsche.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.sueddeutsche.de/politik/us-wahl-mehr-wahlmaenner-rebellieren-gegen-clinton-als-gegen-trump-1.3303283" rel="nofollow" target="_blank">Mehr Wahlmänner stimmen gegen Clinton als gegen Trump</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.sueddeutsche.de/politik/us-wahl-mehr-wahlmaenner-rebellieren-gegen-clinton-als-gegen-trump-1.3303283">http://www.sueddeutsche.de/politik/us-wahl-mehr-wahlmaenner-rebellieren-gegen-clinton-als-gegen-trump-1.3303283</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_110471046117910" target="blank">Facebook-Post mit 9 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://deutsche-wirtschafts-nachrichten.de/2016/12/23/umfrage-afd-gewinnt-deutlich-cdu-und-spd-verlieren/?ls=fp" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://deutsche-wirtschafts-nachrichten.de/wp-content/uploads/2016/12/86246656-768x560.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Deutsche Wirtschaftsnachrichten</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://deutsche-wirtschafts-nachrichten.de/2016/12/23/umfrage-afd-gewinnt-deutlich-cdu-und-spd-verlieren/?ls=fp" rel="nofollow" target="_blank">Umfrage: AfD gewinnt deutlich, CDU und SPD verlieren</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://deutsche-wirtschafts-nachrichten.de/2016/12/23/umfrage-afd-gewinnt-deutlich-cdu-und-spd-verlieren/?ls=fp">https://deutsche-wirtschafts-nachrichten.de/2016/12/23/umfrage-afd-gewinnt-deutlich-cdu-und-spd-verlieren/?ls=fp</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_115702682261550" target="blank">Facebook-Post mit 9 Likes</a></span>
+                  <br/><a class="warn" href="https://www.vice.com/de/article/wie-serioes-sind-die-deutschen-wirtschafts-nachrichten-283" target="_blank">Hintergrund zu &quot;Deutsche Wirtschaftsnachrichten&quot;</a>
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>brd-schwindel.org</h6>
+                
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://brd-schwindel.org/pastor-jakob-tscharntke-ich-zaehle-sie-frau-merkel-zu-den-groessten-verbrechern-der-menschheitsgeschichte/">http://brd-schwindel.org/pastor-jakob-tscharntke-ich-zaehle-sie-frau-merkel-zu-den-groessten-verbrechern-der-menschheitsgeschichte/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_570719246455778" target="blank">Facebook-Post mit 8 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://m.facebook.com/story.php?story_fbid=1304806712928080&amp;id=131286843613412" rel="nofollow" target="_blank">Präsident Assad und seine Frau sowie Kinder sind heute in einem Waisenhaus in Sednaya (Damaskus-Umland) unterwegs und feiern mit den Waisen-Kindern Weihnachten und beschenken sie.</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://m.facebook.com/story.php?story_fbid=1304806712928080&amp;id=131286843613412">https://m.facebook.com/story.php?story_fbid=1304806712928080&amp;id=131286843613412</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1617062668307590" target="blank">Facebook-Post mit 8 Likes</a></span>
+                  
                 </p>
               </div>
             </div>
+            <footer class="footer">
+              <div class="row marketing" style="margin: 0;">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+                  <a href="#" style="color: #545454;">↑ nach oben</a>
+                </div>
+              </div>
+            </footer>
           </div>
+          <script src="ie10-viewport-bug-workaround.js"></script>
         </body>
       </html>

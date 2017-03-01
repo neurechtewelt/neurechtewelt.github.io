@@ -1,451 +1,384 @@
-<html>
+<html lang="de">
         <head>
-          <title>Worüber hat die AfD in der letzten Woche diskutiert? - #neurechtewelt</title>
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+          <meta charset="utf-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+          <meta name="description" content="{generateTitle(pageId, weekYear, weekOfWeekYear)}"/>
+          <meta name="author" content="neurechtewelt"/>
           <meta name="referrer" content="no-referrer"/>
-          <link rel="stylesheet" href="main.css"/>
+          <title>Worüber hat die AfD in der letzten Woche diskutiert? - #neurechtewelt</title>
+          <link href="bootstrap.min.css" rel="stylesheet"/>
+          <link href="narrow-jumbotron.css" rel="stylesheet"/>
           <script src="main.js"></script>
         </head>
         <body>
-          <div id="outer">
-            <div id="inner">
-              <div id="title">
-                <h1><b>Worüber hat die AfD in der letzten Woche diskutiert?</b></h1>
-              </div>
-              <div id="controls">
-                <p>Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebsten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
-                <form>
-                  <label>Facebook-Seite:<br/>
-                    <select id="page" onChange="updatePage();">
-                      <option value="alternativefuerde" selected="selected">AfD - Deutschland</option>
-                      <option value="pegidaevofficial">Pegida</option>
-                    </select>
-                  </label><br/>
-                  <label>Woche:<br/>
-                    <select id="week" onChange="updatePage();">
-                      <option value="2017-8" selected="selected">Letzte Woche</option>
-                      <optgroup label="Februar">
-                        <option value="2017-7">13. Februar - 19. Februar</option>
-                        <option value="2017-6">6. Februar - 12. Februar</option>
-                        <option value="2017-5">30. Januar - 5. Februar</option>
-                      </optgroup>
-                      <optgroup label="Januar">
-                        <option value="2017-4">23. - 29. Januar</option>
-                        <option value="2017-3">16. - 22. Januar</option>
-                        <option value="2017-2">9. - 15. Januar</option>
-                        <option value="2017-1">2. - 8. Januar</option>
-                      </optgroup>
-                      <optgroup label="Dezember">
-                        <option value="2016-52">26. Dezember - 1. Januar</option>
-                        <option value="2016-51">19. - 25. Dezember</option>
-                        <option value="2016-50">12. - 18. Dezember</option>
-                        <option value="2016-49">5. - 11. Dezember</option>
-                      </optgroup>
-                    </select>
-                  </label>
-                </form>
-
-                <div id="externals">
-                  <h3>Kontakt</h3>
-                  email <a href="mailto:neurechtewelt[at]posteo.de">neurechtewelt[at]posteo.de</a><br/>
-                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/><br/><br/>
-                  <h3>Selbstverständnis</h3>
-                  Wir wollen Journalisten bei der Recherche helfen und zu Aufklärungsarbeit über die Neue Rechte beitragen.
-                  <br/><br/><br/>
-                  <h3>Wir in der Presse</h3>
-                  <ul style="padding-top: 0; margin-top: 5px;">
-                    <li>
-                      <a href="http://ze.tt/es-gibt-wirklich-nur-vier-themen-ueber-die-neurechte-auf-facebook-sprechen/" target="_blank">Es gibt wirklich nur vier Themen, über die Neurechte auf Facebook sprechen</a>
-                      <br/> <span class="mediaref">ze.tt, 15. Februar</span>
-                    </li>
-                    <li><a href="http://meedia.de/2017/01/24/neurechtewelt-web-projekt-listet-beliebteste-news-artikel-von-afd-und-pegida-anhaengern-bei-facebook-auf/" target="_blank">
-                      Neurechtewelt: Web-Projekt listet News-Artikel, die bei AfD- und Pegida-Anhängern „steil“ gehen</a><br/> <span class="mediaref">MEEDIA, 24. Januar</span></li>
-                  </ul>
-                </div>
-              </div>
-              <div id="links">
-                <ul>
-                  <li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.n-tv.de/politik/Le-Pen-verweigert-Kopftuch-im-Libanon-article19712926.html" rel="nofollow" target="_blank" class="medium">n-tv.de</a><br/>
-                        <a href="http://www.n-tv.de/politik/Le-Pen-verweigert-Kopftuch-im-Libanon-article19712926.html" rel="nofollow" target="_blank" class="title">Treffen mit Großmufti abgesagt: Le Pen verweigert Kopftuch im Libanon</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.n-tv.de/politik/Le-Pen-verweigert-Kopftuch-im-Libanon-article19712926.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://bilder4.n-tv.de/img/incoming/crop19712939/9871329268-cImg_16_9-w1200/7339bb02f628ff0e490c52348dc1e82f.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.n-tv.de/politik/Le-Pen-verweigert-Kopftuch-im-Libanon-article19712926.html" rel="nofollow" target="_blank" class="outlink">http://www.n-tv.de/politik/Le-Pen-verweigert-Kopftuch-im-Libanon-article19712926.html</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1403758382987830" target="blank">Facebook-Post mit 11224 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://afd-kompakt.de/2017/02/15/wahlrecht-fuer-migranten-ohne-deutschen-pass-ist-eine-abenteuerliche-forderung/" rel="nofollow" target="_blank" class="medium">afd-kompakt.de</a><br/>
-                        <a href="https://afd-kompakt.de/2017/02/15/wahlrecht-fuer-migranten-ohne-deutschen-pass-ist-eine-abenteuerliche-forderung/" rel="nofollow" target="_blank" class="title">Wahlrecht für Migranten ohne deutschen Pass ist eine abenteuerliche Forderung</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://afd-kompakt.de/2017/02/15/wahlrecht-fuer-migranten-ohne-deutschen-pass-ist-eine-abenteuerliche-forderung/" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://cdn.afd.tools/sites/75/2017/02/15155812/Wahlen-Deutschlandflagge-11284228_l-vepar5-c-123rf-1356x7621-1024x575.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://afd-kompakt.de/2017/02/15/wahlrecht-fuer-migranten-ohne-deutschen-pass-ist-eine-abenteuerliche-forderung/" rel="nofollow" target="_blank" class="outlink">https://afd-kompakt.de/2017/02/15/wahlrecht-fuer-migranten-ohne-deutschen-pass-ist-eine-ab...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1404787116218290" target="blank">Facebook-Post mit 10837 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://jungefreiheit.de/politik/deutschland/2017/nordrhein-westfalen-neuer-vorstoss-fuer-auslaenderwahlrecht/" rel="nofollow" target="_blank" class="medium">Junge Freiheit</a><br/>
-                        <a href="https://jungefreiheit.de/politik/deutschland/2017/nordrhein-westfalen-neuer-vorstoss-fuer-auslaenderwahlrecht/" rel="nofollow" target="_blank" class="title">Nordrhein-Westfalen: Neuer Vorstoß für Ausländerwahlrecht</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://jungefreiheit.de/politik/deutschland/2017/nordrhein-westfalen-neuer-vorstoss-fuer-auslaenderwahlrecht/" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://assets.jungefreiheit.de/2017/02/Wahlurne-860x360-1487671564.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://jungefreiheit.de/politik/deutschland/2017/nordrhein-westfalen-neuer-vorstoss-fuer-auslaenderwahlrecht/" rel="nofollow" target="_blank" class="outlink">https://jungefreiheit.de/politik/deutschland/2017/nordrhein-westfalen-neuer-vorstoss-fuer-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1404787116218290" target="blank">Facebook-Post mit 10837 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        <span class="warn">
-          <a href="https://correctiv.org/recherchen/neue-rechte/artikel/2016/12/27/medien-junge-freiheit/" target="blank">Hintergrund zur Jungen Freiheit</a>
-        </span>
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf" rel="nofollow" target="_blank" class="medium">Alternative für Deutschland</a><br/>
-                        
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf" rel="nofollow" target="_blank" class="outlink">https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatz...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 2 Facebook-Posts mit ingesamt 3925 Likes: <a class="postlink" href="https://facebook.com/540404695989874_1402877186409283" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/540404695989874_1779985382316532" target="blank"> [Post 2]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.dailymail.co.uk/news/article-3849646/Mature-years-fears-real-age-child-migrants-arriving-Calais.html" rel="nofollow" target="_blank" class="medium">dailymail.co.uk</a><br/>
-                        <a href="http://www.dailymail.co.uk/news/article-3849646/Mature-years-fears-real-age-child-migrants-arriving-Calais.html" rel="nofollow" target="_blank" class="title">More fears over real age of 'child migrants' arriving from Calais</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.dailymail.co.uk/news/article-3849646/Mature-years-fears-real-age-child-migrants-arriving-Calais.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://i.dailymail.co.uk/i/pix/2016/10/18/23/3980705A00000578-0-image-a-37_1476829535614.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.dailymail.co.uk/news/article-3849646/Mature-years-fears-real-age-child-migrants-arriving-Calais.html" rel="nofollow" target="_blank" class="outlink">http://www.dailymail.co.uk/news/article-3849646/Mature-years-fears-real-age-child-migrants...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1405802749450060" target="blank">Facebook-Post mit 2153 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.independent.co.uk/news/world/europe/denmark-child-asylum-seekers-adult-age-test-migrants-refugee-crisis-a7464081.html" rel="nofollow" target="_blank" class="medium">independent.co.uk</a><br/>
-                        <a href="http://www.independent.co.uk/news/world/europe/denmark-child-asylum-seekers-adult-age-test-migrants-refugee-crisis-a7464081.html" rel="nofollow" target="_blank" class="title">Three in four 'child' asylum seekers are actually adults, Denmark claims</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.independent.co.uk/news/world/europe/denmark-child-asylum-seekers-adult-age-test-migrants-refugee-crisis-a7464081.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/09/08/15/inger-stojberg.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.independent.co.uk/news/world/europe/denmark-child-asylum-seekers-adult-age-test-migrants-refugee-crisis-a7464081.html" rel="nofollow" target="_blank" class="outlink">http://www.independent.co.uk/news/world/europe/denmark-child-asylum-seekers-adult-age-test...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1405802749450060" target="blank">Facebook-Post mit 2153 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/politik/deutschland/article162274380/Junge-Migranten-kosten-Deutschland-vier-Milliarden.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/politik/deutschland/article162274380/Junge-Migranten-kosten-Deutschland-vier-Milliarden.html" rel="nofollow" target="_blank" class="title">Unbegleitete junge Ausländer kosten Deutschland vier Milliarden Euro</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/politik/deutschland/article162274380/Junge-Migranten-kosten-Deutschland-vier-Milliarden.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/politik/deutschland/mobile162280089/1411350227-ci16x9-w1200/Fluechtlinge-in-Berlin-3.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/politik/deutschland/article162274380/Junge-Migranten-kosten-Deutschland-vier-Milliarden.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article162274380/Junge-Migranten-kosten-Deutschlan...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 2 Facebook-Posts mit ingesamt 2153 Likes: <a class="postlink" href="https://facebook.com/540404695989874_1405802749450060" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/540404695989874_985301248270871" target="blank"> [Post 2]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.stuttgarter-nachrichten.de/inhalt.sexualmord-in-freiburg-hussein-k-wird-nach-erwachsenenstrafrecht-angeklagt.6aeeba59-c003-4ab4-8fb4-0fcf7eae400a.html" rel="nofollow" target="_blank" class="medium">stuttgarter-nachrichten.de</a><br/>
-                        <a href="http://www.stuttgarter-nachrichten.de/inhalt.sexualmord-in-freiburg-hussein-k-wird-nach-erwachsenenstrafrecht-angeklagt.6aeeba59-c003-4ab4-8fb4-0fcf7eae400a.html" rel="nofollow" target="_blank" class="title">Hussein K. wird nach Erwachsenenstrafrecht angeklagt</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.stuttgarter-nachrichten.de/inhalt.sexualmord-in-freiburg-hussein-k-wird-nach-erwachsenenstrafrecht-angeklagt.6aeeba59-c003-4ab4-8fb4-0fcf7eae400a.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.stuttgarter-nachrichten.de/media.facebook.d68dd15a-f9e5-4ca4-b028-d45848f0111f.normalized.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.stuttgarter-nachrichten.de/inhalt.sexualmord-in-freiburg-hussein-k-wird-nach-erwachsenenstrafrecht-angeklagt.6aeeba59-c003-4ab4-8fb4-0fcf7eae400a.html" rel="nofollow" target="_blank" class="outlink">http://www.stuttgarter-nachrichten.de/inhalt.sexualmord-in-freiburg-hussein-k-wird-nach-er...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1405802749450060" target="blank">Facebook-Post mit 2153 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.sueddeutsche.de/politik/merkel-cdu-partei-der-subsidiaritaet-1.3395370" rel="nofollow" target="_blank" class="medium">Süddeutsche.de</a><br/>
-                        <a href="http://www.sueddeutsche.de/politik/merkel-cdu-partei-der-subsidiaritaet-1.3395370" rel="nofollow" target="_blank" class="title">Bundeskanzlerin Angela Merkel - &quot;Das Volk ist jeder, der in diesem Land lebt&quot;</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.sueddeutsche.de/politik/merkel-cdu-partei-der-subsidiaritaet-1.3395370" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://polpix.sueddeutsche.com/polopoly_fs/1.3395371.1488021900!/httpImage/image.jpg_gen/derivatives/940x528/image.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.sueddeutsche.de/politik/merkel-cdu-partei-der-subsidiaritaet-1.3395370" rel="nofollow" target="_blank" class="outlink">http://www.sueddeutsche.de/politik/merkel-cdu-partei-der-subsidiaritaet-1.3395370</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1407515039278831" target="blank">Facebook-Post mit 1756 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.alternativefuer.de/alice-weidel-wie-lange-darf-die-ditib-noch-ihre-propaganda-fortsetzen/" rel="nofollow" target="_blank" class="medium">Alternative für Deutschland</a><br/>
-                        <a href="https://www.alternativefuer.de/alice-weidel-wie-lange-darf-die-ditib-noch-ihre-propaganda-fortsetzen/" rel="nofollow" target="_blank" class="title">Alice Weidel: Wie lange darf die DITIB noch ihre Propaganda fortsetzen?</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.alternativefuer.de/alice-weidel-wie-lange-darf-die-ditib-noch-ihre-propaganda-fortsetzen/" rel="nofollow" target="_blank" class="outlink">https://www.alternativefuer.de/alice-weidel-wie-lange-darf-die-ditib-noch-ihre-propaganda-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1404632206233781" target="blank">Facebook-Post mit 1574 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.focus.de/politik/deutschland/wahlkampf-besuch-erdogan-reist-im-maerz-nach-deutschland_id_6688255.html" rel="nofollow" target="_blank" class="medium">FOCUS Online</a><br/>
-                        <a href="http://www.focus.de/politik/deutschland/wahlkampf-besuch-erdogan-reist-im-maerz-nach-deutschland_id_6688255.html" rel="nofollow" target="_blank" class="title">Erdogan reist im März nach Deutschland</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.focus.de/politik/deutschland/wahlkampf-besuch-erdogan-reist-im-maerz-nach-deutschland_id_6688255.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://p5.focus.de/img/fotos/crop6511418/3972719937-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-170117-99-914040-large-4-3.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.focus.de/politik/deutschland/wahlkampf-besuch-erdogan-reist-im-maerz-nach-deutschland_id_6688255.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/politik/deutschland/wahlkampf-besuch-erdogan-reist-im-maerz-nach-deuts...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1404632206233781" target="blank">Facebook-Post mit 1574 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.focus.de/politik/deutschland/wir-zerschlagen-deutschland-auf-facebook-hetzen-ditib-anhaenger-offen-gegen-deutschland_id_6692470.html" rel="nofollow" target="_blank" class="medium">FOCUS Online</a><br/>
-                        <a href="http://www.focus.de/politik/deutschland/wir-zerschlagen-deutschland-auf-facebook-hetzen-ditib-anhaenger-offen-gegen-deutschland_id_6692470.html" rel="nofollow" target="_blank" class="title">Auf Facebook hetzen Ditib-Anhänger offen gegen Deutschland</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.focus.de/politik/deutschland/wir-zerschlagen-deutschland-auf-facebook-hetzen-ditib-anhaenger-offen-gegen-deutschland_id_6692470.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/politik/deutschland/wir-zerschlagen-deutschland-auf-facebook-hetzen-di...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1404632206233781" target="blank">Facebook-Post mit 1574 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.ksta.de/koeln/-iq-eines-toastbrotes--hausmeister-beleidigte-hannelore-kraft---1200-euro-geldstrafe-25759818" rel="nofollow" target="_blank" class="medium">ksta.de</a><br/>
-                        <a href="http://www.ksta.de/koeln/-iq-eines-toastbrotes--hausmeister-beleidigte-hannelore-kraft---1200-euro-geldstrafe-25759818" rel="nofollow" target="_blank" class="title">IQ eines Toastbrotes“ Hausmeister beleidigte Hannelore Kraft – 1200 Euro Geldstrafe</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.ksta.de/koeln/-iq-eines-toastbrotes--hausmeister-beleidigte-hannelore-kraft---1200-euro-geldstrafe-25759818" rel="nofollow" target="_blank" class="outlink">http://www.ksta.de/koeln/-iq-eines-toastbrotes--hausmeister-beleidigte-hannelore-kraft---1...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1401823613181307" target="blank">Facebook-Post mit 1302 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas-dokumente-bundesanwaltschaft#landesverrat-journalisten-brd-1-tab" rel="nofollow" target="_blank" class="medium">ZEIT ONLINE</a><br/>
-                        <a href="http://www.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas-dokumente-bundesanwaltschaft#landesverrat-journalisten-brd-1-tab" rel="nofollow" target="_blank" class="title">&quot;Netzpolitik.org&quot;: Interne Akten belasten Justizminister Heiko Maas</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas-dokumente-bundesanwaltschaft#landesverrat-journalisten-brd-1-tab" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://img.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas/wide__1300x731"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas-dokumente-bundesanwaltschaft#landesverrat-journalisten-brd-1-tab" rel="nofollow" target="_blank" class="outlink">http://www.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas-dokumente-bundesanwaltschaft...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1404150186281983" target="blank">Facebook-Post mit 1183 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.welt.de/politik/deutschland/article162207121/Wir-sind-fuer-ein-globales-Recht-auf-Migration.html" rel="nofollow" target="_blank" class="medium">DIE WELT</a><br/>
-                        <a href="https://www.welt.de/politik/deutschland/article162207121/Wir-sind-fuer-ein-globales-Recht-auf-Migration.html" rel="nofollow" target="_blank" class="title">Johanna Uekermann: Jusos wollen globales Recht auf Migration</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.welt.de/politik/deutschland/article162207121/Wir-sind-fuer-ein-globales-Recht-auf-Migration.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.welt.de/img/politik/deutschland/mobile162207528/8421358257-ci16x9-w1200/Bundeskongress-der-Jusos.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.welt.de/politik/deutschland/article162207121/Wir-sind-fuer-ein-globales-Recht-auf-Migration.html" rel="nofollow" target="_blank" class="outlink">https://www.welt.de/politik/deutschland/article162207121/Wir-sind-fuer-ein-globales-Recht-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1402237553139913" target="blank">Facebook-Post mit 1147 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.tagesspiegel.de/berlin/angehoerige-vom-breitscheidplatz-bei-gauck-als-erstes-kam-ein-gebuehrenbescheid/19410976.html" rel="nofollow" target="_blank" class="medium">tagesspiegel.de</a><br/>
-                        <a href="http://www.tagesspiegel.de/berlin/angehoerige-vom-breitscheidplatz-bei-gauck-als-erstes-kam-ein-gebuehrenbescheid/19410976.html" rel="nofollow" target="_blank" class="title">Angehörige vom Breitscheidplatz bei Gauck: Als erstes kam ein Gebührenbescheid</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.tagesspiegel.de/berlin/angehoerige-vom-breitscheidplatz-bei-gauck-als-erstes-kam-ein-gebuehrenbescheid/19410976.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.tagesspiegel.de/images/heprodimagesfotos83120170219gedenken1_529_1_20170218140419564-jpg/19411000/4-format530.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.tagesspiegel.de/berlin/angehoerige-vom-breitscheidplatz-bei-gauck-als-erstes-kam-ein-gebuehrenbescheid/19410976.html" rel="nofollow" target="_blank" class="outlink">http://www.tagesspiegel.de/berlin/angehoerige-vom-breitscheidplatz-bei-gauck-als-erstes-ka...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_1401862759844059" target="blank">Facebook-Post mit 1015 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.openpetition.de/petition/online/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger" rel="nofollow" target="_blank" class="medium">openpetition.de</a><br/>
-                        <a href="https://www.openpetition.de/petition/online/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger" rel="nofollow" target="_blank" class="title">Resistance D: KEIN WAHLRECHT FÜR NICHT EU-BÜRGER</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.openpetition.de/petition/online/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.openpetition.de/images/petition/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger_1488046609.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.openpetition.de/petition/online/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger" rel="nofollow" target="_blank" class="outlink">https://www.openpetition.de/petition/online/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/704115876366793_1087073194737724" target="blank">Facebook-Post mit 89 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://hogesatzbau.de/wer-hats-geschrieben/" rel="nofollow" target="_blank" class="medium">hogesatzbau.de</a><br/>
-                        <a href="http://hogesatzbau.de/wer-hats-geschrieben/" rel="nofollow" target="_blank" class="title">Wer hat's geschrieben?</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://hogesatzbau.de/wer-hats-geschrieben/" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://hogesatzbau.de/wp-content/uploads/2017/02/afd-bild-titel.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://hogesatzbau.de/wer-hats-geschrieben/" rel="nofollow" target="_blank" class="outlink">http://hogesatzbau.de/wer-hats-geschrieben/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/829270367093947_1362065070481138" target="blank">Facebook-Post mit 54 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.youtube.com/watch?v=IyhG9oErWuE" rel="nofollow" target="_blank" class="medium">Youtube</a><br/>
-                        <a href="https://www.youtube.com/watch?v=IyhG9oErWuE" rel="nofollow" target="_blank" class="title">Outta the Way! Visits the Ephrata Cloister</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.youtube.com/watch?v=IyhG9oErWuE" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://i.ytimg.com/vi/IyhG9oErWuE/hqdefault.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.youtube.com/watch?v=IyhG9oErWuE" rel="nofollow" target="_blank" class="outlink">https://www.youtube.com/watch?v=IyhG9oErWuE</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/540404695989874_176707829498710" target="blank">Facebook-Post mit 12 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
+          <div class="container">
+            <div class="header clearfix">
+              <nav>
+                <ul class="nav nav-pills float-right">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nrw.html">Über uns</a>
                   </li>
                 </ul>
-                <p>
-                  <a href="#">↑ nach oben</a><br/><br/>
+              </nav>
+              <h3 class="text-muted">#neurechtewelt</h3>
+            </div>
+            <div class="jumbotron" style="padding: 1rem 2rem 1rem 2rem; text-align: left;">
+              <p class="lead"><b>Die Angst und der Hass schaffen sich eigene Realitäten</b>. Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebtesten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
+              <form class="form-inline">
+                <label class="mr-sm-2" for="page">Facebook-Seite</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="page" onChange="updatePage();">
+                  <option value="alternativefuerde" selected="selected">AfD</option>
+                  <option value="pegidaevofficial">Pegida</option>
+                </select>
+                <label class="mr-sm-2" for="week">&nbsp;&nbsp;&nbsp;Woche</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="week" onChange="updatePage();">
+                  <option value="2017-8" selected="selected">Letzte Woche</option>
+                  <optgroup label="Februar">
+                    <option value="2017-7">13. Februar - 19. Februar</option>
+                    <option value="2017-6">6. Februar - 12. Februar</option>
+                    <option value="2017-5">30. Januar - 5. Februar</option>
+                  </optgroup>
+                  <optgroup label="Januar">
+                    <option value="2017-4">23. - 29. Januar</option>
+                    <option value="2017-3">16. - 22. Januar</option>
+                    <option value="2017-2">9. - 15. Januar</option>
+                    <option value="2017-1">2. - 8. Januar</option>
+                  </optgroup>
+                  <optgroup label="Dezember">
+                    <option value="2016-52">26. Dezember - 1. Januar</option>
+                    <option value="2016-51">19. - 25. Dezember</option>
+                    <option value="2016-50">12. - 18. Dezember</option>
+                    <option value="2016-49">5. - 11. Dezember</option>
+                  </optgroup>
+                </select>
+                </form>
+            </div>
+            <div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.n-tv.de/politik/Le-Pen-verweigert-Kopftuch-im-Libanon-article19712926.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://bilder4.n-tv.de/img/incoming/crop19712939/9871329268-cImg_16_9-w1200/7339bb02f628ff0e490c52348dc1e82f.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>n-tv.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.n-tv.de/politik/Le-Pen-verweigert-Kopftuch-im-Libanon-article19712926.html" rel="nofollow" target="_blank">Treffen mit Großmufti abgesagt: Le Pen verweigert Kopftuch im Libanon</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.n-tv.de/politik/Le-Pen-verweigert-Kopftuch-im-Libanon-article19712926.html">http://www.n-tv.de/politik/Le-Pen-verweigert-Kopftuch-im-Libanon-article19712926.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1403758382987830" target="blank">Facebook-Post mit 11224 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://afd-kompakt.de/2017/02/15/wahlrecht-fuer-migranten-ohne-deutschen-pass-ist-eine-abenteuerliche-forderung/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://cdn.afd.tools/sites/75/2017/02/15155812/Wahlen-Deutschlandflagge-11284228_l-vepar5-c-123rf-1356x7621-1024x575.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>afd-kompakt.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://afd-kompakt.de/2017/02/15/wahlrecht-fuer-migranten-ohne-deutschen-pass-ist-eine-abenteuerliche-forderung/" rel="nofollow" target="_blank">Wahlrecht für Migranten ohne deutschen Pass ist eine abenteuerliche Forderung</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://afd-kompakt.de/2017/02/15/wahlrecht-fuer-migranten-ohne-deutschen-pass-ist-eine-abenteuerliche-forderung/">https://afd-kompakt.de/2017/02/15/wahlrecht-fuer-migranten-ohne-deutschen-pass-ist-eine-abenteuerliche-forderung/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1404787116218290" target="blank">Facebook-Post mit 10837 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://jungefreiheit.de/politik/deutschland/2017/nordrhein-westfalen-neuer-vorstoss-fuer-auslaenderwahlrecht/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://assets.jungefreiheit.de/2017/02/Wahlurne-860x360-1487671564.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Junge Freiheit</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://jungefreiheit.de/politik/deutschland/2017/nordrhein-westfalen-neuer-vorstoss-fuer-auslaenderwahlrecht/" rel="nofollow" target="_blank">Nordrhein-Westfalen: Neuer Vorstoß für Ausländerwahlrecht</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://jungefreiheit.de/politik/deutschland/2017/nordrhein-westfalen-neuer-vorstoss-fuer-auslaenderwahlrecht/">https://jungefreiheit.de/politik/deutschland/2017/nordrhein-westfalen-neuer-vorstoss-fuer-auslaenderwahlrecht/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1404787116218290" target="blank">Facebook-Post mit 10837 Likes</a></span>
+                  <br/><a class="warn" href="https://correctiv.org/recherchen/neue-rechte/artikel/2016/12/27/medien-junge-freiheit/" target="blank">Hintergrund zur Jungen Freiheit</a>
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Alternative für Deutschland</h6>
+                
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf">https://www.alternativefuer.de/wp-content/uploads/sites/7/2016/05/2016-06-27_afd-grundsatzprogramm_web-version.pdf</a>
+                <p class="small">
+                  <span>Gefunden auf 2 Facebook-Posts mit ingesamt 3925 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1402877186409283" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1779985382316532" target="blank"> [Post 2]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.dailymail.co.uk/news/article-3849646/Mature-years-fears-real-age-child-migrants-arriving-Calais.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://i.dailymail.co.uk/i/pix/2016/10/18/23/3980705A00000578-0-image-a-37_1476829535614.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>dailymail.co.uk</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.dailymail.co.uk/news/article-3849646/Mature-years-fears-real-age-child-migrants-arriving-Calais.html" rel="nofollow" target="_blank">More fears over real age of 'child migrants' arriving from Calais</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.dailymail.co.uk/news/article-3849646/Mature-years-fears-real-age-child-migrants-arriving-Calais.html">http://www.dailymail.co.uk/news/article-3849646/Mature-years-fears-real-age-child-migrants-arriving-Calais.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1405802749450060" target="blank">Facebook-Post mit 2153 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.independent.co.uk/news/world/europe/denmark-child-asylum-seekers-adult-age-test-migrants-refugee-crisis-a7464081.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/09/08/15/inger-stojberg.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>independent.co.uk</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.independent.co.uk/news/world/europe/denmark-child-asylum-seekers-adult-age-test-migrants-refugee-crisis-a7464081.html" rel="nofollow" target="_blank">Three in four 'child' asylum seekers are actually adults, Denmark claims</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.independent.co.uk/news/world/europe/denmark-child-asylum-seekers-adult-age-test-migrants-refugee-crisis-a7464081.html">http://www.independent.co.uk/news/world/europe/denmark-child-asylum-seekers-adult-age-test-migrants-refugee-crisis-a7464081.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1405802749450060" target="blank">Facebook-Post mit 2153 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/politik/deutschland/article162274380/Junge-Migranten-kosten-Deutschland-vier-Milliarden.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/politik/deutschland/mobile162280089/1411350227-ci16x9-w1200/Fluechtlinge-in-Berlin-3.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/politik/deutschland/article162274380/Junge-Migranten-kosten-Deutschland-vier-Milliarden.html" rel="nofollow" target="_blank">Unbegleitete junge Ausländer kosten Deutschland vier Milliarden Euro</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/politik/deutschland/article162274380/Junge-Migranten-kosten-Deutschland-vier-Milliarden.html">https://www.welt.de/politik/deutschland/article162274380/Junge-Migranten-kosten-Deutschland-vier-Milliarden.html</a>
+                <p class="small">
+                  <span>Gefunden auf 2 Facebook-Posts mit ingesamt 2153 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1405802749450060" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_985301248270871" target="blank"> [Post 2]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.stuttgarter-nachrichten.de/inhalt.sexualmord-in-freiburg-hussein-k-wird-nach-erwachsenenstrafrecht-angeklagt.6aeeba59-c003-4ab4-8fb4-0fcf7eae400a.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.stuttgarter-nachrichten.de/media.facebook.d68dd15a-f9e5-4ca4-b028-d45848f0111f.normalized.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>stuttgarter-nachrichten.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.stuttgarter-nachrichten.de/inhalt.sexualmord-in-freiburg-hussein-k-wird-nach-erwachsenenstrafrecht-angeklagt.6aeeba59-c003-4ab4-8fb4-0fcf7eae400a.html" rel="nofollow" target="_blank">Hussein K. wird nach Erwachsenenstrafrecht angeklagt</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.stuttgarter-nachrichten.de/inhalt.sexualmord-in-freiburg-hussein-k-wird-nach-erwachsenenstrafrecht-angeklagt.6aeeba59-c003-4ab4-8fb4-0fcf7eae400a.html">http://www.stuttgarter-nachrichten.de/inhalt.sexualmord-in-freiburg-hussein-k-wird-nach-erwachsenenstrafrecht-angeklagt.6aeeba59-c...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1405802749450060" target="blank">Facebook-Post mit 2153 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.sueddeutsche.de/politik/merkel-cdu-partei-der-subsidiaritaet-1.3395370" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://polpix.sueddeutsche.com/polopoly_fs/1.3395371.1488021900!/httpImage/image.jpg_gen/derivatives/940x528/image.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Süddeutsche.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.sueddeutsche.de/politik/merkel-cdu-partei-der-subsidiaritaet-1.3395370" rel="nofollow" target="_blank">Bundeskanzlerin Angela Merkel - &quot;Das Volk ist jeder, der in diesem Land lebt&quot;</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.sueddeutsche.de/politik/merkel-cdu-partei-der-subsidiaritaet-1.3395370">http://www.sueddeutsche.de/politik/merkel-cdu-partei-der-subsidiaritaet-1.3395370</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1407515039278831" target="blank">Facebook-Post mit 1756 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Alternative für Deutschland</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.alternativefuer.de/alice-weidel-wie-lange-darf-die-ditib-noch-ihre-propaganda-fortsetzen/" rel="nofollow" target="_blank">Alice Weidel: Wie lange darf die DITIB noch ihre Propaganda fortsetzen?</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.alternativefuer.de/alice-weidel-wie-lange-darf-die-ditib-noch-ihre-propaganda-fortsetzen/">https://www.alternativefuer.de/alice-weidel-wie-lange-darf-die-ditib-noch-ihre-propaganda-fortsetzen/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1404632206233781" target="blank">Facebook-Post mit 1574 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.focus.de/politik/deutschland/wahlkampf-besuch-erdogan-reist-im-maerz-nach-deutschland_id_6688255.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://p5.focus.de/img/fotos/crop6511418/3972719937-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-170117-99-914040-large-4-3.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>FOCUS Online</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.focus.de/politik/deutschland/wahlkampf-besuch-erdogan-reist-im-maerz-nach-deutschland_id_6688255.html" rel="nofollow" target="_blank">Erdogan reist im März nach Deutschland</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.focus.de/politik/deutschland/wahlkampf-besuch-erdogan-reist-im-maerz-nach-deutschland_id_6688255.html">http://www.focus.de/politik/deutschland/wahlkampf-besuch-erdogan-reist-im-maerz-nach-deutschland_id_6688255.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1404632206233781" target="blank">Facebook-Post mit 1574 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>FOCUS Online</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.focus.de/politik/deutschland/wir-zerschlagen-deutschland-auf-facebook-hetzen-ditib-anhaenger-offen-gegen-deutschland_id_6692470.html" rel="nofollow" target="_blank">Auf Facebook hetzen Ditib-Anhänger offen gegen Deutschland</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.focus.de/politik/deutschland/wir-zerschlagen-deutschland-auf-facebook-hetzen-ditib-anhaenger-offen-gegen-deutschland_id_6692470.html">http://www.focus.de/politik/deutschland/wir-zerschlagen-deutschland-auf-facebook-hetzen-ditib-anhaenger-offen-gegen-deutschland_id...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1404632206233781" target="blank">Facebook-Post mit 1574 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>ksta.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.ksta.de/koeln/-iq-eines-toastbrotes--hausmeister-beleidigte-hannelore-kraft---1200-euro-geldstrafe-25759818" rel="nofollow" target="_blank">IQ eines Toastbrotes“ Hausmeister beleidigte Hannelore Kraft – 1200 Euro Geldstrafe</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.ksta.de/koeln/-iq-eines-toastbrotes--hausmeister-beleidigte-hannelore-kraft---1200-euro-geldstrafe-25759818">http://www.ksta.de/koeln/-iq-eines-toastbrotes--hausmeister-beleidigte-hannelore-kraft---1200-euro-geldstrafe-25759818</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1401823613181307" target="blank">Facebook-Post mit 1302 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas-dokumente-bundesanwaltschaft#landesverrat-journalisten-brd-1-tab" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://img.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas/wide__1300x731"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>ZEIT ONLINE</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas-dokumente-bundesanwaltschaft#landesverrat-journalisten-brd-1-tab" rel="nofollow" target="_blank">&quot;Netzpolitik.org&quot;: Interne Akten belasten Justizminister Heiko Maas</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas-dokumente-bundesanwaltschaft#landesverrat-journalisten-brd-1-tab">http://www.zeit.de/digital/2017-02/netzpolitik-org-heiko-maas-dokumente-bundesanwaltschaft#landesverrat-journalisten-brd-1-tab</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1404150186281983" target="blank">Facebook-Post mit 1183 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.welt.de/politik/deutschland/article162207121/Wir-sind-fuer-ein-globales-Recht-auf-Migration.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.welt.de/img/politik/deutschland/mobile162207528/8421358257-ci16x9-w1200/Bundeskongress-der-Jusos.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>DIE WELT</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.welt.de/politik/deutschland/article162207121/Wir-sind-fuer-ein-globales-Recht-auf-Migration.html" rel="nofollow" target="_blank">Johanna Uekermann: Jusos wollen globales Recht auf Migration</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.welt.de/politik/deutschland/article162207121/Wir-sind-fuer-ein-globales-Recht-auf-Migration.html">https://www.welt.de/politik/deutschland/article162207121/Wir-sind-fuer-ein-globales-Recht-auf-Migration.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1402237553139913" target="blank">Facebook-Post mit 1147 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.tagesspiegel.de/berlin/angehoerige-vom-breitscheidplatz-bei-gauck-als-erstes-kam-ein-gebuehrenbescheid/19410976.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.tagesspiegel.de/images/heprodimagesfotos83120170219gedenken1_529_1_20170218140419564-jpg/19411000/4-format530.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>tagesspiegel.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.tagesspiegel.de/berlin/angehoerige-vom-breitscheidplatz-bei-gauck-als-erstes-kam-ein-gebuehrenbescheid/19410976.html" rel="nofollow" target="_blank">Angehörige vom Breitscheidplatz bei Gauck: Als erstes kam ein Gebührenbescheid</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.tagesspiegel.de/berlin/angehoerige-vom-breitscheidplatz-bei-gauck-als-erstes-kam-ein-gebuehrenbescheid/19410976.html">http://www.tagesspiegel.de/berlin/angehoerige-vom-breitscheidplatz-bei-gauck-als-erstes-kam-ein-gebuehrenbescheid/19410976.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_1401862759844059" target="blank">Facebook-Post mit 1015 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.openpetition.de/petition/online/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.openpetition.de/images/petition/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger_1488046609.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>openpetition.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.openpetition.de/petition/online/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger" rel="nofollow" target="_blank">Resistance D: KEIN WAHLRECHT FÜR NICHT EU-BÜRGER</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.openpetition.de/petition/online/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger">https://www.openpetition.de/petition/online/resistance-d-kein-wahlrecht-fuer-nicht-eu-buerger</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/704115876366793_1087073194737724" target="blank">Facebook-Post mit 89 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://hogesatzbau.de/wer-hats-geschrieben/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://hogesatzbau.de/wp-content/uploads/2017/02/afd-bild-titel.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>hogesatzbau.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://hogesatzbau.de/wer-hats-geschrieben/" rel="nofollow" target="_blank">Wer hat's geschrieben?</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://hogesatzbau.de/wer-hats-geschrieben/">http://hogesatzbau.de/wer-hats-geschrieben/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/829270367093947_1362065070481138" target="blank">Facebook-Post mit 54 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.youtube.com/watch?v=IyhG9oErWuE" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://i.ytimg.com/vi/IyhG9oErWuE/hqdefault.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Youtube</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.youtube.com/watch?v=IyhG9oErWuE" rel="nofollow" target="_blank">Outta the Way! Visits the Ephrata Cloister</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.youtube.com/watch?v=IyhG9oErWuE">https://www.youtube.com/watch?v=IyhG9oErWuE</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/540404695989874_176707829498710" target="blank">Facebook-Post mit 12 Likes</a></span>
+                  
                 </p>
               </div>
             </div>
+            <footer class="footer">
+              <div class="row marketing" style="margin: 0;">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+                  <a href="#" style="color: #545454;">↑ nach oben</a>
+                </div>
+              </div>
+            </footer>
           </div>
+          <script src="ie10-viewport-bug-workaround.js"></script>
         </body>
       </html>

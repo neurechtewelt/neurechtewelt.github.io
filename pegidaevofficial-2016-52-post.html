@@ -1,471 +1,401 @@
-<html>
+<html lang="de">
         <head>
-          <title>Worüber hat Pegida in der Woche vom 26. Dezember - 1. Januar diskutiert? - #neurechtewelt</title>
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+          <meta charset="utf-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+          <meta name="description" content="{generateTitle(pageId, weekYear, weekOfWeekYear)}"/>
+          <meta name="author" content="neurechtewelt"/>
           <meta name="referrer" content="no-referrer"/>
-          <link rel="stylesheet" href="main.css"/>
+          <title>Worüber hat Pegida in der Woche vom 26. Dezember - 1. Januar diskutiert? - #neurechtewelt</title>
+          <link href="bootstrap.min.css" rel="stylesheet"/>
+          <link href="narrow-jumbotron.css" rel="stylesheet"/>
           <script src="main.js"></script>
         </head>
         <body>
-          <div id="outer">
-            <div id="inner">
-              <div id="title">
-                <h1><b>Worüber hat Pegida in der Woche vom 26. Dezember - 1. Januar diskutiert?</b></h1>
-              </div>
-              <div id="controls">
-                <p>Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebsten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
-                <form>
-                  <label>Facebook-Seite:<br/>
-                    <select id="page" onChange="updatePage();">
-                      <option value="alternativefuerde">AfD - Deutschland</option>
-                      <option value="pegidaevofficial" selected="selected">Pegida</option>
-                    </select>
-                  </label><br/>
-                  <label>Woche:<br/>
-                    <select id="week" onChange="updatePage();">
-                      <option value="2017-8">Letzte Woche</option>
-                      <optgroup label="Februar">
-                        <option value="2017-7">13. Februar - 19. Februar</option>
-                        <option value="2017-6">6. Februar - 12. Februar</option>
-                        <option value="2017-5">30. Januar - 5. Februar</option>
-                      </optgroup>
-                      <optgroup label="Januar">
-                        <option value="2017-4">23. - 29. Januar</option>
-                        <option value="2017-3">16. - 22. Januar</option>
-                        <option value="2017-2">9. - 15. Januar</option>
-                        <option value="2017-1">2. - 8. Januar</option>
-                      </optgroup>
-                      <optgroup label="Dezember">
-                        <option value="2016-52" selected="selected">26. Dezember - 1. Januar</option>
-                        <option value="2016-51">19. - 25. Dezember</option>
-                        <option value="2016-50">12. - 18. Dezember</option>
-                        <option value="2016-49">5. - 11. Dezember</option>
-                      </optgroup>
-                    </select>
-                  </label>
-                </form>
-
-                <div id="externals">
-                  <h3>Kontakt</h3>
-                  email <a href="mailto:neurechtewelt[at]posteo.de">neurechtewelt[at]posteo.de</a><br/>
-                  twitter <a href="https://twitter.com/neurechtewelt" target="_blank">@neurechtewelt</a><br/><br/><br/>
-                  <h3>Selbstverständnis</h3>
-                  Wir wollen Journalisten bei der Recherche helfen und zu Aufklärungsarbeit über die Neue Rechte beitragen.
-                  <br/><br/><br/>
-                  <h3>Wir in der Presse</h3>
-                  <ul style="padding-top: 0; margin-top: 5px;">
-                    <li>
-                      <a href="http://ze.tt/es-gibt-wirklich-nur-vier-themen-ueber-die-neurechte-auf-facebook-sprechen/" target="_blank">Es gibt wirklich nur vier Themen, über die Neurechte auf Facebook sprechen</a>
-                      <br/> <span class="mediaref">ze.tt, 15. Februar</span>
-                    </li>
-                    <li><a href="http://meedia.de/2017/01/24/neurechtewelt-web-projekt-listet-beliebteste-news-artikel-von-afd-und-pegida-anhaengern-bei-facebook-auf/" target="_blank">
-                      Neurechtewelt: Web-Projekt listet News-Artikel, die bei AfD- und Pegida-Anhängern „steil“ gehen</a><br/> <span class="mediaref">MEEDIA, 24. Januar</span></li>
-                  </ul>
-                </div>
-              </div>
-              <div id="links">
-                <ul>
-                  <li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.derwesten.de/region/weil-sie-seine-freundin-belaestigten-duesseldorfer-nimmt-es-mit-sechs-maennern-auf-und-macht-sie-fertig-id209096201.html" rel="nofollow" target="_blank" class="medium">derwesten.de</a><br/>
-                        <a href="http://www.derwesten.de/region/weil-sie-seine-freundin-belaestigten-duesseldorfer-nimmt-es-mit-sechs-maennern-auf-und-macht-sie-fertig-id209096201.html" rel="nofollow" target="_blank" class="title">Düsseldorferin belästigt, Freund verdrischt sechs Angreifer</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.derwesten.de/region/weil-sie-seine-freundin-belaestigten-duesseldorfer-nimmt-es-mit-sechs-maennern-auf-und-macht-sie-fertig-id209096201.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://img.derwesten.de/img/region/crop208885333/4522609145-w820-cv16_9-q85/imago74428136h.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.derwesten.de/region/weil-sie-seine-freundin-belaestigten-duesseldorfer-nimmt-es-mit-sechs-maennern-auf-und-macht-sie-fertig-id209096201.html" rel="nofollow" target="_blank" class="outlink">http://www.derwesten.de/region/weil-sie-seine-freundin-belaestigten-duesseldorfer-nimmt-es...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1238716462848556" target="blank">Facebook-Post mit 1322 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://de.euronews.com/2016/12/27/rumaeniens-praesident-verweigert-ernennung-muslimischer-politikerin-zur" rel="nofollow" target="_blank" class="medium">euronews.com</a><br/>
-                        <a href="http://de.euronews.com/2016/12/27/rumaeniens-praesident-verweigert-ernennung-muslimischer-politikerin-zur" rel="nofollow" target="_blank" class="title">Rumäniens Präsident verweigert Ernennung muslimischer Politikerin zur Regierungschefin</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://de.euronews.com/2016/12/27/rumaeniens-praesident-verweigert-ernennung-muslimischer-politikerin-zur" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://static.euronews.com/articles/353391/1000x563_353391.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://de.euronews.com/2016/12/27/rumaeniens-praesident-verweigert-ernennung-muslimischer-politikerin-zur" rel="nofollow" target="_blank" class="outlink">http://de.euronews.com/2016/12/27/rumaeniens-praesident-verweigert-ernennung-muslimischer-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1238783682841834" target="blank">Facebook-Post mit 437 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://kurier.at/chronik/oberoesterreich/100-prozent-der-auffaelligen-sind-muslime/238.676.447" rel="nofollow" target="_blank" class="medium">kurier.at</a><br/>
-                        <a href="https://kurier.at/chronik/oberoesterreich/100-prozent-der-auffaelligen-sind-muslime/238.676.447" rel="nofollow" target="_blank" class="title">Landespolizei­di­rek­tor Pilsl: &quot;Wir wollen nichts beschönigen&quot; </a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://kurier.at/chronik/oberoesterreich/100-prozent-der-auffaelligen-sind-muslime/238.676.447" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://images.kurier.at/46-89095573.jpg/238.676.443"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://kurier.at/chronik/oberoesterreich/100-prozent-der-auffaelligen-sind-muslime/238.676.447" rel="nofollow" target="_blank" class="outlink">https://kurier.at/chronik/oberoesterreich/100-prozent-der-auffaelligen-sind-muslime/238.67...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1242751445778391" target="blank">Facebook-Post mit 340 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.epochtimes.de/politik/deutschland/erste-bilanz-der-silvester-koeln-zwei-sexuelle-uebergriffe-sechs-festnahmen-hunderte-platzverweise-a2013235.html" rel="nofollow" target="_blank" class="medium">Epoch Times</a><br/>
-                        <a href="http://www.epochtimes.de/politik/deutschland/erste-bilanz-der-silvester-koeln-zwei-sexuelle-uebergriffe-sechs-festnahmen-hunderte-platzverweise-a2013235.html" rel="nofollow" target="_blank" class="title">Erste Bilanz der Silvester-Nacht in Köln: Zwei sexuelle Übergriffe, sechs Festnahmen, hunderte Platzverweise</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.epochtimes.de/politik/deutschland/erste-bilanz-der-silvester-koeln-zwei-sexuelle-uebergriffe-sechs-festnahmen-hunderte-platzverweise-a2013235.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.epochtimes.de/assets/uploads/2017/01/630734914-640x427.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.epochtimes.de/politik/deutschland/erste-bilanz-der-silvester-koeln-zwei-sexuelle-uebergriffe-sechs-festnahmen-hunderte-platzverweise-a2013235.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/deutschland/erste-bilanz-der-silvester-koeln-zwei-sexuell...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1242531165800419" target="blank">Facebook-Post mit 240 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        <span class="warn">
-          <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
-        </span>
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/CivilMarchForAleppo/" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/CivilMarchForAleppo/" rel="nofollow" target="_blank" class="title">Civil March For Aleppo</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/CivilMarchForAleppo/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/CivilMarchForAleppo/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf 2 Facebook-Posts mit ingesamt 222 Likes: <a class="postlink" href="https://facebook.com/796885057031701_1240154059371463" target="blank"> [Post 1]</a><a class="postlink" href="https://facebook.com/796885057031701_1238563469530522" target="blank"> [Post 2]</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://quotenqueen.wordpress.com/2017/01/01/koeln-abstimmung-mit-den-fuessen/" rel="nofollow" target="_blank" class="medium">wordpress.com</a><br/>
-                        <a href="https://quotenqueen.wordpress.com/2017/01/01/koeln-abstimmung-mit-den-fuessen/" rel="nofollow" target="_blank" class="title">Köln: Abstimmung mit den Füßen</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://quotenqueen.wordpress.com/2017/01/01/koeln-abstimmung-mit-den-fuessen/" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://quotenqueen.files.wordpress.com/2017/01/silvester2016.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://quotenqueen.wordpress.com/2017/01/01/koeln-abstimmung-mit-den-fuessen/" rel="nofollow" target="_blank" class="outlink">https://quotenqueen.wordpress.com/2017/01/01/koeln-abstimmung-mit-den-fuessen/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1242813659105503" target="blank">Facebook-Post mit 212 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://m.focus.de/politik/deutschland/kommunen-drohe-ueberlastung-csu-mann-behauptet-familiennachzug-ist-groesseres-problem-als-neue-fluechtlinge_id_6406367.htmlv" rel="nofollow" target="_blank" class="medium">FOCUS Online</a><br/>
-                        <a href="http://m.focus.de/politik/deutschland/kommunen-drohe-ueberlastung-csu-mann-behauptet-familiennachzug-ist-groesseres-problem-als-neue-fluechtlinge_id_6406367.htmlv" rel="nofollow" target="_blank" class="title">CSU-Mann behauptet: Familiennachzug ist größeres Problem als neue Flüchtlinge</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://m.focus.de/politik/deutschland/kommunen-drohe-ueberlastung-csu-mann-behauptet-familiennachzug-ist-groesseres-problem-als-neue-fluechtlinge_id_6406367.htmlv" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://p5.focus.de/img/fotos/crop5318600/2292717801-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-160208-99-555679-large-4-3.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://m.focus.de/politik/deutschland/kommunen-drohe-ueberlastung-csu-mann-behauptet-familiennachzug-ist-groesseres-problem-als-neue-fluechtlinge_id_6406367.htmlv" rel="nofollow" target="_blank" class="outlink">http://m.focus.de/politik/deutschland/kommunen-drohe-ueberlastung-csu-mann-behauptet-famil...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1237879822932220" target="blank">Facebook-Post mit 195 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.journalistenwatch.com/2016/12/30/is-ruft-zu-silvester-zum-grossen-abschlachten-auf/" rel="nofollow" target="_blank" class="medium">journalistenwatch.com</a><br/>
-                        <a href="http://www.journalistenwatch.com/2016/12/30/is-ruft-zu-silvester-zum-grossen-abschlachten-auf/" rel="nofollow" target="_blank" class="title">IS ruft zu Silvester zum großen &quot;Abschlachten&quot; auf!</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.journalistenwatch.com/2016/12/30/is-ruft-zu-silvester-zum-grossen-abschlachten-auf/" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.journalistenwatch.com/wp-content/uploads/2016/12/is-sylvester.png"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.journalistenwatch.com/2016/12/30/is-ruft-zu-silvester-zum-grossen-abschlachten-auf/" rel="nofollow" target="_blank" class="outlink">http://www.journalistenwatch.com/2016/12/30/is-ruft-zu-silvester-zum-grossen-abschlachten-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1241105739276295" target="blank">Facebook-Post mit 190 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.epochtimes.de/politik/deutschland/oezoguz-nach-feuerattacke-gegen-obdachlosen-junge-fluechtlinge-brauchen-spezielle-foerdermassnahmen-a2010967.html" rel="nofollow" target="_blank" class="medium">Epoch Times</a><br/>
-                        <a href="http://www.epochtimes.de/politik/deutschland/oezoguz-nach-feuerattacke-gegen-obdachlosen-junge-fluechtlinge-brauchen-spezielle-foerdermassnahmen-a2010967.html" rel="nofollow" target="_blank" class="title">Özoguz nach Feuerattacke gegen Obdachlosen: Junge Flüchtlinge brauchen spezielle Fördermaßnahmen</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.epochtimes.de/politik/deutschland/oezoguz-nach-feuerattacke-gegen-obdachlosen-junge-fluechtlinge-brauchen-spezielle-foerdermassnahmen-a2010967.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.epochtimes.de/assets/uploads/2016/12/dts_image_10096_khqsirjkeo_-640x390.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.epochtimes.de/politik/deutschland/oezoguz-nach-feuerattacke-gegen-obdachlosen-junge-fluechtlinge-brauchen-spezielle-foerdermassnahmen-a2010967.html" rel="nofollow" target="_blank" class="outlink">http://www.epochtimes.de/politik/deutschland/oezoguz-nach-feuerattacke-gegen-obdachlosen-j...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1240137446039791" target="blank">Facebook-Post mit 189 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        <span class="warn">
-          <a href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
-        </span>
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/alternativeimbundestag/" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/alternativeimbundestag/" rel="nofollow" target="_blank" class="title">Jens Maier</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/alternativeimbundestag/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/alternativeimbundestag/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1238705559516313" target="blank">Facebook-Post mit 160 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.n-tv.de/politik/Wer-feiern-darf-und-wer-nicht-article19445146.html" rel="nofollow" target="_blank" class="medium">n-tv.de</a><br/>
-                        <a href="http://www.n-tv.de/politik/Wer-feiern-darf-und-wer-nicht-article19445146.html" rel="nofollow" target="_blank" class="title">Köln, Hauptbahnhof: Wer feiern darf und wer nicht</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.n-tv.de/politik/Wer-feiern-darf-und-wer-nicht-article19445146.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://bilder3.n-tv.de/img/incoming/crop19445066/7391324199-cImg_16_9-w1200/f5565da2263177b63d0b4d2f3326a3cf.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.n-tv.de/politik/Wer-feiern-darf-und-wer-nicht-article19445146.html" rel="nofollow" target="_blank" class="outlink">http://www.n-tv.de/politik/Wer-feiern-darf-und-wer-nicht-article19445146.html</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1242585949128274" target="blank">Facebook-Post mit 159 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://civilmarch.org/here-you-can-join-our-route/" rel="nofollow" target="_blank" class="medium">civilmarch.org</a><br/>
-                        <a href="http://civilmarch.org/here-you-can-join-our-route/" rel="nofollow" target="_blank" class="title">Here you can join: Our route.</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://civilmarch.org/here-you-can-join-our-route/" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://civilmarch.org/wp-content/themes/civilmarch/grunt/img/project/og-image.png"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://civilmarch.org/here-you-can-join-our-route/" rel="nofollow" target="_blank" class="outlink">http://civilmarch.org/here-you-can-join-our-route/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1240154059371463" target="blank">Facebook-Post mit 157 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/JeanPascal.Hohm/posts/1872522122969224" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/JeanPascal.Hohm/posts/1872522122969224" rel="nofollow" target="_blank" class="title">+++ SPONTANE #DEMO AM RANDE DES ALEPPO-MARSCHES +++</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/JeanPascal.Hohm/posts/1872522122969224" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/JeanPascal.Hohm/posts/1872522122969224</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1240154059371463" target="blank">Facebook-Post mit 157 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.journalistenwatch.com/2016/12/29/marsch-nach-aleppo-gutmenschen-ohne-sinn-und-verstand/" rel="nofollow" target="_blank" class="medium">journalistenwatch.com</a><br/>
-                        <a href="http://www.journalistenwatch.com/2016/12/29/marsch-nach-aleppo-gutmenschen-ohne-sinn-und-verstand/" rel="nofollow" target="_blank" class="title">Renate Sandvoß: Marsch nach Aleppo - Gutmenschen ohne Sinn und Verstand</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.journalistenwatch.com/2016/12/29/marsch-nach-aleppo-gutmenschen-ohne-sinn-und-verstand/" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.journalistenwatch.com/wp-content/uploads/2016/12/sand-768783_1280.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.journalistenwatch.com/2016/12/29/marsch-nach-aleppo-gutmenschen-ohne-sinn-und-verstand/" rel="nofollow" target="_blank" class="outlink">http://www.journalistenwatch.com/2016/12/29/marsch-nach-aleppo-gutmenschen-ohne-sinn-und-v...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1240154059371463" target="blank">Facebook-Post mit 157 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.wochenblatt.de/nachrichten/regensburg/regionales/19-jaehriger-Afghane-aus-Dresden-demoliert-in-Regensburg-ein-Polizeiauto;art1172,414010" rel="nofollow" target="_blank" class="medium">wochenblatt.de</a><br/>
-                        <a href="http://www.wochenblatt.de/nachrichten/regensburg/regionales/19-jaehriger-Afghane-aus-Dresden-demoliert-in-Regensburg-ein-Polizeiauto;art1172,414010" rel="nofollow" target="_blank" class="title">19-jähriger Afghane aus Dresden demoliert in Regensburg ein Polizeiauto</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.wochenblatt.de/nachrichten/regensburg/regionales/19-jaehriger-Afghane-aus-Dresden-demoliert-in-Regensburg-ein-Polizeiauto;art1172,414010" rel="nofollow" target="_blank" class="outlink">http://www.wochenblatt.de/nachrichten/regensburg/regionales/19-jaehriger-Afghane-aus-Dresd...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1242773449109524" target="blank">Facebook-Post mit 154 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.journalistenwatch.com/2016/12/30/alle-geboren-am-1-1-1999-tausende-fluechtlinge-gelten-ab-neujahr-als-volljaehrig/" rel="nofollow" target="_blank" class="medium">journalistenwatch.com</a><br/>
-                        <a href="http://www.journalistenwatch.com/2016/12/30/alle-geboren-am-1-1-1999-tausende-fluechtlinge-gelten-ab-neujahr-als-volljaehrig/" rel="nofollow" target="_blank" class="title">Alle &quot;geboren&quot; am 1.1.1999: Tausende Flüchtlinge gelten ab Neujahr als volljährig</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.journalistenwatch.com/2016/12/30/alle-geboren-am-1-1-1999-tausende-fluechtlinge-gelten-ab-neujahr-als-volljaehrig/" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.journalistenwatch.com/wp-content/uploads/2016/12/dts_image_9930_hgiqkkhjtg.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.journalistenwatch.com/2016/12/30/alle-geboren-am-1-1-1999-tausende-fluechtlinge-gelten-ab-neujahr-als-volljaehrig/" rel="nofollow" target="_blank" class="outlink">http://www.journalistenwatch.com/2016/12/30/alle-geboren-am-1-1-1999-tausende-fluechtlinge...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1240793515974184" target="blank">Facebook-Post mit 146 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.focus.de/finanzen/experten/weik_und_friedrich/2016-war-der-wendepunkt-griechenland-pleite-ende-von-eu-und-merkel-experten-malen-untergangsszenario-fuer-2017_id_6419950.html" rel="nofollow" target="_blank" class="medium">FOCUS Online</a><br/>
-                        <a href="http://www.focus.de/finanzen/experten/weik_und_friedrich/2016-war-der-wendepunkt-griechenland-pleite-ende-von-eu-und-merkel-experten-malen-untergangsszenario-fuer-2017_id_6419950.html" rel="nofollow" target="_blank" class="title">Friedrich und Weik: Experten malen Untergangsszenario für 2017</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.focus.de/finanzen/experten/weik_und_friedrich/2016-war-der-wendepunkt-griechenland-pleite-ende-von-eu-und-merkel-experten-malen-untergangsszenario-fuer-2017_id_6419950.html" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://p5.focus.de/img/fotos/crop4023137/0482716777-w1200-h627-o-q75-p5/matthias-weik-marc-friedrich-christian-staehle-asperg.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.focus.de/finanzen/experten/weik_und_friedrich/2016-war-der-wendepunkt-griechenland-pleite-ende-von-eu-und-merkel-experten-malen-untergangsszenario-fuer-2017_id_6419950.html" rel="nofollow" target="_blank" class="outlink">http://www.focus.de/finanzen/experten/weik_und_friedrich/2016-war-der-wendepunkt-griechenl...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1240956705957865" target="blank">Facebook-Post mit 146 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="http://www.bz-berlin.de/berlin/friedrichshain-kreuzberg/obdachloser-in-berlin-angezuendet-das-sind-die-verdaechtigen" rel="nofollow" target="_blank" class="medium">bz-berlin.de</a><br/>
-                        <a href="http://www.bz-berlin.de/berlin/friedrichshain-kreuzberg/obdachloser-in-berlin-angezuendet-das-sind-die-verdaechtigen" rel="nofollow" target="_blank" class="title">Obdachloser in Berlin angezündet: Das sind die Verdächtigen!</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="http://www.bz-berlin.de/berlin/friedrichshain-kreuzberg/obdachloser-in-berlin-angezuendet-das-sind-die-verdaechtigen" rel="nofollow" target="_blank"><img class="preview" align="left" src="http://www.bz-berlin.de/data/uploads/2016/12/verdaechtige-schoenleinstrasse-gestellt_1482824304-768x432.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="http://www.bz-berlin.de/berlin/friedrichshain-kreuzberg/obdachloser-in-berlin-angezuendet-das-sind-die-verdaechtigen" rel="nofollow" target="_blank" class="outlink">http://www.bz-berlin.de/berlin/friedrichshain-kreuzberg/obdachloser-in-berlin-angezuendet-...</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1237905716262964" target="blank">Facebook-Post mit 123 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.facebook.com/pegidalutz/" rel="nofollow" target="_blank" class="medium">Facebook</a><br/>
-                        <a href="https://www.facebook.com/pegidalutz/" rel="nofollow" target="_blank" class="title">Lutz Bachmann</a><br/>
-                      </div>
-                      
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.facebook.com/pegidalutz/" rel="nofollow" target="_blank" class="outlink">https://www.facebook.com/pegidalutz/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1238024719584397" target="blank">Facebook-Post mit 120 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
-                  </li><li>
-                    <div style="padding-bottom: 15px; border-bottom: 1px dotted #545454;">
-                      <div>
-                        <a href="https://www.wochenblick.at/silvester-in-dortmund-allahu-akbar-und-kirchenbrand/" rel="nofollow" target="_blank" class="medium">wochenblick.at</a><br/>
-                        <a href="https://www.wochenblick.at/silvester-in-dortmund-allahu-akbar-und-kirchenbrand/" rel="nofollow" target="_blank" class="title">Silvester in Dortmund: „Allahu Akbar“ und Kirchenbrand</a><br/>
-                      </div>
-                      <div style="width:70px; float: left;">
-                          <a href="https://www.wochenblick.at/silvester-in-dortmund-allahu-akbar-und-kirchenbrand/" rel="nofollow" target="_blank"><img class="preview" align="left" src="https://www.wochenblick.at/wp-content/uploads/2017/01/silvester-in-dortmund-allahu-akbar-und-kirchenbrand-2.jpg"/></a>
-                        </div>
-                      <div style="width:620px; float: left; padding-top: 3px;">
-                        <a href="https://www.wochenblick.at/silvester-in-dortmund-allahu-akbar-und-kirchenbrand/" rel="nofollow" target="_blank" class="outlink">https://www.wochenblick.at/silvester-in-dortmund-allahu-akbar-und-kirchenbrand/</a><br/>
-                        <div class="hint">
-                        <span>Gefunden auf diesem <a class="postlink" href="https://facebook.com/796885057031701_1242723762447826" target="blank">Facebook-Post mit 116 Likes</a></span>
-                        </div>
-                      </div>
-                      <div style="clear: both;">
-                        
-                      </div>
-
-                    </div>
+          <div class="container">
+            <div class="header clearfix">
+              <nav>
+                <ul class="nav nav-pills float-right">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nrw.html">Über uns</a>
                   </li>
                 </ul>
-                <p>
-                  <a href="#">↑ nach oben</a><br/><br/>
+              </nav>
+              <h3 class="text-muted">#neurechtewelt</h3>
+            </div>
+            <div class="jumbotron" style="padding: 1rem 2rem 1rem 2rem; text-align: left;">
+              <p class="lead"><b>Die Angst und der Hass schaffen sich eigene Realitäten</b>. Wir zeigen jede Woche die <b>Nachrichtenartikel</b> aus den beliebtesten Posts auf den <b>Facebook-Seiten von AfD und Pegida</b>.</p>
+              <form class="form-inline">
+                <label class="mr-sm-2" for="page">Facebook-Seite</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="page" onChange="updatePage();">
+                  <option value="alternativefuerde">AfD</option>
+                  <option value="pegidaevofficial" selected="selected">Pegida</option>
+                </select>
+                <label class="mr-sm-2" for="week">&nbsp;&nbsp;&nbsp;Woche</label>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="week" onChange="updatePage();">
+                  <option value="2017-8">Letzte Woche</option>
+                  <optgroup label="Februar">
+                    <option value="2017-7">13. Februar - 19. Februar</option>
+                    <option value="2017-6">6. Februar - 12. Februar</option>
+                    <option value="2017-5">30. Januar - 5. Februar</option>
+                  </optgroup>
+                  <optgroup label="Januar">
+                    <option value="2017-4">23. - 29. Januar</option>
+                    <option value="2017-3">16. - 22. Januar</option>
+                    <option value="2017-2">9. - 15. Januar</option>
+                    <option value="2017-1">2. - 8. Januar</option>
+                  </optgroup>
+                  <optgroup label="Dezember">
+                    <option value="2016-52" selected="selected">26. Dezember - 1. Januar</option>
+                    <option value="2016-51">19. - 25. Dezember</option>
+                    <option value="2016-50">12. - 18. Dezember</option>
+                    <option value="2016-49">5. - 11. Dezember</option>
+                  </optgroup>
+                </select>
+                </form>
+            </div>
+            <div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.derwesten.de/region/weil-sie-seine-freundin-belaestigten-duesseldorfer-nimmt-es-mit-sechs-maennern-auf-und-macht-sie-fertig-id209096201.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://img.derwesten.de/img/region/crop208885333/4522609145-w820-cv16_9-q85/imago74428136h.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>derwesten.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.derwesten.de/region/weil-sie-seine-freundin-belaestigten-duesseldorfer-nimmt-es-mit-sechs-maennern-auf-und-macht-sie-fertig-id209096201.html" rel="nofollow" target="_blank">Düsseldorferin belästigt, Freund verdrischt sechs Angreifer</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.derwesten.de/region/weil-sie-seine-freundin-belaestigten-duesseldorfer-nimmt-es-mit-sechs-maennern-auf-und-macht-sie-fertig-id209096201.html">http://www.derwesten.de/region/weil-sie-seine-freundin-belaestigten-duesseldorfer-nimmt-es-mit-sechs-maennern-auf-und-macht-sie-fe...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1238716462848556" target="blank">Facebook-Post mit 1322 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://de.euronews.com/2016/12/27/rumaeniens-praesident-verweigert-ernennung-muslimischer-politikerin-zur" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://static.euronews.com/articles/353391/1000x563_353391.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>euronews.com</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://de.euronews.com/2016/12/27/rumaeniens-praesident-verweigert-ernennung-muslimischer-politikerin-zur" rel="nofollow" target="_blank">Rumäniens Präsident verweigert Ernennung muslimischer Politikerin zur Regierungschefin</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://de.euronews.com/2016/12/27/rumaeniens-praesident-verweigert-ernennung-muslimischer-politikerin-zur">http://de.euronews.com/2016/12/27/rumaeniens-praesident-verweigert-ernennung-muslimischer-politikerin-zur</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1238783682841834" target="blank">Facebook-Post mit 437 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://kurier.at/chronik/oberoesterreich/100-prozent-der-auffaelligen-sind-muslime/238.676.447" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://images.kurier.at/46-89095573.jpg/238.676.443"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>kurier.at</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://kurier.at/chronik/oberoesterreich/100-prozent-der-auffaelligen-sind-muslime/238.676.447" rel="nofollow" target="_blank">Landespolizei­di­rek­tor Pilsl: &quot;Wir wollen nichts beschönigen&quot; </a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://kurier.at/chronik/oberoesterreich/100-prozent-der-auffaelligen-sind-muslime/238.676.447">https://kurier.at/chronik/oberoesterreich/100-prozent-der-auffaelligen-sind-muslime/238.676.447</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1242751445778391" target="blank">Facebook-Post mit 340 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.epochtimes.de/politik/deutschland/erste-bilanz-der-silvester-koeln-zwei-sexuelle-uebergriffe-sechs-festnahmen-hunderte-platzverweise-a2013235.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.epochtimes.de/assets/uploads/2017/01/630734914-640x427.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Epoch Times</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.epochtimes.de/politik/deutschland/erste-bilanz-der-silvester-koeln-zwei-sexuelle-uebergriffe-sechs-festnahmen-hunderte-platzverweise-a2013235.html" rel="nofollow" target="_blank">Erste Bilanz der Silvester-Nacht in Köln: Zwei sexuelle Übergriffe, sechs Festnahmen, hunderte Platzverweise</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.epochtimes.de/politik/deutschland/erste-bilanz-der-silvester-koeln-zwei-sexuelle-uebergriffe-sechs-festnahmen-hunderte-platzverweise-a2013235.html">http://www.epochtimes.de/politik/deutschland/erste-bilanz-der-silvester-koeln-zwei-sexuelle-uebergriffe-sechs-festnahmen-hunderte-...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1242531165800419" target="blank">Facebook-Post mit 240 Likes</a></span>
+                  <br/><a class="warn" href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/CivilMarchForAleppo/" rel="nofollow" target="_blank">Civil March For Aleppo</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/CivilMarchForAleppo/">https://www.facebook.com/CivilMarchForAleppo/</a>
+                <p class="small">
+                  <span>Gefunden auf 2 Facebook-Posts mit ingesamt 222 Likes: <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1240154059371463" target="blank"> [Post 1]</a><a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1238563469530522" target="blank"> [Post 2]</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://quotenqueen.wordpress.com/2017/01/01/koeln-abstimmung-mit-den-fuessen/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://quotenqueen.files.wordpress.com/2017/01/silvester2016.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>wordpress.com</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://quotenqueen.wordpress.com/2017/01/01/koeln-abstimmung-mit-den-fuessen/" rel="nofollow" target="_blank">Köln: Abstimmung mit den Füßen</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://quotenqueen.wordpress.com/2017/01/01/koeln-abstimmung-mit-den-fuessen/">https://quotenqueen.wordpress.com/2017/01/01/koeln-abstimmung-mit-den-fuessen/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1242813659105503" target="blank">Facebook-Post mit 212 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://m.focus.de/politik/deutschland/kommunen-drohe-ueberlastung-csu-mann-behauptet-familiennachzug-ist-groesseres-problem-als-neue-fluechtlinge_id_6406367.htmlv" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://p5.focus.de/img/fotos/crop5318600/2292717801-w1200-h627-o-q75-p5/urn-newsml-dpa-com-20090101-160208-99-555679-large-4-3.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>FOCUS Online</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://m.focus.de/politik/deutschland/kommunen-drohe-ueberlastung-csu-mann-behauptet-familiennachzug-ist-groesseres-problem-als-neue-fluechtlinge_id_6406367.htmlv" rel="nofollow" target="_blank">CSU-Mann behauptet: Familiennachzug ist größeres Problem als neue Flüchtlinge</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://m.focus.de/politik/deutschland/kommunen-drohe-ueberlastung-csu-mann-behauptet-familiennachzug-ist-groesseres-problem-als-neue-fluechtlinge_id_6406367.htmlv">http://m.focus.de/politik/deutschland/kommunen-drohe-ueberlastung-csu-mann-behauptet-familiennachzug-ist-groesseres-problem-als-ne...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1237879822932220" target="blank">Facebook-Post mit 195 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.journalistenwatch.com/2016/12/30/is-ruft-zu-silvester-zum-grossen-abschlachten-auf/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.journalistenwatch.com/wp-content/uploads/2016/12/is-sylvester.png"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>journalistenwatch.com</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.journalistenwatch.com/2016/12/30/is-ruft-zu-silvester-zum-grossen-abschlachten-auf/" rel="nofollow" target="_blank">IS ruft zu Silvester zum großen &quot;Abschlachten&quot; auf!</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.journalistenwatch.com/2016/12/30/is-ruft-zu-silvester-zum-grossen-abschlachten-auf/">http://www.journalistenwatch.com/2016/12/30/is-ruft-zu-silvester-zum-grossen-abschlachten-auf/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1241105739276295" target="blank">Facebook-Post mit 190 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.epochtimes.de/politik/deutschland/oezoguz-nach-feuerattacke-gegen-obdachlosen-junge-fluechtlinge-brauchen-spezielle-foerdermassnahmen-a2010967.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.epochtimes.de/assets/uploads/2016/12/dts_image_10096_khqsirjkeo_-640x390.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>Epoch Times</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.epochtimes.de/politik/deutschland/oezoguz-nach-feuerattacke-gegen-obdachlosen-junge-fluechtlinge-brauchen-spezielle-foerdermassnahmen-a2010967.html" rel="nofollow" target="_blank">Özoguz nach Feuerattacke gegen Obdachlosen: Junge Flüchtlinge brauchen spezielle Fördermaßnahmen</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.epochtimes.de/politik/deutschland/oezoguz-nach-feuerattacke-gegen-obdachlosen-junge-fluechtlinge-brauchen-spezielle-foerdermassnahmen-a2010967.html">http://www.epochtimes.de/politik/deutschland/oezoguz-nach-feuerattacke-gegen-obdachlosen-junge-fluechtlinge-brauchen-spezielle-foe...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1240137446039791" target="blank">Facebook-Post mit 189 Likes</a></span>
+                  <br/><a class="warn" href="http://meedia.de/2016/03/18/kopp-sputnik-epoch-times-co-nachrichten-aus-einem-rechten-paralleluniversum/" target="_blank">Hintergrund zur Epoch Times</a>
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/alternativeimbundestag/" rel="nofollow" target="_blank">Jens Maier</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/alternativeimbundestag/">https://www.facebook.com/alternativeimbundestag/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1238705559516313" target="blank">Facebook-Post mit 160 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.n-tv.de/politik/Wer-feiern-darf-und-wer-nicht-article19445146.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://bilder3.n-tv.de/img/incoming/crop19445066/7391324199-cImg_16_9-w1200/f5565da2263177b63d0b4d2f3326a3cf.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>n-tv.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.n-tv.de/politik/Wer-feiern-darf-und-wer-nicht-article19445146.html" rel="nofollow" target="_blank">Köln, Hauptbahnhof: Wer feiern darf und wer nicht</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.n-tv.de/politik/Wer-feiern-darf-und-wer-nicht-article19445146.html">http://www.n-tv.de/politik/Wer-feiern-darf-und-wer-nicht-article19445146.html</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1242585949128274" target="blank">Facebook-Post mit 159 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://civilmarch.org/here-you-can-join-our-route/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://civilmarch.org/wp-content/themes/civilmarch/grunt/img/project/og-image.png"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>civilmarch.org</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://civilmarch.org/here-you-can-join-our-route/" rel="nofollow" target="_blank">Here you can join: Our route.</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://civilmarch.org/here-you-can-join-our-route/">http://civilmarch.org/here-you-can-join-our-route/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1240154059371463" target="blank">Facebook-Post mit 157 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/JeanPascal.Hohm/posts/1872522122969224" rel="nofollow" target="_blank">+++ SPONTANE #DEMO AM RANDE DES ALEPPO-MARSCHES +++</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/JeanPascal.Hohm/posts/1872522122969224">https://www.facebook.com/JeanPascal.Hohm/posts/1872522122969224</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1240154059371463" target="blank">Facebook-Post mit 157 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.journalistenwatch.com/2016/12/29/marsch-nach-aleppo-gutmenschen-ohne-sinn-und-verstand/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.journalistenwatch.com/wp-content/uploads/2016/12/sand-768783_1280.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>journalistenwatch.com</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.journalistenwatch.com/2016/12/29/marsch-nach-aleppo-gutmenschen-ohne-sinn-und-verstand/" rel="nofollow" target="_blank">Renate Sandvoß: Marsch nach Aleppo - Gutmenschen ohne Sinn und Verstand</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.journalistenwatch.com/2016/12/29/marsch-nach-aleppo-gutmenschen-ohne-sinn-und-verstand/">http://www.journalistenwatch.com/2016/12/29/marsch-nach-aleppo-gutmenschen-ohne-sinn-und-verstand/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1240154059371463" target="blank">Facebook-Post mit 157 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>wochenblatt.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.wochenblatt.de/nachrichten/regensburg/regionales/19-jaehriger-Afghane-aus-Dresden-demoliert-in-Regensburg-ein-Polizeiauto;art1172,414010" rel="nofollow" target="_blank">19-jähriger Afghane aus Dresden demoliert in Regensburg ein Polizeiauto</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.wochenblatt.de/nachrichten/regensburg/regionales/19-jaehriger-Afghane-aus-Dresden-demoliert-in-Regensburg-ein-Polizeiauto;art1172,414010">http://www.wochenblatt.de/nachrichten/regensburg/regionales/19-jaehriger-Afghane-aus-Dresden-demoliert-in-Regensburg-ein-Polizeiau...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1242773449109524" target="blank">Facebook-Post mit 154 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.journalistenwatch.com/2016/12/30/alle-geboren-am-1-1-1999-tausende-fluechtlinge-gelten-ab-neujahr-als-volljaehrig/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.journalistenwatch.com/wp-content/uploads/2016/12/dts_image_9930_hgiqkkhjtg.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>journalistenwatch.com</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.journalistenwatch.com/2016/12/30/alle-geboren-am-1-1-1999-tausende-fluechtlinge-gelten-ab-neujahr-als-volljaehrig/" rel="nofollow" target="_blank">Alle &quot;geboren&quot; am 1.1.1999: Tausende Flüchtlinge gelten ab Neujahr als volljährig</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.journalistenwatch.com/2016/12/30/alle-geboren-am-1-1-1999-tausende-fluechtlinge-gelten-ab-neujahr-als-volljaehrig/">http://www.journalistenwatch.com/2016/12/30/alle-geboren-am-1-1-1999-tausende-fluechtlinge-gelten-ab-neujahr-als-volljaehrig/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1240793515974184" target="blank">Facebook-Post mit 146 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.focus.de/finanzen/experten/weik_und_friedrich/2016-war-der-wendepunkt-griechenland-pleite-ende-von-eu-und-merkel-experten-malen-untergangsszenario-fuer-2017_id_6419950.html" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://p5.focus.de/img/fotos/crop4023137/0482716777-w1200-h627-o-q75-p5/matthias-weik-marc-friedrich-christian-staehle-asperg.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>FOCUS Online</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.focus.de/finanzen/experten/weik_und_friedrich/2016-war-der-wendepunkt-griechenland-pleite-ende-von-eu-und-merkel-experten-malen-untergangsszenario-fuer-2017_id_6419950.html" rel="nofollow" target="_blank">Friedrich und Weik: Experten malen Untergangsszenario für 2017</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.focus.de/finanzen/experten/weik_und_friedrich/2016-war-der-wendepunkt-griechenland-pleite-ende-von-eu-und-merkel-experten-malen-untergangsszenario-fuer-2017_id_6419950.html">http://www.focus.de/finanzen/experten/weik_und_friedrich/2016-war-der-wendepunkt-griechenland-pleite-ende-von-eu-und-merkel-expert...</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1240956705957865" target="blank">Facebook-Post mit 146 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="http://www.bz-berlin.de/berlin/friedrichshain-kreuzberg/obdachloser-in-berlin-angezuendet-das-sind-die-verdaechtigen" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="http://www.bz-berlin.de/data/uploads/2016/12/verdaechtige-schoenleinstrasse-gestellt_1482824304-768x432.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>bz-berlin.de</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="http://www.bz-berlin.de/berlin/friedrichshain-kreuzberg/obdachloser-in-berlin-angezuendet-das-sind-die-verdaechtigen" rel="nofollow" target="_blank">Obdachloser in Berlin angezündet: Das sind die Verdächtigen!</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="http://www.bz-berlin.de/berlin/friedrichshain-kreuzberg/obdachloser-in-berlin-angezuendet-das-sind-die-verdaechtigen">http://www.bz-berlin.de/berlin/friedrichshain-kreuzberg/obdachloser-in-berlin-angezuendet-das-sind-die-verdaechtigen</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1237905716262964" target="blank">Facebook-Post mit 123 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                
+              </div>
+              <div class="col-lg-9">
+                <h6>Facebook</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.facebook.com/pegidalutz/" rel="nofollow" target="_blank">Lutz Bachmann</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.facebook.com/pegidalutz/">https://www.facebook.com/pegidalutz/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1238024719584397" target="blank">Facebook-Post mit 120 Likes</a></span>
+                  
+                </p>
+              </div>
+            </div><div class="row marketing" style="margin-top: 1rem; margin-bottom: 1rem;">
+              <div class="col-lg-3">
+                <div style="width:70px; float: left;">
+                  <a href="https://www.wochenblick.at/silvester-in-dortmund-allahu-akbar-und-kirchenbrand/" rel="nofollow" target="_blank"><img style="margin-top: 30px; width: 120px; max-height: 80px;" src="https://www.wochenblick.at/wp-content/uploads/2017/01/silvester-in-dortmund-allahu-akbar-und-kirchenbrand-2.jpg"/></a>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <h6>wochenblick.at</h6>
+                <h5>
+                    <a style="color: #1a0dab;" href="https://www.wochenblick.at/silvester-in-dortmund-allahu-akbar-und-kirchenbrand/" rel="nofollow" target="_blank">Silvester in Dortmund: „Allahu Akbar“ und Kirchenbrand</a>
+                  </h5>
+                <a style="color: #545454;" class="small" rel="nofollow" href="https://www.wochenblick.at/silvester-in-dortmund-allahu-akbar-und-kirchenbrand/">https://www.wochenblick.at/silvester-in-dortmund-allahu-akbar-und-kirchenbrand/</a>
+                <p class="small">
+                  <span>Gefunden auf diesem <a class="postlink" rel="nofollow" href="https://facebook.com/796885057031701_1242723762447826" target="blank">Facebook-Post mit 116 Likes</a></span>
+                  
                 </p>
               </div>
             </div>
+            <footer class="footer">
+              <div class="row marketing" style="margin: 0;">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-9">
+                  <a href="#" style="color: #545454;">↑ nach oben</a>
+                </div>
+              </div>
+            </footer>
           </div>
+          <script src="ie10-viewport-bug-workaround.js"></script>
         </body>
       </html>
